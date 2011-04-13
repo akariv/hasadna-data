@@ -27,7 +27,7 @@ class DBLoader(object):
                 d = rec.setdefault(part,{})
             d[parts[-1]] = self.field_loader.load_field(k,v) 
         
-        slug = self.field_loader.extract_slug(d)
+        slug = self.field_loader.extract_slug(rec)
         
         #### TODO - change to use a python library
         #print "Loading --> %s, %s :: %r" % (self.path, slug, rec)
