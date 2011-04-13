@@ -8,3 +8,10 @@ How to use this repository:
 - the 'data' branch is meant to be the integration point of all datasets, and should not pe cloned unless you really need to.
 
 
+
+
+
+Getting started
+===============
+running 'python load_data.py' within the 'tools' directory will load the data into the DB.
+This currently assumes the DB server is running locally.
