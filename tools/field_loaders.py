@@ -1,6 +1,7 @@
 import os
 FIELD_TYPE__SLUG        = 'slug'
 FIELD_TYPE__INTEGER     = 'int'
+FIELD_TYPE__FLOAT       = 'float'
 FIELD_TYPE__STRING      = 'str'
 FIELD_TYPE__REFERENCE   = 'ref'
 FIELD_TYPE__BOOLEAN     = 'bool'
@@ -37,6 +38,15 @@ class IntegerField(BaseField):
         except:     
             return None   
 
+class FloatField(BaseField):
+    FIELD_TYPE = FIELD_TYPE__FLOAT
+
+    def load(self,input):
+        try:
+            return float(input)
+        except:     
+            return None   
+
 class StringField(BaseField):
     FIELD_TYPE = FIELD_TYPE__STRING
     
@@ -70,6 +80,7 @@ class FieldLoader(object):
 
     FIELD_LOADERS = [ SlugField, 
                       IntegerField,
+                      FloatField,
                       StringField,
                       RefField,
                       BooleanField,
