@@ -1,0 +1,32 @@
+{
+	"title"		    : { "he" : "מידע גיאוגרפי על מקומות בעולם",
+						"en" : "General information regarding Physical Places" },
+	"update_date"   : "23/5/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact" 		: { "email" : "adam.kariv@gmail.com" },
+	"datafile" 		: "places.csv",
+	"fields"		: {
+		"slug"				: { "type"			: "slug" },
+		"name"				: { "type"			: "str",
+								"description" 	: { "en" : "Place's name",
+													"he" : "שם המקום" }
+							  },
+		"lon"				: { "type"			: "float",
+								"description"	: { "en" : "Coordinate Longitude",
+													"he" : "נ.צ. - קו אורך" }
+							  },
+		"lat"				: { "type"			: "float",
+								"description"	: { "en" : "Coordinate Latitude",
+													"he" : "נ.צ. - קו רוחב" }
+							  },
+		"socio_economic_grade" : { "type"			: "int",
+								"description"	: { "en" : "Socio-Economic grade (from 1 to 10)",
+													"he" : "ציון סוציו-אקונומי (מ-1 עד 10)" }
+							  },
+		"socio_economic_grade" : { "type"			: "int",
+								"description"	: { "en" : "Centrality grade (from 1 to 10)",
+													"he" : "ציון מרכזיות (מ-1 עד 10)" }
+							  }
+	}
+}

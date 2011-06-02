@@ -1,0 +1,9 @@
+{
+	"title"		    : { "he" : "מידע ממשרד האוצר",
+						"en" : "Information originating in the Minstry of Finance" },
+	"update_date"   : "24/5/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact" 		: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "budget" ]
+}

@@ -1,0 +1,102 @@
+{
+	"title"			: { "he" : "מידע על חברי כנסת",
+						"en" : "Information regarding Members of Knesset" },
+	"update_date"	: "12/4/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"		: { "email"	: "adam.kariv@gmail.com" },
+	"datafile"		: "mks.csv",
+	"fields"		: {
+		  "slug" 	: { "type"				: "slug" },
+		  "name"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Name of the MK",
+		  				             	        "he" :"שמו המלא של הח\"כ" }
+		  			  },
+		  "roles"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Roles of the MK in the current Knesset",
+		  				             	        "he" :"התפקידים אותם ממלא הח\"כ" }
+		  				},
+	  	  "date_of_birth" : { "type"				: "datetime",
+		  				"description"	    : { "en" :"Date of birth",
+		  				              	        "he" :"תאריך הלידה" }
+		  				},
+		  "place_of_birth" : { "type"				: "str",
+		  				"description"	    : { "en" :"Place of birth for this MK",
+		  				             	        "he" :"מקום לידתו של הח\"כ" }
+		  			    },
+	  	  "year_of_aliyah" : { "type"				: "datetime",
+		  				"description"	    : { "en" :"Date of Aliyah to Israel",
+		  				             	        "he" :"תאריך העליה לארץ" }
+		  				},
+		  "sex"		: { "type"				: "str",
+		  				"description"	    : { "en" :"Male/Female",
+		  				             	        "he" :"זכר/נקבה" }
+		  			    },
+		  "family_status" : { "type"				: "str",
+		  				"description"	    : { "en" :"Family status of the MK",
+		  				             	        "he" :"המצב המשפחתי של הח\"כ" }
+		  			    },
+		  "number_of_children" : { "type"				: "int",
+		  				"description"	    : { "en" :"Number of children",
+		  				             	        "he" :"מספר ילדים" }
+		  			    },
+		  "place_of_residence" : { "type"				: "ref",
+		  				"params"			: [ "data/common/places" ],
+		  				"description"	    : { "en" :"Place of residence for this MK",
+		  				             	        "he" :"מקום מגוריו של הח\"כ" }
+		  			    },
+		  "img_url"	: { "type"				: "str",
+		  				"description"	    : { "en" :"This MK official photo",
+		  				             	        "he" :"תצלום רשמי של הח\"כ" }
+		  			    },	  						  
+		  "is_current" : { "type"				: "bool",
+		  				"description"	    : { "en" :"Is this MK and active member of the current Knesset",
+		  				             	        "he" :"האם זהו חבר כנסת פעיל בכנסת הנוכחית" }
+		  			    },
+		  "start_date" : { "type"				: "datetime",
+		  				"description"	    : { "en" :"When this MK started serving in the Knesset",
+		  				             	        "he" :"מועד תחילת שירות הח\"כ בכנסת" }
+		  			    },
+		  "party"	: { "type"				: "ref",
+		  				"params"			: [ "data/gov/knesset/parties" ],
+		  				"description"	    : { "en" :"This MK's party",
+		  				             	        "he" :"המפלגה אליה שייך הח\"כ" }
+		  			    },
+		  "email"	: { "type"				: "str",
+		  				"description"	    : { "en" :"e-mail address of this MK",
+		  				             	        "he" :"כתובת הדואר האלקטרוני של הח\"כ" }
+		  			    },	  						  
+		  "fax"		: { "type"				: "str",
+		  				"description"	    : { "en" :"Fax number (in Israel) of this MK",
+		  				             	        "he" :"מספר הפקסימיליה של הח\"כ" }
+		  			    },	  						  
+		  "phone"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Phone number (in Israel) of this MK",
+		  				             	        "he" :"מספר הטלפון של הח\"כ" }
+		  			    },
+		  "bills_stats_proposed"	: { "type"				: "int",
+		  				"description"	    : { "en" :"Number of bills this MK initiated",
+		  				             	        "he" :"מספר החוקים אותם הח\"כ יזם" }
+		  			    },
+		  "bills_stats_pre"			: { "type"				: "int",
+		  				"description"	    : { "en" :"Number of bills this MK initiated, which passed pre-calling",
+		  				             	        "he" :"מספר החוקים אותם הח\"כ יזם שעברו לקריאה טרומית" }
+		  			    },	
+		  "bills_stats_first"		: { "type"				: "int",
+		  				"description"	    : { "en" :"Number of bills this MK initiated, which passed first calling",
+		  				             	        "he" :"מספר החוקים אותם הח\"כ יזם שעברו לקריאה ראשונה" }
+		  			    },
+		  "bills_stats_approved"	: { "type"				: "int",
+		  				"description"	    : { "en" :"Number of bills this MK initiated, which were approved",
+		  				             	        "he" :"מספר החוקים אותם הח\"כ יזם שאושרו בקריאה שלישית" }
+		  			    },
+		  "average_monthly_committee_presence" 	: { "type"				: "float",
+		  				"description"	    : { "en" :"Average number of hours spent each month at Knesset Committee meetings",
+		  				             	        "he" :"מספר השעות הממצוע בחודש אותן הח\"כ עושה בוועדות הכנסת" }
+		  			    },	  
+		  "average_weekly_presence_hours" 	: { "type"				: "float",
+		  				"description"	    : { "en" :"Average number of hours spent each week at the Knesset Building",
+		  				              	        "he" :"מספר השעות הממצוע בשבוע אותן הח\"כ עושה במשכן הכנסת" }
+		  			    }  
+	}
+}

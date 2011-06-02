@@ -6,33 +6,34 @@ FIELD_TYPE__STRING      = 'str'
 FIELD_TYPE__REFERENCE   = 'ref'
 FIELD_TYPE__BOOLEAN     = 'bool'
 FIELD_TYPE__URL         = 'url'
+FIELD_TYPE__OBJECT      = 'object'
 
 class BaseField(object):
     FIELD_TYPE = 'none'
-
-    def __init__(self,params):
-        # params is a list of strings
-        self.params = params
-    
-    def load(self,input):
+   
+    @classmethod
+    def load(cls,input):
         # input is the read value
         assert(False)
         
 class NoneField(BaseField):
     
-    def load(self,input):
+    @classmethod
+    def load(cls,input):
         return None
 
 class SlugField(BaseField):
     FIELD_TYPE = FIELD_TYPE__SLUG
     
-    def load(self,input):
+    @classmethod
+    def load(cls,input):
         return str(input)        
 
 class IntegerField(BaseField):
     FIELD_TYPE = FIELD_TYPE__INTEGER
 
-    def load(self,input):
+    @classmethod
+    def load(cls,input):
         try:
             return int(input)
         except:     
@@ -41,7 +42,8 @@ class IntegerField(BaseField):
 class FloatField(BaseField):
     FIELD_TYPE = FIELD_TYPE__FLOAT
 
-    def load(self,input):
+    @classmethod
+    def load(cls,input):
         try:
             return float(input)
         except:     
@@ -50,31 +52,41 @@ class FloatField(BaseField):
 class StringField(BaseField):
     FIELD_TYPE = FIELD_TYPE__STRING
     
-    def load(self,input):
-        return str(input) 
+    @classmethod
+    def load(cls,input):
+        return unicode(input.decode('utf8')) 
 
 class RefField(BaseField):
     FIELD_TYPE = FIELD_TYPE__REFERENCE
     
-    def load(self,input):
-        if len(self.params) == 1:
-            #TODO: This won't work on windows (fwd slashes only)
-            return { '_ref' : os.path.join(self.params[0], str(input)) }
-        return None
+    @classmethod
+    def load(cls,input,ref):
+        if input == None or len(input) == 0:
+            return None
+        else:
+            return { '_ref' : os.path.join(ref, str(input)) }
 
 class BooleanField(BaseField):
     FIELD_TYPE = FIELD_TYPE__BOOLEAN
     
-    TRUE_VALUES  = [ 'Y', 'y', 'T', 't', 'True', 'true', 'TRUE', 1, '1', ]
-    FALSE_VALUES = [ 'N', 'n', 'F', 'f', 'False', 'false', 'FALSE', 0, '0', ]
+    TRUE_VALUES  = [ 'Y', 'y', 'T', 't', 'True', 'true', 'TRUE', 1, '1', True]
+    FALSE_VALUES = [ 'N', 'n', 'F', 'f', 'False', 'false', 'FALSE', 0, '0', False ]
     
-    def load(self,input):
-        if input in self.TRUE_VALUES:
+    @classmethod
+    def load(cls,input):
+        if input in cls.TRUE_VALUES:
             return True
-        elif input in self.FALSE_VALUES:
+        elif input in cls.FALSE_VALUES:
             return False
         else:
             return None
+
+class ObjectField(BaseField):
+    FIELD_TYPE = FIELD_TYPE__OBJECT
+        
+    @classmethod
+    def load(cls,input):
+        return input
             
 class FieldLoader(object):
 
@@ -84,27 +96,20 @@ class FieldLoader(object):
                       StringField,
                       RefField,
                       BooleanField,
+                      ObjectField
                       ]
         
-    def __init__(self,fields):
+    def __init__(self):
         self.loaders = {}
-        self.none = NoneField([])
         for klass in self.FIELD_LOADERS:
             self.loaders[klass.FIELD_TYPE] = klass        
-        self.fields = {}
-        for k, v in fields.iteritems():
-            if not ':' in v:
-                v = v+':'
-            field_type, params = v.split(':',1)
-            params = params.split(',')
-            self.fields[k] = self.loaders.get(field_type,NoneField)(params)
-            if field_type == FIELD_TYPE__SLUG:
-                self.slug_field = k
             
     def load_field(self,field,input):
-        return self.fields.get(field,self.none).load(input)
-
-    def extract_slug(self,rec):
-        slug = rec[self.slug_field]
-        del rec[self.slug_field]
-        return slug
+        field_type = field['type']
+        field_params = field.get('params',[])
+        if self.loaders.has_key(field_type):
+            return self.loaders[field_type].load(input,*field_params)
+        else:
+            return None
+        
+field_loader = FieldLoader()

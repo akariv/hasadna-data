@@ -1,38 +1,34 @@
 import os
 import json
-from field_loaders import FieldLoader
+import time
+import httplib, urllib
 
 DBSERVER = "127.0.0.1:5555"
 
-
 class DBLoader(object):
 
-    def __init__(self,path,field_types):
-        self.path = path
-        self.field_types = field_types
-        self.field_loader = FieldLoader(field_types)
+    @staticmethod
+    def del_collection(relpath):
+        body = None
+        headers = {"Content-type": "application/json",
+                   "Accept": "application/json"}
+        conn = httplib.HTTPConnection(DBSERVER)
+        conn.request("DELETE", "%s/?apikey=admin" % (relpath,), body, headers)
+        response = conn.getresponse()
+        print response.status, response.reason
+        data = response.read()
+        print data
+        conn.close()        
 
-    def del_collection(self):
-        #### TODO - change to use a python library
-        cmd = 'lwp-request -m DELETE %s%s/' % (DBSERVER, self.path, )
-        print cmd
-        _,_=os.popen2(cmd)
-
-    def new_item(self,row):
-        rec = {}
-        for k, v in row.iteritems():
-            d = rec
-            parts = k.split('.')
-            for part in parts[:-1]:
-                d = rec.setdefault(part,{})
-            d[parts[-1]] = self.field_loader.load_field(k,v) 
-        
-        slug = self.field_loader.extract_slug(rec)
-        
-        #### TODO - change to use a python library
-        #print "Loading --> %s, %s :: %r" % (self.path, slug, rec)
-        cmd = 'lwp-request -c application/json -m POST %s%s/%s' % (DBSERVER, self.path, slug, )
-        print cmd
-        i,_=os.popen2(cmd)
-        i.write(json.dumps(rec))
-        i.close()
+    @staticmethod
+    def new_item(relpath,slug,record):      
+        body = json.dumps(record)
+        headers = {"Content-type": "application/json",
+                   "Accept": "application/json"}
+        conn = httplib.HTTPConnection(DBSERVER)
+        conn.request("POST", "%s/%s?apikey=admin" % (relpath,slug), body, headers)
+        response = conn.getresponse()
+        print response.status, response.reason
+        data = response.read()
+        print data
+        conn.close()        
