@@ -38,16 +38,31 @@ if __name__=="__main__":
             filename = os.path.join( DATA_ROOT, relpath[1:], description['datafile'] )
             filename = str(filename)
             
-            if calc_stat(filename) != saved_stat.get(filename):
-                            
-                fields = description['fields']   
+            file_stat, to_skip = saved_stat.get(filename,(0,0))
+            
+            fields = description['fields']   
                 
-                loader = Loader.get_loader_for_filename(filename,fields)
-                if loader != None:
-                    print "Processing %s, %s" % (relpath, description['datafile'] )
+            print "data file %s" % filename
+        
+            loader = Loader.get_loader_for_filename(filename,fields)
+            if loader != None:
+                
+                if calc_stat(filename) != file_stat:
+                    to_skip = 0
                     DBLoader.del_collection(relpath)
-                    
-                    for slug,rec in loader.get_processed_rows():
-                        DBLoader.new_item(relpath,slug,rec)
-                        
-                    saved_stat[filename] = calc_stat(filename) 
+
+                print "Processing %s, %s" % (relpath, description['datafile'] )
+                print "skipping %s records" % to_skip        
+
+                filename_stat = calc_stat(filename)
+                
+                num_rows = 0
+                saved_stat[filename] = filename_stat, to_skip
+                for slug,rec in loader.get_processed_rows():
+                    if num_rows < to_skip:
+                        num_rows += 1
+                        continue
+                    print "Loading: slug = %s, row = %s" % (slug, rec)
+                    DBLoader.new_item(relpath,slug,rec)
+                    num_rows += 1
+                    saved_stat[filename] = calc_stat(filename), num_rows

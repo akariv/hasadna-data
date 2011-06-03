@@ -54,7 +54,10 @@ class StringField(BaseField):
     
     @classmethod
     def load(cls,input):
-        return unicode(input.decode('utf8')) 
+        if type(input) == unicode:
+            return input 
+        else:
+            return unicode(input.decode('utf8')) 
 
 class RefField(BaseField):
     FIELD_TYPE = FIELD_TYPE__REFERENCE

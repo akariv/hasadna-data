@@ -55,7 +55,6 @@ class Loader(object):
             row = self.load_fields(row)
             row = self.compress_parts(row)
             slug, row = self.extract_slug(row)
-            print "-- 3: slug = %s, row = %s" % (slug, row)
             yield slug, row
 
     @classmethod
