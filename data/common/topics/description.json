@@ -1,4 +1,4 @@
-﻿{
+{
 	"title": {
 		"en": "Topics on the public agenda",
 		"he": "נושאים בהם עוסקים"
@@ -11,6 +11,7 @@
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "reports.json",
 	"fields": {
+		"slug": { "type": "slug" },
 		"name": {
 			"name": "str",
 			"description": {

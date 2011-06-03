@@ -1,4 +1,4 @@
-﻿{
+{
 	"title": {
 		"en": "Israeli government offices",
 		"he": "משרדי הממשלה"
@@ -11,6 +11,7 @@
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "offices.json,
 	"fields": {
+		"slug": { "type": "slug" },
 		"name": {
 			"type": "str",
 			"description": {

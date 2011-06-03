@@ -1,4 +1,4 @@
-﻿{
+{
 	"title": {
 		"en": "Government decisions & Issues as they're described by the government inspector report",
 		"he": "החלטות הממשלה וליקויים העולים בדו\"חות מבקר המדינה"
@@ -11,6 +11,7 @@
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "issues.json",
 	"fields": {
+		"slug": { "type": "slug" },
 		"type": {
 			"type": "int",
 			"description": {

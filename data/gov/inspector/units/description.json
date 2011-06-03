@@ -1,4 +1,4 @@
-﻿{
+{
 	"title": {
 		"en": "Executive units within the Israeli government",
 		"he": "יחידות בתוך משרדי הממשלה"
@@ -11,6 +11,7 @@
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "units.json,
 	"fields": {
+		"slug": { "type": "slug" },
 		"name": {
 			"type": "str",
 			"description": {
