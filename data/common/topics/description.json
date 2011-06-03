@@ -1,7 +1,7 @@
 ﻿{
 	"title": {
-		"en": "The inspector reports",
-		"he": "דו\"חות המבקר"
+		"en": "Topics on the public agenda",
+		"he": "נושאים בהם עוסקים"
 		},
 	"update_date": "03/06/2011",
 	"author": {
@@ -14,8 +14,8 @@
 		"name": {
 			"name": "str",
 			"description": {
-				"en": "The name of the report",
-				"he": "שם הדו\"ח"
+				"en": "The topic name",
+				"he": "שם הנושא"
 			}
 		}
 	}

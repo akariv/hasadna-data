@@ -5,5 +5,5 @@
 	"author"	    : { "en" : "Adam Kariv",
 					    "he" : "אדם קריב" },
 	"contact" 		: { "email" : "adam.kariv@gmail.com" },
-	"subcatalogs"   : [ "knesset", "mof" ]
+	"subcatalogs"   : [ "knesset", "mof", "offices", "inspector" ]
 }
