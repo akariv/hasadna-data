@@ -1,0 +1,24 @@
+{
+	"title"			: { "he" : "מידע על מפלגות הכנסת",
+						"en" : "Information regarding Parties of Knesset" },
+	"update_date"	: "12/4/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact" 		: { "email"	: "adam.kariv@gmail.com" },
+	"datafile"		: "parties.csv",
+	"fields"		: {
+		  "slug" 	: { "type"				: "slug" },
+		  "name"	: { "type"				: "str",
+		  				"description"		: { "en" : "Name of the Party",
+		  										"he" : "שם המפלגה" }
+		  				},
+		  "is_coalition" : { "type"				: "bool",
+		  				"description"	    : { "en" : "Is this party in the coalition",
+		  										"he" : "האם מפלגה זו היא חלק מהקואליציה" }
+		  			    },
+		  "seats" : { "type"				: "int",
+ 					  "description"			: { "en" : "Number of seats in the current Knesset",
+		  										"he" : "מספר מושבים בכנסת הנוכחית" }
+		  			    }
+	}
+}

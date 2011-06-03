@@ -1,0 +1,9 @@
+{
+	"title"		    : { "en" : "Common data catalogs",
+						"he" : "נתונים כלליים בנושאים שונים" },
+	"update_date"   : "24/5/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"   	: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "places" ]
+}

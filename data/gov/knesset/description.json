@@ -1,0 +1,9 @@
+{
+	"title"		    : { "he" : "מידע מאתר כנסת ישראל",
+					    "en" : "Information scraped from the Israeli Knesset web-site" },
+	"update_date"   : "12/4/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"		: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "mks", "parties" ]
+}
