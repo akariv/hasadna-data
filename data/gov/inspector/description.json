@@ -1,0 +1,13 @@
+{
+	"title": {
+		"en": "A database for tracking the content of the cheif government inspector reports",
+		"he": "מאגר מידע למעקב אחר ביצוע החלטות ממשלה וטיפול בליקויים בדו\"חות מבקר המדינה"
+		},
+	"update_date": "03/06/2011",
+	"author": {
+		"en": "Michael Genkin",
+		"he": "מיכאל גנקין"
+		},
+	"contact": { "email": "misha.genkin+public@gmail.com" },
+	"subcatalogs": [ "issues", "reports", "units" ]
+}

@@ -1,0 +1,22 @@
+{
+	"title": {
+		"en": "The inspector reports",
+		"he": "רשימה של דוחות מבקר המדינה"
+		},
+	"update_date": "03/06/2011",
+	"author": {
+		"en": "Michael Genkin",
+		"he": "מיכאל גנקין"
+		},
+	"contact": { "email": "misha.genkin+public@gmail.com" },
+	"datafile": "reports.json",
+	"fields": {
+		"name": {
+			"name": "str",
+			"description": {
+				"en": "The name of the report",
+				"he": "שם הדו\"ח"
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"title": {
+		"en": "Executive units within the Israeli government",
+		"he": "יחידות בתוך משרדי הממשלה"
+		},
+	"update_date": "03/06/2011",
+	"author": {
+		"en": "Michael Genkin",
+		"he": "מיכאל גנקין"
+		},
+	"contact": { "email": "misha.genkin+public@gmail.com" },
+	"datafile": "units.json,
+	"fields": {
+		"name": {
+			"type": "str",
+			"description": {
+				"en": "The unit name",
+				"he": "שם היחידה"
+			}
+		},
+		"office": {
+			"type": "ref",
+			"params": [ "data/gov/offices" ],
+			"description": {
+				"en": "The office where the unit belongs",
+				"he": "המשרד אליו שייכת היחידה"
+			}
+		}
+	}
+}
