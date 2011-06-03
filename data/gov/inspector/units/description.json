@@ -9,7 +9,7 @@
 		"he": "מיכאל גנקין"
 		},
 	"contact": { "email": "misha.genkin+public@gmail.com" },
-	"datafile": "units.json,
+	"datafile": "units.json",
 	"fields": {
 		"slug": { "type": "slug" },
 		"name": {

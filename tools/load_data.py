@@ -1,4 +1,5 @@
 import os
+import sys
 from loaders import Loader
 from db_loader import DBLoader
 import json
@@ -14,6 +15,16 @@ def calc_stat(filename):
 if __name__=="__main__":
     
     print "Loading data from %s" % DATA_ROOT
+    
+    try:
+        file('/tmp/mylock').read()
+        print "Found lock file"
+        sys.exit(0)
+    except Exception, e:
+        f = file('/tmp/mylock','w')
+        print "Created lock file"
+        f.write('bla')
+        f.close()
     
     saved_stat = shelve.open('saved_state')
     
@@ -66,3 +77,5 @@ if __name__=="__main__":
                     DBLoader.new_item(relpath,slug,rec)
                     num_rows += 1
                     saved_stat[filename] = calc_stat(filename), num_rows
+
+    os.unlink('/tmp/mylock')

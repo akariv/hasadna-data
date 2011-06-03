@@ -13,7 +13,7 @@
 	"fields": {
 		"slug": { "type": "slug" },
 		"name": {
-			"name": "str",
+			"type": "str",
 			"description": {
 				"en": "The topic name",
 				"he": "שם הנושא"
