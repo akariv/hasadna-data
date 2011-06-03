@@ -1,12 +1,12 @@
-{
+ο»Ώ{
 	"title": {
 		"en": "The inspector reports",
-		"he": "ψωιξδ ωμ γεηεϊ ξαχψ δξγιπδ"
+		"he": "Χ“Χ•\"Χ—Χ•Χª Χ”ΧΧ‘Χ§Χ¨"
 		},
 	"update_date": "03/06/2011",
 	"author": {
 		"en": "Michael Genkin",
-		"he": "ξιλΰμ βπχιο"
+		"he": "ΧΧ™Χ›ΧΧ Χ’Χ Χ§Χ™Χ"
 		},
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "reports.json",
@@ -15,7 +15,7 @@
 			"name": "str",
 			"description": {
 				"en": "The name of the report",
-				"he": "ων δγε\"η"
+				"he": "Χ©Χ Χ”Χ“Χ•\"Χ—"
 			}
 		}
 	}

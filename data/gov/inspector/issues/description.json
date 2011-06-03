@@ -1,12 +1,12 @@
-{
+ο»Ώ{
 	"title": {
 		"en": "Government decisions & Issues as they're described by the government inspector report",
-		"he": "δημθεϊ δξξωμδ ερςιτι μιχει λτι ωςμε αγε\"ηεϊ ξαχψ"
+		"he": "Χ”Χ—ΧΧΧ•Χª Χ”ΧΧΧ©ΧΧ” Χ•ΧΧ™Χ§Χ•Χ™Χ™Χ Χ”ΧΆΧ•ΧΧ™Χ Χ‘Χ“Χ•\"Χ—Χ•Χª ΧΧ‘Χ§Χ¨ Χ”ΧΧ“Χ™Χ Χ”"
 		},
 	"update_date": "03/06/2011",
 	"author": {
 		"en": "Michael Genkin",
-		"he": "ξιλΰμ βπχιο"
+		"he": "ΧΧ™Χ›ΧΧ Χ’Χ Χ§Χ™Χ"
 		},
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "issues.json",
@@ -15,35 +15,35 @@
 			"type": "int",
 			"description": {
 				"en": "The type of the issue, use 0 for inspector report issues, 1 for government decisions",
-				"he": "ρεβ δρςισ, δωϊξω α0 αωαιμ ρςιτι μιχει ξγε\"η δξαχψ ε1 αωαιμ δημθεϊ δξξωμδ"
+				"he": "Χ΅Χ•Χ’ Χ”Χ Χ•Χ©Χ - 0 ΧΆΧ‘Χ•Χ¨ ΧΧ™Χ§Χ•Χ™Χ™Χ ΧΧ“Χ•\"Χ— Χ”ΧΧ‘Χ§Χ¨, 1 ΧΆΧ‘Χ•Χ¨ Χ”Χ—ΧΧΧ•Χª ΧΧΧ©ΧΧ”"
 			}
 		},
 		"status": {
 			"type": "int",
 			"description": {
 				"en": "The status of the issuse - 1 for fixed, 2 for in progress, 3 for wont't fix",
-				"he": "ρθΰθερ δθιτεμ αρςισ - 1 ςαεψ θετμ, 2 ςαεψ θετμ ημχιϊ, 3 ςαεψ μΰ θετμ"
+				"he": "ΧΧ¦Χ‘ Χ”ΧΧ™Χ§Χ•Χ™ - 1 ΧΆΧ‘Χ•Χ¨ ΧªΧ•Χ§Χ, 2 ΧΆΧ‘Χ•Χ¨ Χ‘ΧΧ™Χ¤Χ•Χ, 3 ΧΆΧ‘Χ•Χ¨ ΧΧ ΧªΧ•Χ§Χ"
 			}
 		},
 		"text": {
 			"type": "str",
 			"description": {
 				"en": "The description of the issue",
-				"he": "ϊιΰεψ δρςισ"
+				"he": "ΧªΧ™ΧΧ•Χ¨ Χ”ΧΧ™Χ§Χ•Χ™"
 			}
 		},
 		"followup": {
 			"type": "str",
 			"description": {
 				"en": "A follow up on the described issue",
-				"he": "ϊιΰεψ ωμ δξςχα ΰηψ αιφες δρςισ"
+				"he": "ΧªΧ™ΧΧ•Χ¨ Χ”ΧΧΆΧ§Χ‘ ΧΧ—Χ¨ ΧªΧ™Χ§Χ•Χ Χ”ΧΧ™Χ§Χ•Χ™"
 			}
 		},
 		"link": {
 			"type": "str",
 			"description": {
 				"en": "A link to the issue in the inspector's website",
-				"he": "χιωεψ μρςισ αΰϊψ ξαχψ δξγιπδ"
+				"he": "Χ§Χ™Χ©Χ•Χ¨ ΧΧ“Χ™Χ•Χ•Χ— ΧΆΧ Χ”ΧΧ™Χ§Χ•Χ™ Χ‘ΧΧªΧ¨ ΧΧ‘Χ§Χ¨ Χ”ΧΧ“Χ™Χ Χ”"
 			}
 		},
 		"report": {
@@ -51,7 +51,7 @@
 			"params": [ "data/gov/inspector/reports" ],
 			"description": {
 				"en": "The inspector's report from which the issue originated",
-				"he": "γε\"η ξαχψ δξγιπδ αε γεεη δρςισ"
+				"he": "Χ“Χ•\"Χ— ΧΧ‘Χ§Χ¨ Χ”ΧΧ“Χ™Χ Χ” Χ‘Χ• Χ“Χ•Χ•Χ— ΧΆΧ Χ”ΧΧ™Χ§Χ•Χ™"
 			}
 		},
 		"unit": {
@@ -59,7 +59,7 @@
 			"params": [ "data/gov/inspector/units" ],
 			"description": {
 				"en": "The executive unit under whose jurisdiction the issue is",
-				"he": "διηιγδ ΰωψ δρςισ αρξλεϊδ"
+				"he": "Χ”Χ™Χ—Χ™Χ“Χ” ΧΧ©Χ¨ Χ”ΧΧ™Χ§Χ•Χ™ Χ ΧΧ¦Χ Χ‘ΧªΧ—Χ•Χ Χ”Χ©Χ™Χ¤Χ•Χ Χ©ΧΧ”"
 			}
 		},
 		"topic": {
@@ -67,7 +67,7 @@
 			"params": [ "data/common/topics" ],
 			"description": {
 				"en": "The topic under which the issue is filed",
-				"he": "δπεωΰ αε ςερχ δρςισ"
+				"he": "Χ”Χ Χ•Χ©Χ ΧªΧ—ΧªΧ™Χ• ΧΧ•Χ¤Χ™ΧΆ Χ”ΧΧ™Χ§Χ•Χ™"
 			}
 		},
 	}

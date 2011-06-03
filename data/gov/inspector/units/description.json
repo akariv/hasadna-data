@@ -1,12 +1,12 @@
-{
+ο»Ώ{
 	"title": {
 		"en": "Executive units within the Israeli government",
-		"he": "ιηιγεϊ αϊεκ ξωψγι δξξωμδ"
+		"he": "Χ™Χ—Χ™Χ“Χ•Χª Χ‘ΧªΧ•Χ ΧΧ©Χ¨Χ“Χ™ Χ”ΧΧΧ©ΧΧ”"
 		},
 	"update_date": "03/06/2011",
 	"author": {
 		"en": "Michael Genkin",
-		"he": "ξιλΰμ βπχιο"
+		"he": "ΧΧ™Χ›ΧΧ Χ’Χ Χ§Χ™Χ"
 		},
 	"contact": { "email": "misha.genkin+public@gmail.com" },
 	"datafile": "units.json,
@@ -15,7 +15,7 @@
 			"type": "str",
 			"description": {
 				"en": "The unit name",
-				"he": "ων διηιγδ"
+				"he": "Χ©Χ Χ”Χ™Χ—Χ™Χ“Χ”"
 			}
 		},
 		"office": {
@@ -23,7 +23,7 @@
 			"params": [ "data/gov/offices" ],
 			"description": {
 				"en": "The office where the unit belongs",
-				"he": "δξωψγ ΰμιε ωιιλϊ διηιγδ"
+				"he": "Χ”ΧΧ©Χ¨Χ“ ΧΧΧ™Χ• Χ”Χ™Χ—Χ™Χ“Χ” Χ©Χ™Χ™Χ›Χª"
 			}
 		}
 	}

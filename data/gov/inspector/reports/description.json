@@ -1,21 +1,21 @@
-{
+ο»Ώ{
 	"title": {
-		"en": "A list of the Israeli government offices",
-		"he": "ψωιξδ ωμ ξωψγι δξξωμδ"
+		"en": "Government inspector reports",
+		"he": "Χ“Χ•\"Χ—Χ•Χª ΧΧ‘Χ§Χ¨ Χ”ΧΧ“Χ™Χ Χ”"
 		},
 	"update_date": "03/06/2011",
 	"author": {
 		"en": "Michael Genkin",
-		"he": "ξιλΰμ βπχιο"
+		"he": "ΧΧ™Χ›ΧΧ Χ’Χ Χ§Χ™Χ"
 		},
 	"contact": { "email": "misha.genkin+public@gmail.com" },
-	"datafile": "offices.json,
+	"datafile": "reports.json,
 	"fields": {
 		"name": {
 			"type": "str",
 			"description": {
-				"en": "The name of the office",
-				"he": "ων δξωψγ"
+				"en": "The name of the report",
+				"he": "Χ©Χ Χ”Χ“Χ•\"Χ—"
 			}
 		}
 	}
