@@ -22,5 +22,12 @@
 		"ref"  			 : "/data/tags",
 		"auth"			 : { "app"	 	 : "budget@localhost" },
 		"perms"			 : [ "new" ]
+	},
+	{
+		"slug" 			 : "5",
+		"ref"  			 : "/data/admin/users",
+		"auth"			 : { "app"	 	 : "apiplayground@localhost" },
+		"perms"			 : [ "new", "read" ]
 	}
+	
 ]

@@ -1,0 +1,9 @@
+{
+	"title"		    : { "en" : "Data authored by The Sadna's members",
+				"he" : "מידע המחובר על ידי חברי הסדנא" },
+	"update_date"       : "12/6/2011",
+	"author"	    : { "en" : "Benny Daon",
+		 	        "he" : "בני דאון" },
+	"contact"	    : { "email" : "bennydaon@gmail.com" },
+	"subcatalogs"       : [ "docs"  ]
+}
