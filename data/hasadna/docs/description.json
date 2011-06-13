@@ -20,8 +20,8 @@
 		  				"description"	    : { "en" :"Creation Time",
 		  				             	        "he" :"זמן יצירת המסמך" }
 		  			  },
-		  "resource_id"	: { "type"				: "str", },
-		  "resource_url": { "type"				: "str", },
+		  "resource_id"	: { "type"				: "str" },
+		  "resource_url": { "type"				: "str" },
 		  "path"        : { "type"				: "str", 
 		  				"description"	    : { "en" :"Path to the document",
 		  				             	        "he" :"נתיב אל המסמך" }
