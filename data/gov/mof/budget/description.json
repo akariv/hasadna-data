@@ -44,5 +44,7 @@
 		  				"description"	    : { "en" :"USed Amount, Gross value (in thousands of NIS)",
 		  				             	        "he" :"ביצוע בפועל (ברוטו) באלפי שקלים" }
 		  			  }
-	}
+	},
+	"template_detail" : "detail.mustache",
+	"template_list"   : "list.mustache"
 }
