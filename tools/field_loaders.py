@@ -4,6 +4,7 @@ FIELD_TYPE__INTEGER     = 'int'
 FIELD_TYPE__FLOAT       = 'float'
 FIELD_TYPE__STRING      = 'str'
 FIELD_TYPE__REFERENCE   = 'ref'
+FIELD_TYPE__REF_LIST    = 'reflist'
 FIELD_TYPE__BOOLEAN     = 'bool'
 FIELD_TYPE__URL         = 'url'
 FIELD_TYPE__OBJECT      = 'object'
@@ -69,6 +70,21 @@ class RefField(BaseField):
         else:
             return { '_ref' : os.path.join(ref, str(input)) }
 
+class RefListField(BaseField):
+    FIELD_TYPE = FIELD_TYPE__REF_LIST
+    
+    @classmethod
+    def load(cls,input,ref):
+        if input == None or len(input) == 0:
+            return []
+        else:
+            if type(input) in [ str, unicode ]:
+                input = input.split(',') 
+            if type(input) == list:
+                return [ { '_ref' : os.path.join(ref, str(i)) } for i in input ]
+            else:
+                return []
+
 class BooleanField(BaseField):
     FIELD_TYPE = FIELD_TYPE__BOOLEAN
     
@@ -98,6 +114,7 @@ class FieldLoader(object):
                       FloatField,
                       StringField,
                       RefField,
+                      RefListField,
                       BooleanField,
                       ObjectField
                       ]
