@@ -8,6 +8,7 @@ FIELD_TYPE__REF_LIST    = 'reflist'
 FIELD_TYPE__BOOLEAN     = 'bool'
 FIELD_TYPE__URL         = 'url'
 FIELD_TYPE__OBJECT      = 'object'
+FIELD_TYPE__FILE        = 'file'
 
 class BaseField(object):
     FIELD_TYPE = 'none'
@@ -106,6 +107,13 @@ class ObjectField(BaseField):
     @classmethod
     def load(cls,input):
         return input
+
+class FileField(BaseField):
+    FIELD_TYPE = FIELD_TYPE__FILE
+        
+    @classmethod
+    def load(cls,input):
+        return file(input).read()
             
 class FieldLoader(object):
 
@@ -116,7 +124,8 @@ class FieldLoader(object):
                       RefField,
                       RefListField,
                       BooleanField,
-                      ObjectField
+                      ObjectField,
+                      FileField
                       ]
         
     def __init__(self):

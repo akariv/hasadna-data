@@ -39,46 +39,65 @@ if __name__=="__main__":
     
             print "description file %s" % desc        
             description = json.loads(file(desc).read())
-    
+
             path, slug = os.path.dirname(relpath), os.path.basename(relpath)
             print ">>>>>>>",path,slug,description
+            
+            print "loading templates"
+            templates = description.get("templates",{})
+            for k,v in templates.iteritems():
+                templates[k] = file(os.path.join(DATA_ROOT, relpath[1:], v)).read()
+            description["templates"] = templates
+    
             DBLoader.new_item(path,slug,description)
             
             if description.has_key('subcatalogs'):
                 to_process.extend( [ os.path.join( relpath, x) for x in description['subcatalogs'] ] )
             elif description.has_key('datafile'):
-                filename = os.path.join( DATA_ROOT, relpath[1:], description['datafile'] )
-                filename = str(filename)
+                path = os.path.join( DATA_ROOT, relpath[1:] )
+                curdir = os.path.realpath(os.path.curdir)
+                print "path = %s, curdir = %s" % (path, curdir)
+                try:
+                    os.chdir(path)
+                    print "in %s" % os.path.realpath(os.path.curdir)
+                    filename = description['datafile']
+                    full_filename = str(os.path.join(path,filename))
+                    
+                    file_stat, to_skip = saved_stat.get(full_filename,(0,0))
+                    
+                    fields = description['fields']   
+                        
+                    print "data file %s" % filename
                 
-                file_stat, to_skip = saved_stat.get(filename,(0,0))
-                
-                fields = description['fields']   
-                    
-                print "data file %s" % filename
-            
-                loader = Loader.get_loader_for_filename(filename,fields)
-                if loader != None:
-                    
-                    if calc_stat(filename) != file_stat:
-                        to_skip = 0
-                        DBLoader.del_collection(relpath)
-    
-                    print "Processing %s, %s" % (relpath, description['datafile'] )
-                    print "skipping %s records" % to_skip        
-    
-                    filename_stat = calc_stat(filename)
-                    
-                    num_rows = 0
-                    saved_stat[filename] = filename_stat, to_skip
-                    for slug,rec in loader.get_processed_rows():
-                        if num_rows < to_skip:
+                    loader = Loader.get_loader_for_filename(filename,fields)
+                    if loader != None:
+                        
+                        if calc_stat(filename) != file_stat:
+                            to_skip = 0
+                            DBLoader.del_collection(relpath)
+        
+                        print "Processing %s, %s" % (relpath, description['datafile'] )
+                        print "skipping %s records" % to_skip        
+        
+                        filename_stat = calc_stat(filename)
+                        
+                        num_rows = 0
+                        saved_stat[full_filename] = filename_stat, to_skip
+                        for slug,rec in loader.get_processed_rows():
+                            if num_rows < to_skip:
+                                num_rows += 1
+                                continue
+                            print "Loading: slug = %s, row = %s" % (slug, rec)
+                            DBLoader.new_item(relpath,slug,rec)
                             num_rows += 1
-                            continue
-                        print "Loading: slug = %s, row = %s" % (slug, rec)
-                        DBLoader.new_item(relpath,slug,rec)
-                        num_rows += 1
-                        saved_stat[filename] = calc_stat(filename), num_rows
+                            saved_stat[full_filename] = calc_stat(filename), num_rows
+                except Exception,e:
+                    print "got here somehow %r" % e
+                    raise
+                finally:
+                    os.chdir(curdir)
+                    
     except:
-        pass
-    
-    os.unlink('/tmp/mylock')
+        raise
+    finally:
+        os.unlink('/tmp/mylock')
