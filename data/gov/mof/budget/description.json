@@ -45,6 +45,8 @@
 		  				             	        "he" :"ביצוע בפועל (ברוטו) באלפי שקלים" }
 		  			  }
 	},
-	"template_detail" : "detail.mustache",
-	"template_list"   : "list.mustache"
+	"templates"		   : {
+			"detail" : "detail.mustache",
+			"list"   : "list.mustache"
+	}
 }
