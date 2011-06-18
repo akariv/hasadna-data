@@ -1,14 +1,11 @@
 <html>
-<body>
+<body dir="rtl">
 <h1>תקציב המדינה</h1>
 <h2>פירוט סעיפים:</h2>
-{{#response}}
-<h3>שנה: {{year}}, סעיף: {{title}}, שמספרו {{code}}:</h3>
 <ul>
-<li>תוכנן: נטו {{net_allocated}}, ברוטו {{gross_allocated}}</li>
-<li>על שינוייו: נטו {{net_revised}}, ברוטו {{gross_revised}}</li>
-<li>ביצוע: נטו {{net_used}}, ברוטו {{gross_used}}</li>
-</ul>
+{{#response}}
+<li><a href="{{_src}}?o=template">שנה: {{year}}, סעיף: {{title}}, שמספרו {{code}}:</a></li>
 {{/response}}
+</ul>
 </body>
 </html>
