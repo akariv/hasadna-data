@@ -21,6 +21,19 @@ class DBLoader(object):
         conn.close()        
 
     @staticmethod
+    def del_item(relpath,slug):
+        body = None
+        headers = {"Content-type": "application/json",
+                   "Accept": "application/json"}
+        conn = httplib.HTTPConnection(DBSERVER)
+        conn.request("DELETE", "%s/%s?apikey=admin" % (relpath,slug), body, headers)
+        response = conn.getresponse()
+        print response.status, response.reason
+        data = response.read()
+        print data
+        conn.close()        
+
+    @staticmethod
     def new_item(relpath,slug,record):      
         body = json.dumps(record)
         headers = {"Content-type": "application/json",
@@ -37,7 +50,7 @@ class DBLoader(object):
     def get_slugs(relpath):
         headers = {"Accept": "application/json"}
         conn = httplib.HTTPConnection(DBSERVER)
-        conn.request("GET", "%s/?o=json&limit=1000000&fields=%%5B%%22x%%22%%5D" % relpath, None, headers)
+        conn.request("GET", "%s/?apikey=admin&o=json&limit=1000000&fields=%%5B%%22x%%22%%5D" % relpath, None, headers)
         response = conn.getresponse()
         print response.status, response.reason
         data = response.read()
