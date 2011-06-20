@@ -32,3 +32,16 @@ class DBLoader(object):
         data = response.read()
         print data
         conn.close()        
+
+    @staticmethod
+    def get_slugs(relpath):
+        headers = {"Accept": "application/json"}
+        conn = httplib.HTTPConnection(DBSERVER)
+        conn.request("GET", "%s/" % relpath, None, headers)
+        response = conn.getresponse()
+        print response.status, response.reason
+        data = response.read()
+        data = json.loads(data)
+        data = [ x['_src'].split('/')[-1] for x in data ]
+        conn.close()        
+        return set(data)

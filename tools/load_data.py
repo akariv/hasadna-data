@@ -60,6 +60,7 @@ if __name__=="__main__":
             if description.has_key('subcatalogs'):
                 to_process.extend( [ os.path.join( relpath, x) for x in description['subcatalogs'] ] )
             elif description.has_key('datafile'):
+                                
                 path = os.path.join( DATA_ROOT, relpath[1:] )
                 curdir = os.path.realpath(os.path.curdir)
                 print "path = %s, curdir = %s" % (path, curdir)
@@ -80,8 +81,10 @@ if __name__=="__main__":
                         
                         if calc_stat(filename) != file_stat:
                             to_skip = 0
-                            DBLoader.del_collection(relpath)
+                            #DBLoader.del_collection(relpath)
         
+                        slugs = DBLoader.get_slugs(relpath)
+
                         print "Processing %s, %s" % (relpath, description['datafile'] )
                         print "skipping %s records" % to_skip        
         
@@ -90,13 +93,16 @@ if __name__=="__main__":
                         num_rows = 0
                         saved_stat[full_filename] = filename_stat, to_skip
                         for slug,rec in loader.get_processed_rows():
-                            if num_rows < to_skip:
-                                num_rows += 1
-                                continue
-                            print "Loading: slug = %s, row = %s" % (slug, rec)
-                            DBLoader.new_item(relpath,slug,rec)
+                            if num_rows >= to_skip:
+                                print "Loading: slug = %s, row = %s" % (slug, rec)
+                                DBLoader.new_item(relpath,slug,rec)
+                            slugs.remove(slug)
                             num_rows += 1
                             saved_stat[full_filename] = calc_stat(filename), num_rows
+                        
+                        for slug in slugs:
+                            print "remaining slug: %s/%s" % (relpath,slug)
+                            
                 except Exception,e:
                     print "got here somehow %r" % e
                     raise
