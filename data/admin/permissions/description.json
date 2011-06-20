@@ -1,0 +1,15 @@
+{
+	"title"		    : { "en" : "Access and Modification Rights",
+						"he" : "הרשאות גישה ושינוי לנתונים" },
+	"update_date"   : "24/5/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"   	: { "email" : "adam.kariv@gmail.com" },
+	"datafile"   	: "permission.json",
+	"fields"		: {
+		"slug"		: { "type"		: "slug" },
+		"ref"		: { "type"		: "str" },
+		"auth"		: { "type"		: "object" },
+		"perms"		: { "type"		: "object" }
+	}
+}

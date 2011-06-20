@@ -1,0 +1,23 @@
+{
+	"title": {
+		"en": "Government inspector reports",
+		"he": "דו\"חות מבקר המדינה"
+		},
+	"update_date": "03/06/2011",
+	"author": {
+		"en": "Michael Genkin",
+		"he": "מיכאל גנקין"
+		},
+	"contact": { "email": "misha.genkin+public@gmail.com" },
+	"datafile": "reports.json",
+	"fields": {
+		"slug": { "type": "slug" },
+		"name": {
+			"type": "str",
+			"description": {
+				"en": "The name of the report",
+				"he": "שם הדו\"ח"
+			}
+		}
+	}
+}

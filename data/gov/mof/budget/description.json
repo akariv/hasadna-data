@@ -1,0 +1,52 @@
+{
+	"title"			: { "he" : "תקציב מדינת ישראל 1992-2012",
+						"en" : "Israeli Budget, 1992-2012" },
+	"update_date"	: "23/5/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact" 		: { "email"	: "adam.kariv@gmail.com" },
+	"datafile"		: "budget.jsons",
+	"fields"		: {
+		  "slug" 	: { "type"				: "slug" },
+		  "code"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Budget line code",
+		  				             	        "he" :"מזהה סעיף תקציבי" }
+		  			  },
+		  "year"	: { "type"				: "int",
+		  				"description"	    : { "en" :"Budget year",
+		  				             	        "he" :"שנת תקציב" }
+		  			  },
+		  "title"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Budget line title",
+		  				             	        "he" :"כותרת הסעיף" }
+		  			  },
+		  "net_allocated" : { "type"				: "int",
+		  				"description"	    : { "en" :"Allocated Amount, Net value (in thousands of NIS)",
+		  				             	        "he" :"תקציב מקורי (נטו) באלפי שקלים" }
+		  			  },
+		  "net_revised" : { "type"				: "int",
+		  				"description"	    : { "en" :"Modified Amount, Net value (in thousands of NIS)",
+		  				             	        "he" :"תקציב על שינוייו (נטו) באלפי שקלים" }
+		  			  },
+		  "net_used" : { "type"				: "int",
+		  				"description"	    : { "en" :"USed Amount, Net value (in thousands of NIS)",
+		  				             	        "he" :"ביצוע בפועל (נטו) באלפי שקלים" }
+		  			  },
+		  "gross_allocated" : { "type"				: "int",
+		  				"description"	    : { "en" :"Allocated Amount, Gross value (in thousands of NIS)",
+		  				             	        "he" :"תקציב מקורי (ברוטו) באלפי שקלים" }
+		  			  },
+		  "gross_revised" : { "type"				: "int",
+		  				"description"	    : { "en" :"Modified Amount, Gross value (in thousands of NIS)",
+		  				             	        "he" :"תקציב על שינוייו (ברוטו) באלפי שקלים" }
+		  			  },
+		  "gross_used" : { "type"				: "int",
+		  				"description"	    : { "en" :"USed Amount, Gross value (in thousands of NIS)",
+		  				             	        "he" :"ביצוע בפועל (ברוטו) באלפי שקלים" }
+		  			  }
+	},
+	"templates"		   : {
+			"detail" : "detail.mustache",
+			"list"   : "list.mustache"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"title"		    : { "en" : "Internal Administration catalogs",
+						"he" : "נתונים המשמשים לניהול המאגר" },
+	"update_date"   : "31/5/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"   	: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "permissions" ]
+}

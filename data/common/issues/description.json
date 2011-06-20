@@ -1,0 +1,23 @@
+{
+	"title": {
+		"en": "Topics on the public agenda",
+		"he": "נושאים שונים לתיוג"
+		},
+	"update_date": "17/06/2011",
+	"author": {
+		"en": "Adam Kariv",
+		"he": "אדם קריב"
+		},
+	"contact": { "email": "adam.kariv@gmail.com" },
+	"datafile": "issues.csv",
+	"fields": {
+		"slug": { "type": "slug" },
+		"name": {
+			"type": "str",
+			"description": {
+				"en": "The topic's name",
+				"he": "שם הנושא"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"title"		    : { "he" : "מידע ממוסדות שלטון בישראל",
+						"en" : "Israeli government information" },
+	"update_date"   : "12/4/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact" 		: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "knesset", "offices", "inspector", "mof" ]
+}

@@ -1,0 +1,38 @@
+{
+	"title"			: { "he" : "מסמכי הסדנא",
+		 		    "en" : "The Sadna's Documents" },
+	"update_date"	        : "12/6/2011",
+	"author"	        : { "en" : "Benny Daon",
+				    "he" : "בני דאון" },
+	"contact" 		: { "email"	: "bennydaon@gmail.com" },
+	"datafile"		: "docs.json",
+	"fields"		: {
+		  "slug" 	: { "type"				: "slug" },
+		  "title"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Document's Title",
+		  				             	        "he" :"כותרת המסמך" }
+		  			  },
+		  "modified"	: { "type"				: "string",
+		  				"description"	    : { "en" :"Last Modification Time",
+		  				             	        "he" :"זמן שינוי אחרון" }
+		  			  },
+		  "created"	: { "type"				: "string",
+		  				"description"	    : { "en" :"Creation Time",
+		  				             	        "he" :"זמן יצירת המסמך" }
+		  			  },
+		  "resource_id"	: { "type"				: "str" },
+		  "resource_url": { "type"				: "str" },
+		  "path"        : { "type"				: "str", 
+		  				"description"	    : { "en" :"Path to the document",
+		  				             	        "he" :"נתיב אל המסמך" }
+		  			  },
+		  "authors" 	: { "type"				: "object",
+		  				"description"	    : { "en" :"List of document's author names",
+		  				             	        "he" :"רשימת מחברי המסמך" }
+		  			  },
+		  "html" 	: { "type"				: "str",
+		  				"description"	    : { "en" :"Content of the document (in HTML)",
+		  				             	        "he" :"תוכן המסמך, פבורמט HTML" }
+		  			  }
+	}
+}

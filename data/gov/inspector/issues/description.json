@@ -1,0 +1,75 @@
+{
+	"title": {
+		"en": "Government decisions & Issues as they're described by the government inspector report",
+		"he": "החלטות הממשלה וליקויים העולים בדו\"חות מבקר המדינה"
+		},
+	"update_date": "03/06/2011",
+	"author": {
+		"en": "Michael Genkin",
+		"he": "מיכאל גנקין"
+		},
+	"contact": { "email": "misha.genkin+public@gmail.com" },
+	"datafile": "issues.json",
+	"fields": {
+		"slug": { "type": "slug" },
+		"type": {
+			"type": "int",
+			"description": {
+				"en": "The type of the issue, use 0 for inspector report issues, 1 for government decisions",
+				"he": "סוג הנושא - 0 עבור ליקויים מדו\"ח המבקר, 1 עבור החלטות ממשלה"
+			}
+		},
+		"status": {
+			"type": "int",
+			"description": {
+				"en": "The status of the issuse - 1 for fixed, 2 for in progress, 3 for wont't fix",
+				"he": "מצב הליקוי - 1 עבור תוקן, 2 עבור בטיפול, 3 עבור לא תוקן"
+			}
+		},
+		"text": {
+			"type": "str",
+			"description": {
+				"en": "The description of the issue",
+				"he": "תיאור הליקוי"
+			}
+		},
+		"followup": {
+			"type": "str",
+			"description": {
+				"en": "A follow up on the described issue",
+				"he": "תיאור המעקב אחר תיקון הליקוי"
+			}
+		},
+		"link": {
+			"type": "str",
+			"description": {
+				"en": "A link to the issue in the inspector's website",
+				"he": "קישור לדיווח על הליקוי באתר מבקר המדינה"
+			}
+		},
+		"report": {
+			"type": "ref",
+			"params": [ "data/gov/inspector/reports" ],
+			"description": {
+				"en": "The inspector's report from which the issue originated",
+				"he": "דו\"ח מבקר המדינה בו דווח על הליקוי"
+			}
+		},
+		"unit": {
+			"type": "ref",
+			"params": [ "data/gov/inspector/units" ],
+			"description": {
+				"en": "The executive unit under whose jurisdiction the issue is",
+				"he": "היחידה אשר הליקוי נמצא בתחום השיפוט שלה"
+			}
+		},
+		"topic": {
+			"type": "ref",
+			"params": [ "data/common/topics" ],
+			"description": {
+				"en": "The topic under which the issue is filed",
+				"he": "הנושא תחתיו מופיע הליקוי"
+			}
+		}
+	}
+}

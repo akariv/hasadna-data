@@ -1,0 +1,33 @@
+[
+	{
+		"slug" 			 : "1",
+		"ref"  			 : "/data",
+		"auth"			 : { "anonymous"	 : true },
+		"perms"			 : [ "read", 	"delete", 	 "edit", 	"new" ]
+	},
+	{
+		"slug" 			 : "2",
+		"ref"  			 : "/data/gov",
+		"auth"			 : { "anonymous"	 : true },
+		"perms"			 : [ "read"  ]
+	},
+	{
+		"slug" 			 : "3",
+		"ref"  			 : "/data/common",
+		"auth"			 : { "anonymous"	 : true },
+		"perms"			 : [ "read" ]
+	},
+	{
+		"slug" 			 : "4",
+		"ref"  			 : "/data/tags",
+		"auth"			 : { "app"	 	 : "budget@localhost" },
+		"perms"			 : [ "new" ]
+	},
+	{
+		"slug" 			 : "5",
+		"ref"  			 : "/data/admin/users",
+		"auth"			 : { "app"	 	 : "apiplayground@localhost" },
+		"perms"			 : [ "new", "read" ]
+	}
+	
+]

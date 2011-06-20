@@ -1,0 +1,23 @@
+{
+	"title": {
+		"en": "Israeli government offices",
+		"he": "משרדי הממשלה"
+		},
+	"update_date": "03/06/2011",
+	"author": {
+		"en": "Michael Genkin",
+		"he": "מיכאל גנקין"
+		},
+	"contact": { "email": "misha.genkin+public@gmail.com" },
+	"datafile": "offices.json",
+	"fields": {
+		"slug": { "type": "slug" },
+		"name": {
+			"type": "str",
+			"description": {
+				"en": "The name of the office",
+				"he": "שם המשרד"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"title"		    : { "en" : "The Sadna's Database",
+						"he" : "בסיס המידע של הסדנא לידע ציבורי" },
+	"update_date"   : "12/4/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"		: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "common", "gov", "admin", "hasadna" ]
+}
