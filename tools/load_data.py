@@ -41,15 +41,15 @@ if __name__=="__main__":
             description = json.loads(file(desc).read())
 
             path, slug = os.path.dirname(relpath), os.path.basename(relpath)
-            print ">>>>>>>",path,slug,description
+            #print ">>>>>>>",path,slug,description
             
-            print "loading templates"
+            print "\tloading templates"
             templates = description.get("templates",{})
             for k,v in templates.iteritems(): # k=name, v=filename
                 templates[k] = file(os.path.join(DATA_ROOT, relpath[1:], v)).read()
             description["templates"] = templates
 
-            print "loading statics"
+            print "\tloading statics"
             statics = description.get("statics",{})
             for k,v in statics.iteritems():  # k=filename, v=content-type
                 statics[k] = [ v, file(os.path.join(DATA_ROOT, relpath[1:], v)).read() ]
@@ -63,7 +63,7 @@ if __name__=="__main__":
                                 
                 path = os.path.join( DATA_ROOT, relpath[1:] )
                 curdir = os.path.realpath(os.path.curdir)
-                print "path = %s, curdir = %s" % (path, curdir)
+                print "\tpath = %s, curdir = %s" % (path, curdir)
                 try:
                     os.chdir(path)
                     print "in %s" % os.path.realpath(os.path.curdir)
@@ -74,7 +74,7 @@ if __name__=="__main__":
                     
                     fields = description['fields']   
                         
-                    print "data file %s" % filename
+                    print "\tdata file %s" % filename
                 
                     loader = Loader.get_loader_for_filename(filename,fields)
                     if loader != None:
@@ -85,9 +85,9 @@ if __name__=="__main__":
         
                         slugs = DBLoader.get_slugs(relpath)
                         
-                        print "Processing %s, %s" % (relpath, description['datafile'] )
-                        print "DB already has %d slugs" % len(slugs)
-                        print "skipping %s records" % to_skip        
+                        print "\tProcessing %s, %s" % (relpath, description['datafile'] )
+                        print "\tDB already has %d slugs" % len(slugs)
+                        print "\tskipping %s records" % to_skip        
         
                         filename_stat = calc_stat(filename)
                         
@@ -95,14 +95,14 @@ if __name__=="__main__":
                         saved_stat[full_filename] = filename_stat, to_skip
                         for slug,rec in loader.get_processed_rows():
                             if num_rows >= to_skip:
-                                print "Loading: slug = %s, row = %s" % (slug, rec)
+                                print "\t\tLoading: slug = %s, row = %s" % (slug, rec)
                                 DBLoader.new_item(relpath,slug,rec)
                             slugs.discard(slug)
                             num_rows += 1
                             saved_stat[full_filename] = calc_stat(filename), num_rows
                         
                         for slug in slugs:
-                            print "remaining slug: %s/%s" % (relpath,slug)
+                            print "\t\tremaining slug: %s/%s" % (relpath,slug)
                             
                 except Exception,e:
                     print "got here somehow %r" % e
