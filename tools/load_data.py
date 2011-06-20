@@ -93,7 +93,7 @@ if __name__=="__main__":
                         num_rows = 0
                         saved_stat[full_filename] = filename_stat, to_skip
                         for slug,rec in loader.get_processed_rows():
-                            if num_rows >= to_skip:
+                            if num_rows >= to_skip or (slug not in slugs):
                                 print "\t\tLoading: slug = %s, row = %s" % (slug, rec)
                                 DBLoader.new_item(relpath,slug,rec)
                             slugs.discard(slug)
