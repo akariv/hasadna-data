@@ -9,7 +9,6 @@ class Loader(object):
         self.fields = fields
         self.slug_field = None
         for k, v in self.fields.iteritems():
-            print k,v
             if v['type'] == FIELD_TYPE__SLUG:
                 self.slug_field = k
         
