@@ -45,9 +45,15 @@ if __name__=="__main__":
             
             print "loading templates"
             templates = description.get("templates",{})
-            for k,v in templates.iteritems():
+            for k,v in templates.iteritems(): # k=name, v=filename
                 templates[k] = file(os.path.join(DATA_ROOT, relpath[1:], v)).read()
             description["templates"] = templates
+
+            print "loading statics"
+            statics = description.get("statics",{})
+            for k,v in statics.iteritems():  # k=filename, v=content-type
+                statics[k] = [ v, file(os.path.join(DATA_ROOT, relpath[1:], v)).read() ]
+            description["statics"] = templates
     
             DBLoader.new_item(path,slug,description)
             
