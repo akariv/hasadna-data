@@ -12,19 +12,15 @@
 		  				"description"	    : { "en" :"Document's Title",
 		  				             	        "he" :"כותרת המסמך" }
 		  			  },
-		  "modified"	: { "type"				: "string",
+		  "updated"	: { "type"				: "string",
 		  				"description"	    : { "en" :"Last Modification Time",
 		  				             	        "he" :"זמן שינוי אחרון" }
 		  			  },
-		  "created"	: { "type"				: "string",
-		  				"description"	    : { "en" :"Creation Time",
-		  				             	        "he" :"זמן יצירת המסמך" }
-		  			  },
 		  "resource_id"	: { "type"				: "str" },
 		  "resource_url": { "type"				: "str" },
-		  "path"        : { "type"				: "str", 
-		  				"description"	    : { "en" :"Path to the document",
-		  				             	        "he" :"נתיב אל המסמך" }
+		  "categories"        : { "type"				: "object", 
+		  				"description"	    : { "en" :"List of document's categories",
+		  				             	        "he" :"רשימת קטגוריות" }
 		  			  },
 		  "authors" 	: { "type"				: "object",
 		  				"description"	    : { "en" :"List of document's author names",
