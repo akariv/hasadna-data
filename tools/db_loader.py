@@ -37,7 +37,7 @@ class DBLoader(object):
     def get_slugs(relpath):
         headers = {"Accept": "application/json"}
         conn = httplib.HTTPConnection(DBSERVER)
-        conn.request("GET", "%s/?limit=1000000" % relpath, None, headers)
+        conn.request("GET", "%s/?o=json&limit=1000000&fields=%%5B%%22x%%22%%5D" % relpath, None, headers)
         response = conn.getresponse()
         print response.status, response.reason
         data = response.read()

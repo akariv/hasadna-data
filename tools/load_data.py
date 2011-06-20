@@ -84,8 +84,9 @@ if __name__=="__main__":
                             #DBLoader.del_collection(relpath)
         
                         slugs = DBLoader.get_slugs(relpath)
-
+                        
                         print "Processing %s, %s" % (relpath, description['datafile'] )
+                        print "DB already has %d slugs" % len(slugs)
                         print "skipping %s records" % to_skip        
         
                         filename_stat = calc_stat(filename)
