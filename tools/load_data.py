@@ -99,10 +99,10 @@ if __name__=="__main__":
                             slugs.discard(slug)
                             num_rows += 1
                             saved_stat[full_filename] = calc_stat(filename), num_rows
-                            DBLoader.del_item(relpath,slug)
                         
                         for slug in slugs:
                             print "\t\tremaining slug: %s/%s" % (relpath,slug)
+                            DBLoader.del_item(relpath,slug)
                             
                             
                 except Exception,e:
