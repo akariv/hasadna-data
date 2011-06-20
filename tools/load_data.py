@@ -96,7 +96,7 @@ if __name__=="__main__":
                             if num_rows >= to_skip:
                                 print "Loading: slug = %s, row = %s" % (slug, rec)
                                 DBLoader.new_item(relpath,slug,rec)
-                            slugs.remove(slug)
+                            slugs.discard(slug)
                             num_rows += 1
                             saved_stat[full_filename] = calc_stat(filename), num_rows
                         
