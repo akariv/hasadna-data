@@ -37,7 +37,7 @@ if __name__=="__main__":
             
             desc = os.path.join(DATA_ROOT, relpath[1:], DESCRIPTION_FILE )
     
-            print "description file %s" % desc        
+            print "\n=================\ndescription file %s" % desc        
             description = json.loads(file(desc).read())
 
             path, slug = os.path.dirname(relpath), os.path.basename(relpath)
@@ -66,7 +66,6 @@ if __name__=="__main__":
                 print "\tpath = %s, curdir = %s" % (path, curdir)
                 try:
                     os.chdir(path)
-                    print "in %s" % os.path.realpath(os.path.curdir)
                     filename = description['datafile']
                     full_filename = str(os.path.join(path,filename))
                     
