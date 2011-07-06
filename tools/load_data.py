@@ -49,11 +49,11 @@ if __name__=="__main__":
                 templates[k] = file(os.path.join(DATA_ROOT, relpath[1:], v)).read()
             description["templates"] = templates
 
-            print "\tloading statics"
-            statics = description.get("statics",{})
+            print "\tloading static files"
+            statics = description.get("static-files",{})
             for k,v in statics.iteritems():  # k=filename, v=content-type
-                statics[k] = [ v, file(os.path.join(DATA_ROOT, relpath[1:], v)).read() ]
-            description["statics"] = templates
+                statics[k] = [ v, file(os.path.join(DATA_ROOT, relpath[1:], "static", k)).read() ]
+            description["static-files"] = statics
     
             DBLoader.new_item(path,slug,description)
             
