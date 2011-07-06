@@ -17,7 +17,7 @@ var Hasadna = (function () {
     		  params,
 			  function (data) {
 				 $("#"+elementId).html(data);
-			  },"html");
+			  },"jsonp");
     }
 
     my.getRecord = function(path,callback) {
@@ -35,12 +35,12 @@ var Hasadna = (function () {
     }
 
     my.loadRecordTemplate = function(path,elementId,template) {
-    	var params = { "o"	   : "template:"+template };
+    	var params = { "o"	   : "templatep:"+template };
     	DBServerGetHtml(path,params,elementId);
     }
 
     my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit) {
-    	var params = { "o"	   : "template:"+template };
+    	var params = { "o"	   : "templatep:"+template };
     	if ( spec != undefined ) { params["query"] = spec; }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
