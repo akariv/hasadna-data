@@ -27,7 +27,7 @@ var Hasadna = (function () {
     
     my.findRecords = function(path,callback,spec,fields,start,limit) {
     	var params = { "o"	   : "jsonp" };
-    	if ( spec != undefined ) { params["query"] = spec; }
+    	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
@@ -41,7 +41,7 @@ var Hasadna = (function () {
 
     my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit) {
     	var params = { "o"	   : "templatep:"+template };
-    	if ( spec != undefined ) { params["query"] = spec; }
+    	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
