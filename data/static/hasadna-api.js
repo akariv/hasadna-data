@@ -27,10 +27,10 @@ var Hasadna = (function () {
     
     my.findRecords = function(path,callback,spec,fields,start,limit) {
     	var params = { "o"	   : "jsonp" };
-    	if ( spec != undefined ) { params["query"] = spec;
-    	if ( fields != undefined ) { params["fields"] = fields;
-    	if ( start != undefined ) { params["start"] = start;
-    	if ( limit != undefined ) { params["limit"] = limit;
+    	if ( spec != undefined ) { params["query"] = spec; }
+    	if ( fields != undefined ) { params["fields"] = fields; }
+    	if ( start != undefined ) { params["start"] = start; }
+    	if ( limit != undefined ) { params["limit"] = limit; }
     	DBServerGetJson(path,params,callback);
     }
 
@@ -41,10 +41,10 @@ var Hasadna = (function () {
 
     my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit) {
     	var params = { "o"	   : "template:"+template };
-    	if ( spec != undefined ) { params["query"] = spec;
-    	if ( fields != undefined ) { params["fields"] = fields;
-    	if ( start != undefined ) { params["start"] = start;
-    	if ( limit != undefined ) { params["limit"] = limit;
+    	if ( spec != undefined ) { params["query"] = spec; }
+    	if ( fields != undefined ) { params["fields"] = fields; }
+    	if ( start != undefined ) { params["start"] = start; }
+    	if ( limit != undefined ) { params["limit"] = limit; }
     	DBServerGetHtml(path,params,elementId);
     }
 
@@ -57,4 +57,4 @@ var Hasadna = (function () {
     return my; 
 }());
 
-H = Hasadna();
+var H = Hasadna();
