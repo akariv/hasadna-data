@@ -1,4 +1,4 @@
-var Hasadna = (function () { 
+var H = (function () { 
     var my = {}, 
     	APIServer = "http://api.yeda.us"; 
 
@@ -34,6 +34,16 @@ var Hasadna = (function () {
     	DBServerGetJson(path,params,callback);
     }
 
+    my.countRecords = function(path,callback,spec,fields,start,limit) {
+    	var params = { "o"	   : "jsonp",
+    			       "count" : "1" };
+    	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
+    	if ( fields != undefined ) { params["fields"] = fields; }
+    	if ( start != undefined ) { params["start"] = start; }
+    	if ( limit != undefined ) { params["limit"] = limit; }
+    	DBServerGetJson(path,params,callback);
+    }
+
     my.loadRecordTemplate = function(path,elementId,template) {
     	var params = { "o"	   : "templatep:"+template };
     	DBServerGetHtml(path,params,elementId);
@@ -48,13 +58,16 @@ var Hasadna = (function () {
     	DBServerGetHtml(path,params,elementId);
     }
 
-    // Tagging
+    // Header
     my.loadTagsForRecord = function(path,elementId) {
+    	my.loadRecordTemplate("/data",elementId,"login-header");
+    }
+    
+    // Tagging
+    my.loadLoginHeader = function(path,elementId) {
     	spec = { "reference" : path };
-    	my.loadRecordsTemplate("/data/common/tags",elementId,"detail",spec);
+    	my.loadRecordsTemplate("/data/common/tags",elementId,"snippet",spec);
     }
     	
     return my; 
 }());
-
-var H = Hasadna();
