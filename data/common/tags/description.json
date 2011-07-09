@@ -1,0 +1,30 @@
+{
+	"title": {
+		"en": "Tagging of data records by users",
+		"he": "תיוגים על ידי משתמשים"
+		},
+	"update_date": "7/7/2011",
+	"author": {
+		"en": "Adam Kariv",
+		"he": "אדם קריב"
+		},
+	"contact": { "email": "adam.kariv@gmail.com" },
+	"fields": {
+		"slug": { "type": "slug" },
+		"reference": {
+			"type": "str",
+			"description": {
+				"en": "Path to the referenced record",
+				"he": "נתיב לרשומה הרלוונטית"
+			}
+		},
+		"tag": {
+			"type": "ref",
+			"params"			: [ "data/common/issues" ],
+			"description": {
+				"en": "The tag",
+				"he": "התגית המשוייכת"
+			}
+		}
+	}
+}
