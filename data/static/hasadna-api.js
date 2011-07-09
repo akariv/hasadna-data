@@ -60,7 +60,7 @@ var H = (function () {
 
     // Header
     my.loadLoginHeader = function(path,elementId) {
-    	my.loadRecordTemplate("/data",elementId,"login-header");
+    	my.loadRecordTemplate("/data/",elementId,"login-header");
     }
     
     // Tagging
