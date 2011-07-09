@@ -1,11 +1,12 @@
-<html>
-<body dir="rtl">
-<h1>תקציב המדינה</h1>
-<h2>פירוט סעיפים:</h2>
-<ul>
+<ol class="H-budget-list">
 {{#response}}
-<li><a href="/{{_src}}?o=template">{{code}} - {{title}} ({{year}})</a></li>
+<li class="H-budget-item">
+	<ul>
+		<li class="H-budget-item-src">{{_src}}</li>
+		<li class="H-budget-item-code">{{code}}</li>
+		<li class="H-budget-item-title">{{title}}</li>
+		<li class="H-budget-item-year">{{year}}</li>
+	</ul>
+</li>
 {{/response}}
-</ul>
-</body>
-</html>
+</ol>
