@@ -12,11 +12,14 @@ var H = (function () {
       		  },"jsonp");    	
     } 
 
-    function DBServerGetHtml(path,params,elementId) {
+    function DBServerGetHtml(path,params,elementId,callback) {
     	$.get(APIServer+path,
     		  params,
 			  function (data) {
 				 $("#"+elementId).html(data);
+				 if ( callback != undefined ) }
+				 	callback($("#"+elementId));
+    			 }
 			  },"jsonp");
     }
 
@@ -44,18 +47,18 @@ var H = (function () {
     	DBServerGetJson(path,params,callback);
     }
 
-    my.loadRecordTemplate = function(path,elementId,template) {
+    my.loadRecordTemplate = function(path,elementId,template,callback) {
     	var params = { "o"	   : "templatep:"+template };
-    	DBServerGetHtml(path,params,elementId);
+    	DBServerGetHtml(path,params,elementId,callback);
     }
 
-    my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit) {
+    my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,callback) {
     	var params = { "o"	   : "templatep:"+template };
     	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	DBServerGetHtml(path,params,elementId);
+    	DBServerGetHtml(path,params,elementId,callback);
     }
 
     // Header
