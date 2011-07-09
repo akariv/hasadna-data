@@ -59,7 +59,7 @@ var H = (function () {
     }
 
     // Header
-    my.loadLoginHeader = function(path,elementId) {
+    my.loadLoginHeader = function(elementId) {
     	my.loadRecordTemplate("/data/",elementId,"login-header");
     }
     
