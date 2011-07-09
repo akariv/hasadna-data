@@ -17,7 +17,7 @@ var H = (function () {
     		  params,
 			  function (data) {
 				 $("#"+elementId).html(data);
-				 if ( callback != undefined ) }
+				 if ( callback != undefined ) {
 				 	callback($("#"+elementId));
     			 }
 			  },"jsonp");
