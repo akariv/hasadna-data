@@ -1,7 +1,13 @@
-<ul class="hasadna-tags">
+<ul class="H-tags">
 {{#response}}
-<li class="hasadna-tag">
-{{tag}}
-</li>
+<li class="H-tag">{{tag}}</li>
 {{/response}}
 </ul>
+{{#user}}
+<form id="H-new-tag" action="#">
+<input type="hidden" name="reference" value=""></input>
+<select name="tag">
+</select>
+<input type="submit"></input>
+</form>
+{{/user}}

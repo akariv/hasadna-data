@@ -26,5 +26,6 @@
 				"he": "התגית המשוייכת"
 			}
 		}
-	}
+	},
+	"templates" : { "snippet" : "snippet.mustache" }
 }
