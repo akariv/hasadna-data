@@ -69,7 +69,13 @@ var H = (function () {
     // Tagging
     my.loadTagsForRecord = function(path,elementId) {
     	spec = { "reference" : path };
-    	my.loadRecordsTemplate("/data/common/tags",elementId,"snippet",spec);
+    	my.loadRecordsTemplate(
+    			"/data/common/tags/",elementId,"snippet",
+    			spec,null,null,null,
+    			function (el) {
+    				el.find("input[name=reference]").attr("value",path);
+    			}
+    	);
     }
     	
     return my; 
