@@ -59,12 +59,12 @@ var H = (function () {
     }
 
     // Header
-    my.loadTagsForRecord = function(path,elementId) {
+    my.loadLoginHeader = function(path,elementId) {
     	my.loadRecordTemplate("/data",elementId,"login-header");
     }
     
     // Tagging
-    my.loadLoginHeader = function(path,elementId) {
+    my.loadTagsForRecord = function(path,elementId) {
     	spec = { "reference" : path };
     	my.loadRecordsTemplate("/data/common/tags",elementId,"snippet",spec);
     }
