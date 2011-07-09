@@ -2,5 +2,8 @@
 Hello,  {{ fullname }} <a href="http://api.yeda.us/logout">sign out</a>
 {{/user}}
 {{^user}}
-<a href="http://api.yeda.us/login">sign in</a>
+<a id="H_login_header">sign in</a>
+<script type="text/javascript">
+$("#H_login_header").attr("href","http://api.yeda.us/login?next="+document.URL);
+</script>
 {{/user}}
