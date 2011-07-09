@@ -2,6 +2,7 @@
 Hello,  {{ fullname }}, <a id="H_login_header">sign out</a>
 <script type="text/javascript">
 $("#H_login_header").attr("href","http://api.yeda.us/logout?next="+document.URL);
+var H_login_data = { "fullname" : "{{fullname}}", "email" : "{{email}}", "key" : "{{key}}" };
 </script>
 {{/user}}
 {{^user}}
