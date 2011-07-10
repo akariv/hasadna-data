@@ -23,7 +23,7 @@ var H = (function () {
 			  },"json");
     }
 
-    function DBServerPostJson = function(path,data,callback) {
+    function DBServerPostJson(path,data,callback) {
         $.post( APIServer+path,
           		data,
           		function (ret) {
@@ -33,8 +33,8 @@ var H = (function () {
           	    }, "json");    	
     } 
 
-    H.newRecord = function( path, data ) {
-        H.DBServerPutJson( path, data );  
+    my.newRecord = function( path, data ) {
+        DBServerPutJson( path, data );  
     }
 
     my.getRecord = function(path,callback) {
