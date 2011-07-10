@@ -9,7 +9,7 @@ var H = (function () {
       		  params,
       		  function (data) {
       			 callback(data);
-      		  },"jsonp");    	
+      		  },"json");    	
     } 
 
     function DBServerGetHtml(path,params,elementId,callback) {
@@ -20,7 +20,21 @@ var H = (function () {
 				 if ( callback != undefined ) {
 				 	callback($("#"+elementId));
     			 }
-			  },"jsonp");
+			  },"json");
+    }
+
+    function DBServerPostJson = function(path,data,callback) {
+        $.post( APIServer+path,
+          		data,
+          		function (ret) {
+      		         if ( callback != undefined ) {
+      	  		         callback(ret);
+      		         }
+          	    }, "json");    	
+    } 
+
+    H.newRecord = function( path, data ) {
+        H.DBServerPutJson( path, data );  
     }
 
     my.getRecord = function(path,callback) {
