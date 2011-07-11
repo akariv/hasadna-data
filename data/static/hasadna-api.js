@@ -24,13 +24,18 @@ var H = (function () {
     }
 
     function DBServerPostJson(path,data,callback) {
-        $.post( APIServer+path,
-          		data,
-          		function (ret) {
-      		         if ( callback != undefined ) {
-      	  		         callback(ret);
-      		         }
-          	    }, "json");    	
+        $.ajax( APIServer+path+"?o=json",
+        		{ data: data,
+        	      contentType : "application/json",
+        	      complete: function (ret) {
+      		         			if ( callback != undefined ) {
+      		         				callback(ret);
+      		         			}
+          	    			}, 
+          	      dataType: "json",
+          	      processData: false,
+          	      type: "POST" }
+          	      );    	
     } 
 
     my.newRecord = function( path, data ) {
