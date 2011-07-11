@@ -6,7 +6,7 @@
 					    "he" : "אדם קריב" },
 	"contact"		: { "email" : "adam.kariv@gmail.com" },
 	"subcatalogs"   : [ "common", "gov", "admin", "hasadna" ],
-	"static-files"	: { "hasadna-api.js" : "text/javascript"
+	"static-files"	: { "hasadna-api.js" : "text/javascript",
                             "jquery.min.js"  : "text/javascript"  },
 	"templates"		   : {
 			"login-header" : "login-header.mustache"
