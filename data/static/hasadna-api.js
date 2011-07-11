@@ -34,7 +34,7 @@ var H = (function () {
     } 
 
     my.newRecord = function( path, data ) {
-        DBServerPutJson( path, data );  
+        DBServerPostJson( path, data );  
     }
 
     my.getRecord = function(path,callback) {
