@@ -54,12 +54,12 @@ var H = (function () {
 
     function DBServerDelete(path,callback) {
         $.ajax( { "url" : APIServer+path+"?o=json",
-        	      "type" : "DELETE" 
+        	      "type" : "DELETE", 
         		  "success": function (ret) {
       		         			if ( callback != undefined ) {
       		         				callback(ret);
       		         			}
-          	    	  		 }, 
+          	    	  		 }
           	    } );    	
     } 
 
