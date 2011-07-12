@@ -8,9 +8,9 @@ var H = (function () {
     function joinApiServerPath(b) {
     	var bb = b.charAt(0);
     	if ( bb != "/" ) {
-    		return a+"/"+b;
+    		return APIServer+"/"+b;
     	} else {
-    		return a+b;
+    		return APIServer+b;
     	}
     }
     
