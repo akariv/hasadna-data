@@ -10,9 +10,9 @@ var H = (function () {
     }
     
     function shouldCache(params) {
-    	if ( cacheNext ) {
+    	if ( !cacheNext ) {
     		params["hitcache"]=0;
-    		cacheNext = false;
+    		cacheNext = true;
     	}
     }
         
