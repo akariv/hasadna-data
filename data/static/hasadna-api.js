@@ -1,18 +1,18 @@
 var H = (function () { 
     var my = {}, 
     	APIServer = "http://api.yeda.us";
-        cacheNext = true;
+        useCacheNextRequest = true;
 
     // Low Level API
 
     function dontCacheNext() {
-    	cacheNext = false;
+    	useCacheNextRequest = false;
     }
     
     function shouldCache(params) {
-    	if ( !cacheNext ) {
+    	if ( !useCacheNextRequest ) {
     		params["hitcache"]=0;
-    		cacheNext = true;
+    		useCacheNextRequest = true;
     	}
     }
         
