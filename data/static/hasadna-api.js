@@ -5,6 +5,15 @@ var H = (function () {
 
     // Low Level API
 
+    function joinApiServerPath(b) {
+    	var bb = b.charAt(0);
+    	if ( bb != "/" ) {
+    		return a+"/"+b;
+    	} else {
+    		return a+b;
+    	}
+    }
+    
     function dontCacheNext() {
     	useCacheNextRequest = false;
     }
@@ -18,7 +27,7 @@ var H = (function () {
         
     function DBServerGetJson(path,params,callback) {
     	shouldCache(params);
-    	$.get(APIServer+path,
+    	$.get(joinApiServerPath(path),
       		  params,
       		  function (data) {
       			 callback(data);
@@ -27,7 +36,7 @@ var H = (function () {
 
     function DBServerGetHtml(path,params,elementId,callback) {
     	shouldCache(params);
-    	$.get(APIServer+path,
+    	$.get(joinApiServerPath(path),
     		  params,
 			  function (data) {
 				 $("#"+elementId).html(data);
@@ -38,7 +47,7 @@ var H = (function () {
     }
 
     function DBServerPostJson(path,data,callback) {
-        $.ajax( { url : APIServer+path+"?o=json",
+        $.ajax( { url : joinApiServerPath(path)+"?o=json",
         		  data: data,
         	      contentType : "application/json",
         	      success: function (ret) {
@@ -53,7 +62,7 @@ var H = (function () {
     } 
 
     function DBServerDelete(path,callback) {
-        $.ajax( { "url" : APIServer+path+"?o=json",
+        $.ajax( { "url" : joinApiServerPath(path)+"?o=json",
         	      "type" : "DELETE", 
         		  "success": function (ret) {
       		         			if ( callback != undefined ) {
