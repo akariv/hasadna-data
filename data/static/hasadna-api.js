@@ -113,19 +113,19 @@ var H = (function () {
 
     // Header
     my.loadLoginHeader = function(elementId) {
-    	loadRecordTemplate("/data/",elementId,"login-header");
+    	my.loadRecordTemplate("/data/",elementId,"login-header");
     }
     
     // Tagging
     my.loadTagsForRecord = function(path,elementId) {
     	spec = { "reference" : path };
-    	loadRecordsTemplate(
+    	my.loadRecordsTemplate(
     			"/data/common/tags/",elementId,"snippet",
     			spec,null,null,null,
     			function (el) {
     				el.find("input[name=reference]").attr("value",path);
     				var select = el.find("select");
-    				findRecords(
+    				my.findRecords(
     						"/data/common/issues/",
     						function (data) {
     							for ( var i in data ) {
@@ -137,20 +137,20 @@ var H = (function () {
     					var selected_item = el.find("select option:selected").val();
     					var slug = path+"/"+selected_item;
     					slug = slug.replace(/\//g,"__");
-    					newRecord("/data/common/tags/"+slug,
+    					my.newRecord("/data/common/tags/"+slug,
     								{ "reference" : path,
     						          "tag" : { "_ref" : selected_item } },
     						        function() {
     						        	dontCacheNext();
-    								    loadTagsForRecord(path,elementId); 
+    						        	my.loadTagsForRecord(path,elementId); 
     						        } );
     					return false;
     				} );
     				el.find(".H-tag").click( function () {
     					var src = $(this).attr("rel");
-    					deleteRecord( src, function() {
+    					my.deleteRecord( src, function() {
     						dontCacheNext();
-						    loadTagsForRecord(path,elementId); 
+    						my.loadTagsForRecord(path,elementId); 
     					} );
     				} );
     			}
