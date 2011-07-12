@@ -1,10 +1,23 @@
 var H = (function () { 
     var my = {}, 
-    	APIServer = "http://api.yeda.us"; 
+    	APIServer = "http://api.yeda.us";
+        cacheNext = true;
 
     // Low Level API
+
+    function dontCacheNext() {
+    	cacheNext = false;
+    }
     
+    function shouldCache(params) {
+    	if ( cacheNext ) {
+    		params["hitcache"]=0;
+    		cacheNext = false;
+    	}
+    }
+        
     function DBServerGetJson(path,params,callback) {
+    	shouldCache(params);
     	$.get(APIServer+path,
       		  params,
       		  function (data) {
@@ -13,6 +26,7 @@ var H = (function () {
     } 
 
     function DBServerGetHtml(path,params,elementId,callback) {
+    	shouldCache(params);
     	$.get(APIServer+path,
     		  params,
 			  function (data) {
@@ -99,19 +113,19 @@ var H = (function () {
 
     // Header
     my.loadLoginHeader = function(elementId) {
-    	my.loadRecordTemplate("/data/",elementId,"login-header");
+    	loadRecordTemplate("/data/",elementId,"login-header");
     }
     
     // Tagging
     my.loadTagsForRecord = function(path,elementId) {
     	spec = { "reference" : path };
-    	my.loadRecordsTemplate(
+    	loadRecordsTemplate(
     			"/data/common/tags/",elementId,"snippet",
     			spec,null,null,null,
     			function (el) {
     				el.find("input[name=reference]").attr("value",path);
     				var select = el.find("select");
-    				my.findRecords(
+    				findRecords(
     						"/data/common/issues/",
     						function (data) {
     							for ( var i in data ) {
@@ -123,18 +137,20 @@ var H = (function () {
     					var selected_item = el.find("select option:selected").val();
     					var slug = path+"/"+selected_item;
     					slug = slug.replace(/\//g,"__");
-    					my.newRecord("/data/common/tags/"+slug,
+    					newRecord("/data/common/tags/"+slug,
     								{ "reference" : path,
     						          "tag" : { "_ref" : selected_item } },
     						        function() {
-    								    my.loadTagsForRecord(path,elementId); 
+    						        	dontCacheNext();
+    								    loadTagsForRecord(path,elementId); 
     						        } );
     					return false;
     				} );
     				el.find(".H-tag").click( function () {
     					var src = $(this).attr("rel");
-    					my.deleteRecord( src, function() {
-						    my.loadTagsForRecord(path,elementId); 
+    					deleteRecord( src, function() {
+    						dontCacheNext();
+						    loadTagsForRecord(path,elementId); 
     					} );
     				} );
     			}
