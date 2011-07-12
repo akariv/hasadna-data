@@ -1,6 +1,6 @@
 var H = (function () { 
     var my = {}, 
-    	APIServer = "http://api.yeda.us";
+    	APIServer = "http://api.yeda.us",
         useCacheNextRequest = true;
 
     // Low Level API
@@ -38,10 +38,10 @@ var H = (function () {
     }
 
     function DBServerPostJson(path,data,callback) {
-        $.ajax( APIServer+path+"?o=json",
-        		{ data: data,
+        $.ajax( { url : APIServer+path+"?o=json",
+        		  data: data,
         	      contentType : "application/json",
-        	      complete: function (ret) {
+        	      success: function (ret) {
       		         			if ( callback != undefined ) {
       		         				callback(ret);
       		         			}
@@ -53,14 +53,14 @@ var H = (function () {
     } 
 
     function DBServerDelete(path,callback) {
-        $.ajax( APIServer+path+"?o=json",
-        		{ complete: function (ret) {
+        $.ajax( { "url" : APIServer+path+"?o=json",
+        	      "type" : "DELETE" 
+        		  "success": function (ret) {
       		         			if ( callback != undefined ) {
       		         				callback(ret);
       		         			}
-          	    			}, 
-          	      type: "DELETE" }
-          	      );    	
+          	    	  		 }, 
+          	    } );    	
     } 
 
     my.newRecord = function( path, data, callback ) {
