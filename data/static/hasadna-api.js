@@ -38,8 +38,25 @@ var H = (function () {
           	      );    	
     } 
 
-    my.newRecord = function( path, data ) {
-        DBServerPostJson( path, JSON.stringify(data) );  
+    function DBServerDelete(path,callback) {
+        $.ajax( APIServer+path+"?o=json",
+        		{ complete: function (ret) {
+      		         			if ( callback != undefined ) {
+      		         				callback(ret);
+      		         			}
+          	    			}, 
+          	      dataType: "json",
+          	      processData: false,
+          	      type: "DELETE" }
+          	      );    	
+    } 
+
+    my.newRecord = function( path, data, callback ) {
+        DBServerPostJson( path, JSON.stringify(data), callback );  
+    }
+
+    my.deleteRecord = function( path, callback ) {
+        DBServerDelete( path, callback );  
     }
 
     my.getRecord = function(path,callback) {
@@ -93,6 +110,33 @@ var H = (function () {
     			spec,null,null,null,
     			function (el) {
     				el.find("input[name=reference]").attr("value",path);
+    				var select = el.find("select");
+    				my.findRecords(
+    						"/data/common/issues/",
+    						function (data) {
+    							for ( var i in data ) {
+    								var tagname = data[i];
+    								select.append("<option value='"+tagname._src+"'>"+tagname.name+"</option>");
+    							}
+    				});
+    				el.find("form").submit( function() {
+    					var selected_item = el.find("select option:selected").val();
+    					var slug = path+"/"+selected_item;
+    					slug = slug.replace(/\//g,"__");
+    					my.newRecord("/data/common/tags/"+slug,
+    								{ "reference" : path,
+    						          "tag" : { "_ref" : selected_item } },
+    						        function() {
+    								    my.loadTagsForRecord(path,elementId); 
+    						        } );
+    					return false;
+    				} );
+    				el.find(".H-tag").click( function () {
+    					var src = $(this).attr("rel");
+    					my.deleteRecord( src, function() {
+						    my.loadTagsForRecord(path,elementId); 
+    					} );
+    				} );
     			}
     	);
     }
