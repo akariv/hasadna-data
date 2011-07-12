@@ -59,8 +59,6 @@ var H = (function () {
       		         				callback(ret);
       		         			}
           	    			}, 
-          	      dataType: "json",
-          	      processData: false,
           	      type: "DELETE" }
           	      );    	
     } 
