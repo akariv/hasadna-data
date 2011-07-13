@@ -1,7 +1,15 @@
+/* Tagging */
+
 .H-tags {}
 
 .H-tag {
 	padding : 2px;
-	border: 1px solid #0080ff;
-	background-color: #002080;
+	border: 1px solid #08f;
+	background-color: #028;
+	color: #cef;
+}
+
+.H-tag:hover {
+	border: 1px solid #0cf;
+	background-color: #039;
 }
