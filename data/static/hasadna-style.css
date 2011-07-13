@@ -18,3 +18,11 @@
 	color:#fff;
 	cursor: pointer;
 }
+
+.H-new-tag {
+	visibility: hidden;
+}
+
+.H-new-tag:hover {
+	visibility: inherit;
+}
