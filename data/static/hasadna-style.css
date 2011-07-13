@@ -13,8 +13,8 @@
 }
 
 .H-tag:hover {
-	border: 1px solid #0cf;
-	background-color: #039;
+	border-color: #fc0;
+	background-color: #57f;
 	color:#fff;
 	cursor: pointer;
 }
