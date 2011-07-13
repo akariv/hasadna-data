@@ -5,13 +5,16 @@
 .H-tag {
 	padding: 2px;
 	margin: 2px;
-	border: 1px solid #08f;
-	background-color: #028;
+	border: 2px solid #08f;
+	background-color: #358;
 	color: #cef;
 	display:inline-block;
+	font: 12px bold Helvetica,sans-serif;
 }
 
 .H-tag:hover {
 	border: 1px solid #0cf;
 	background-color: #039;
+	color:#fff;
+	cursor: pointer;
 }
