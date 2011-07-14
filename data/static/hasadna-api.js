@@ -91,7 +91,7 @@ var H = (function () {
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	if ( count != undefined ) { if (count) { params["count"] = 1; } }
+    	if ( count != undefined ) { if (count==true) { params["count"] = 1; } }
     	DBServerGetJson(path,params,callback);
     }
 
@@ -102,7 +102,7 @@ var H = (function () {
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	if ( count != undefined ) { if (count) { params["count"] = 1; } }
+    	if ( count != undefined ) { if (count==true) { params["count"] = 1; } }
     	DBServerGetJson(path,params,callback);
     }
 
@@ -117,7 +117,7 @@ var H = (function () {
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	if ( count != undefined ) { if (count) { params["count"] = 1; } }
+    	if ( count != undefined ) { if (count==true) { params["count"] = 1; } }
     	DBServerGetHtml(path,params,elementId,callback);
     }
 
