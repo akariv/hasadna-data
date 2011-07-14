@@ -20,9 +20,9 @@
 }
 
 .H-new-tag {
-	visibility: hidden;
+	opacity: 0.2;
 }
 
 .H-new-tag:hover {
-	visibility: inherit;
+	opacity: 1.0;
 }
