@@ -178,7 +178,24 @@ var H = (function () {
     				my.loadRecordTemplate(
     						"/data/common/stars/"+slug,
     						"moshiko",
-    						"vote"
+    						"vote",
+    						function () {
+    							el.find(".H-stars-vote.H-stars-not-starred").click( function () {
+			    					my.newRecord("/data/common/stars/"+slug,
+	    	    								{ "reference" : path },
+	    	    						        function() {
+	    	    						        	dontCacheNext();
+	    	    						        	my.loadStarsForRecord(path,elementId); 
+	    	    						        } );    								
+    							} );
+    							el.find(".H-stars-vote.H-stars-starred").click( function () {
+			    					my.deleteRecord("/data/common/stars/"+slug,
+			    									function() {
+			    										dontCacheNext();
+			    										my.loadStarsForRecord(path,elementId); 
+	    	    						        	} );    								
+    							} );
+    						}
     				);
     			}
     	);
