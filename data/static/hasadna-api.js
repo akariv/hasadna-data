@@ -91,19 +91,17 @@ var H = (function () {
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	if ( count != undefined ) { if (count==true) { params["count"] = 1; } }
     	DBServerGetJson(path,params,callback);
     }
 
-    my.countRecords = function(path,callback,spec,fields,start,limit) {
-    	var params = { "o"	   : "jsonp",
+    my.countRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,callback) {
+    	var params = { "o"	   : "templatep:"+template,
     			       "count" : "1" };
     	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	if ( count != undefined ) { if (count==true) { params["count"] = 1; } }
-    	DBServerGetJson(path,params,callback);
+    	DBServerGetHtml(path,params,elementId,callback);
     }
 
     my.loadRecordTemplate = function(path,elementId,template,callback) {
@@ -111,13 +109,12 @@ var H = (function () {
     	DBServerGetHtml(path,params,elementId,callback);
     }
 
-    my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,count,callback) {
+    my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,callback) {
     	var params = { "o"	   : "templatep:"+template };
     	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
-    	if ( count != undefined ) { if (count==true) { params["count"] = 1; } }
     	DBServerGetHtml(path,params,elementId,callback);
     }
 
@@ -131,7 +128,7 @@ var H = (function () {
     	var spec = { "reference" : path };
     	my.loadRecordsTemplate(
     			"/data/common/tags/",elementId,"snippet",
-    			spec,null,null,null,null,
+    			spec,null,null,null,
     			function (el) {
     				el.find("input[name=reference]").attr("value",path);
     				var select = el.find("select");
@@ -170,9 +167,9 @@ var H = (function () {
     // Starring
     my.loadStarsForRecord = function(path,elementId) {
     	var spec = { "reference" : path };
-		my.loadRecordsTemplate(
-    			"/data/common/stars/",elementId,"snippet",
-    			spec,null,null,null,null,
+		my.countRecordsTemplate(
+    			"/data/common/stars/",elementId, "count",
+    			spec,null,null,null,
     			function (el) {
     				var slug = path+"/"+H_login_data.key;
     				slug = slug.replace(/\//g,"__");
