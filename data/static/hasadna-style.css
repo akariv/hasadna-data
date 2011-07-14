@@ -26,3 +26,18 @@
 .H-new-tag:hover {
 	opacity: 1.0;
 }
+
+.H-stars-vote {
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 27px;
+}
+
+.H-stars-not-starred {
+	background-image: url(/data/common/stars/static/empty_star.png);
+}
+
+.H-stars-starred {
+	background-image: url(/data/common/stars/static/full_star.png);
+}
