@@ -182,7 +182,7 @@ var H = (function () {
     						"/data/common/stars/"+slug,
     						"moshiko",
     						"vote"
-    				});
+    				);
     			}
     	);
     }
