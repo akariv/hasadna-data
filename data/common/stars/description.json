@@ -19,5 +19,6 @@
 			}
 		},
 	},
-	"templates" : { "snippet" : "snippet.mustache" }
+	"templates" : { "count" : "count.mustache",
+	                "vote"  : "vote.mustache" }
 }
