@@ -17,7 +17,7 @@
 				"en": "Path to the referenced record",
 				"he": "נתיב לרשומה הרלוונטית"
 			}
-		},
+		}
 	},
 	"templates" : { "count" : "count.mustache",
 	                "vote"  : "vote.mustache" }
