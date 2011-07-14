@@ -91,6 +91,7 @@ var H = (function () {
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
+    	if ( count != undefined ) { if (count) { params["count"] = 1; } }
     	DBServerGetJson(path,params,callback);
     }
 
@@ -101,6 +102,7 @@ var H = (function () {
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
+    	if ( count != undefined ) { if (count) { params["count"] = 1; } }
     	DBServerGetJson(path,params,callback);
     }
 
@@ -109,12 +111,13 @@ var H = (function () {
     	DBServerGetHtml(path,params,elementId,callback);
     }
 
-    my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,callback) {
+    my.loadRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,count,callback) {
     	var params = { "o"	   : "templatep:"+template };
     	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
     	if ( start != undefined ) { params["start"] = start; }
     	if ( limit != undefined ) { params["limit"] = limit; }
+    	if ( count != undefined ) { if (count) { params["count"] = 1; } }
     	DBServerGetHtml(path,params,elementId,callback);
     }
 
@@ -125,10 +128,10 @@ var H = (function () {
     
     // Tagging
     my.loadTagsForRecord = function(path,elementId) {
-    	spec = { "reference" : path };
+    	var spec = { "reference" : path };
     	my.loadRecordsTemplate(
     			"/data/common/tags/",elementId,"snippet",
-    			spec,null,null,null,
+    			spec,null,null,null,null,
     			function (el) {
     				el.find("input[name=reference]").attr("value",path);
     				var select = el.find("select");
@@ -164,5 +167,25 @@ var H = (function () {
     	);
     }
     	
+    // Starring
+    my.loadStarsForRecord = function(path,elementId) {
+    	var spec = { "reference" : path };
+		my.loadRecordsTemplate(
+    			"/data/common/stars/",elementId,"snippet",
+    			spec,null,null,null,null,
+    			function (el) {
+    				var slug = path+"/"+H_login_data.key;
+    				slug = slug.replace(/\//g,"__");
+
+    				el.find(".H-stars-votes").attr("id","moshiko"); //TODO
+    				my.loadRecordTemplate(
+    						"/data/common/stars/"+slug,
+    						"moshiko",
+    						"vote"
+    				});
+    			}
+    	);
+    }
+    
     return my; 
 }());

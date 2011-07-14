@@ -1,0 +1,23 @@
+{
+	"title": {
+		"en": "Starring of data records by users",
+		"he": "הוספת כוכבים על ידי משתמשים"
+		},
+	"update_date": "14/7/2011",
+	"author": {
+		"en": "Adam Kariv",
+		"he": "אדם קריב"
+		},
+	"contact": { "email": "adam.kariv@gmail.com" },
+	"fields": {
+		"slug": { "type": "slug" },
+		"reference": {
+			"type": "str",
+			"description": {
+				"en": "Path to the referenced record",
+				"he": "נתיב לרשומה הרלוונטית"
+			}
+		},
+	},
+	"templates" : { "snippet" : "snippet.mustache" }
+}
