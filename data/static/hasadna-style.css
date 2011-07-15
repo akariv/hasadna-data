@@ -22,6 +22,7 @@
 }
 
 .H-new-tag {
+	display: inline-block;
 	opacity: 0.2;
 }
 
