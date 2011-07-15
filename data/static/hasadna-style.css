@@ -32,6 +32,8 @@
 	display: inline-block;
 	width: 30px;
 	height: 27px;
+	cursor: pointer;
+	display:inline-block;
 }
 
 .H-stars-not-starred {
