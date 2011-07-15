@@ -27,13 +27,16 @@
 	opacity: 1.0;
 }
 
+.H-stars-votes, .H-stars-count, .H-stars-vote {
+	display: inline-block;
+}
+
 .H-stars-vote {
 	background-repeat: no-repeat;
 	display: inline-block;
 	width: 30px;
 	height: 27px;
 	cursor: pointer;
-	display:inline-block;
 }
 
 .H-stars-not-starred {
