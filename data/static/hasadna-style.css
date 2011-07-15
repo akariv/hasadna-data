@@ -1,6 +1,8 @@
 /* Tagging */
 
-.H-tags {}
+.H-tags {
+	display: inline-block;
+}
 
 .H-tag {
 	padding: 2px;
