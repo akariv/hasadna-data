@@ -21,6 +21,6 @@
 	},
 	"templates" : { "count" : "count.mustache",
 	                "vote"  : "vote.mustache" },
-        "static-files" : { "empty_star.png" : "image/png",
-                           "full_star.png"  : "image/png" }
+    "static-files" : { "empty_star.png" : "image/png",
+                       "full_star.png"  : "image/png" }
 }
