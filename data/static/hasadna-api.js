@@ -94,13 +94,11 @@ var H = (function () {
     	DBServerGetJson(path,params,callback);
     }
 
-    my.countRecordsTemplate = function(path,elementId,template,spec,fields,start,limit,callback) {
+    my.countRecordsTemplate = function(path,elementId,template,spec,fields,callback) {
     	var params = { "o"	   : "templatep:"+template,
     			       "count" : "1" };
     	if ( spec != undefined ) { params["query"] = JSON.stringify(spec); }
     	if ( fields != undefined ) { params["fields"] = fields; }
-    	if ( start != undefined ) { params["start"] = start; }
-    	if ( limit != undefined ) { params["limit"] = limit; }
     	DBServerGetHtml(path,params,elementId,callback);
     }
 
@@ -169,7 +167,7 @@ var H = (function () {
     	var spec = { "reference" : path };
 		my.countRecordsTemplate(
     			"/data/common/stars/",elementId, "count",
-    			spec,null,null,null,
+    			spec,null,
     			function (el) {
     				var slug = path+"/"+H_login_data.key;
     				slug = slug.replace(/\//g,"__");
