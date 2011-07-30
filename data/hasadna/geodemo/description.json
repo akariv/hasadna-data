@@ -6,14 +6,9 @@
 		 	        "he" : "אדם קריב" },
 	"contact"	    : { "email" : "adam.kariv@gmail.com" },
 	"datafile"       : "out.json",
-	"fields" : [    
-	    { "name": "slug",
-	      "type" : "slug" },
-	    { "name": "lat",
-	      "type" : "float" },
-	    { "name": "lng",
-	      "type" : "slug" },
-	    { "name": "name",
-	      "type" : "string" }
+	"fields" : { "slug" : { "type" : "slug" },
+	     		 "lat"  : { "type" : "float" },
+	     		 "lng"  : { "type" : "slug" },
+	    		 "name" : { "type" : "string" }
 	]
 }
