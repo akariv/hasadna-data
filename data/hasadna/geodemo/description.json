@@ -1,14 +1,14 @@
 {
 	"title"		    : { "en" : "Sample geo data, taken from Google Places API",
-				"he" : "מידע גיאוגרפי לדוגמא" },
+				        "he" : "מידע גיאוגרפי לדוגמא" },
 	"update_date"       : "30/7/2011",
 	"author"	    : { "en" : "Adam Kariv",
-		 	        "he" : "אדם קריב" },
+	  	 	            "he" : "אדם קריב" },
 	"contact"	    : { "email" : "adam.kariv@gmail.com" },
 	"datafile"       : "out.json",
 	"fields" : { "slug" : { "type" : "slug" },
 	     		 "lat"  : { "type" : "float" },
 	     		 "lng"  : { "type" : "slug" },
 	    		 "name" : { "type" : "string" }
-	]
+	}
 }
