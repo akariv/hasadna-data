@@ -3,18 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to HaSadna Data's documentation!
-========================================
+HaSadna Data Store
+==================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+   
+   rationale
+   the_data
+   the_api
+   javascript_api 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
