@@ -9,6 +9,6 @@
 	"fields" : { "slug" : { "type" : "slug" },
 	     		 "lat"  : { "type" : "float" },
 	     		 "lng"  : { "type" : "slug" },
-	    		 "name" : { "type" : "string" }
+	    		 "name" : { "type" : "str" }
 	}
 }
