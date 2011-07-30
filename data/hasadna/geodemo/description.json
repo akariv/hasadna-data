@@ -8,7 +8,7 @@
 	"datafile"       : "out.json",
 	"fields" : { "slug" : { "type" : "slug" },
 	     		 "lat"  : { "type" : "float" },
-	     		 "lng"  : { "type" : "slug" },
+	     		 "lng"  : { "type" : "float" },
 	    		 "name" : { "type" : "str" }
 	}
 }
