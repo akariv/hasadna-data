@@ -1,0 +1,3902 @@
+[
+  {
+    "lat": 32.088272000000003, 
+    "lng": 34.771419999999999, 
+    "slug": "dbc5b3b0e0d6d9e1a9d452efb52e9ea62b7e1756", 
+    "name": "Liber Apartments"
+  }, 
+  {
+    "lat": 32.078023000000002, 
+    "lng": 34.783185000000003, 
+    "slug": "6c0029f4041122f2259352f525ac40eb62a569ec", 
+    "name": "Dubnow Park"
+  }, 
+  {
+    "lat": 32.061895999999997, 
+    "lng": 34.763383999999988, 
+    "slug": "6fd7f9d4c3731336169de1854e23c923fbc3c16f", 
+    "name": "Varsano Suites"
+  }, 
+  {
+    "lat": 32.097589000000013, 
+    "lng": 34.776983999999999, 
+    "slug": "89b0123bc0fa1e73836d64d9b11c61d58f1c2d1d", 
+    "name": "HaYarkon Park"
+  }, 
+  {
+    "lat": 32.065776, 
+    "lng": 34.763433999999997, 
+    "slug": "04139854775e1628a2228895c7e5e925025931d1", 
+    "name": "Inka cigar bar"
+  }, 
+  {
+    "lat": 32.095241000000001, 
+    "lng": 34.776291999999998, 
+    "slug": "44af76c93d7fa2dc86257fd9818e8dc627c0a2ae", 
+    "name": "Mash Pub"
+  }, 
+  {
+    "lat": 32.054065999999999, 
+    "lng": 34.786019000000003, 
+    "slug": "d5d739bf3ffb395947e49a5e02ee4064b0d8d6de", 
+    "name": "NEWMAN CENTER"
+  }, 
+  {
+    "lat": 32.083942, 
+    "lng": 34.769241000000001, 
+    "slug": "77399176743b713ab8f12f920de22772be6127fa", 
+    "name": "Herods Tel Aviv"
+  }, 
+  {
+    "lat": 32.063287000000003, 
+    "lng": 34.761887999999999, 
+    "slug": "9ee72ff5ff07c9f94872fa658c2bea65d576fb8d", 
+    "name": "\u05d5\u05d9\u05e7\u05d9 \u05db\u05e8\u05d9\u05e1\u05d8\u05d9\u05e0\u05d4"
+  }, 
+  {
+    "lat": 32.045183000000002, 
+    "lng": 34.748583000000004, 
+    "slug": "e96af09879f44c15fa1ce52b39bece8574e24937", 
+    "name": "\u05d0\u05d9\u05d8\u05dc\u05d9\u05d6 \u05d7\u05d9\u05e0\u05d0\u05d5\u05d9 - \u05e7\u05d3\u05dd - \u05d9\u05e4\u05d5"
+  }, 
+  {
+    "lat": 32.049160999999998, 
+    "lng": 34.769258000000001, 
+    "slug": "aa959fde605d14e660ada9ca8d562f366066e802", 
+    "name": "\u05de.\u05e7\u05e8\u05df - \u05d2\u05d2\u05d5\u05e0\u05d9\u05dd \u05dc\u05e8\u05db\u05d1"
+  }, 
+  {
+    "lat": 32.042160000000003, 
+    "lng": 34.772044999999999, 
+    "slug": "cbce572f2cab9ac500431e4b252d749c618b41ba", 
+    "name": "Pinat Hashlosha"
+  }, 
+  {
+    "lat": 32.053158000000003, 
+    "lng": 34.774600999999997, 
+    "slug": "b9c39a1549f1e6b3a989745d42de8f25eafe9e80", 
+    "name": "marble & granit center"
+  }, 
+  {
+    "lat": 32.045082999999998, 
+    "lng": 34.748536999999999, 
+    "slug": "e42bbccd5f26a4e57b8649ac6909f707fec07f15", 
+    "name": "\u05e9\u05d9\u05e4\u05d5\u05d3\u05d9 \u05d3\u05e0\u05d9 \u05d5\u05e1\u05dc\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.080176999999999, 
+    "lng": 34.780560999999999, 
+    "slug": "ce87416e707f07e1befe27782c559f8ae307a84b", 
+    "name": "Rabin Square"
+  }, 
+  {
+    "lat": 32.079822, 
+    "lng": 34.773850000000003, 
+    "slug": "bc687b504248d90395c2ff652f71a3e8d8d50bdb", 
+    "name": "Havana"
+  }, 
+  {
+    "lat": 32.042489000000003, 
+    "lng": 34.756937000000001, 
+    "slug": "8ea262ef0bd1d400d055b0e8450355e7d1d1bc6b", 
+    "name": "\u05e0\u05d7\u05dc \u05d4\u05d1\u05e9\u05d5\u05e8"
+  }, 
+  {
+    "lat": 32.093851999999998, 
+    "lng": 34.772371999999997, 
+    "slug": "1628498c1e84ce108311c760e4f2c35159229f21", 
+    "name": "Hasuca Halevana"
+  }, 
+  {
+    "lat": 32.073251999999997, 
+    "lng": 34.766354999999997, 
+    "slug": "b0e1cdea75821a206ea50e0d5d2ff7a18648b872", 
+    "name": "Bell Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.064101999999998, 
+    "lng": 34.762220999999997, 
+    "slug": "0e3b8ef9bd426e3197dce087557ebee0ec01031e", 
+    "name": "C.W.P mobile"
+  }, 
+  {
+    "lat": 32.064909999999998, 
+    "lng": 34.762962999999999, 
+    "slug": "02543c8ad32d6b2815f9b7864eba8a598a8d1758", 
+    "name": "Manta Ray"
+  }, 
+  {
+    "lat": 32.082276, 
+    "lng": 34.781395000000003, 
+    "slug": "831d63034347a96ea56aa1fa9bef703d58d9e09e", 
+    "name": "Buddha Burgers"
+  }, 
+  {
+    "lat": 32.079487999999998, 
+    "lng": 34.779800000000002, 
+    "slug": "5e51472d007551134b59d3ac4390411307940094", 
+    "name": "Gusto"
+  }, 
+  {
+    "lat": 32.075012000000001, 
+    "lng": 34.766486999999998, 
+    "slug": "df4fbf3b9400f61dacbba0ec283ea7b4766746da", 
+    "name": "De La Mer Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.043877000000002, 
+    "lng": 34.758595, 
+    "slug": "2d9cd34edaa19705a9879821aa8b6a3d0c944d64", 
+    "name": "\u05e1\u05e0\u05d0 \u05de\u05d9\u05e1\u05d8\u05d9\u05e7\u05e0\u05d9\u05ea"
+  }, 
+  {
+    "lat": 32.045800999999997, 
+    "lng": 34.748797000000003, 
+    "slug": "d2588b1f9ebd30e805903509309b5f7ee17f95b1", 
+    "name": "Ginsbourg.Com"
+  }, 
+  {
+    "lat": 32.073692999999999, 
+    "lng": 34.765186, 
+    "slug": "df52c43da9e813bae1bf4c45f3c6ce7c8b14a615", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05db\u05e0\u05e1\u05ea"
+  }, 
+  {
+    "lat": 32.066657999999997, 
+    "lng": 34.782252, 
+    "slug": "d518e4fc53a4c4587d6fe0d0f5bb353c36445879", 
+    "name": "Yehuda Halevi"
+  }, 
+  {
+    "lat": 32.078316999999998, 
+    "lng": 34.787250999999998, 
+    "slug": "96913bf609e76e36190b5c1a000039b03bea5892", 
+    "name": "Toto"
+  }, 
+  {
+    "lat": 32.050220000000003, 
+    "lng": 34.750782000000001, 
+    "slug": "4bb29857573b59a8d716de1cdbd1d6abf620ab62", 
+    "name": "Krwn"
+  }, 
+  {
+    "lat": 32.072110000000002, 
+    "lng": 34.781922999999999, 
+    "slug": "744f8d81a12958efc3b5fa85fdfabee5a9e07abb", 
+    "name": "Carpaccio Bar"
+  }, 
+  {
+    "lat": 32.062510000000003, 
+    "lng": 34.762450999999999, 
+    "slug": "7fcc041c18fbc7e6d6f530e7303085f26ece8ef4", 
+    "name": "\u05d3.\u05d1 \u05e9\u05d9\u05e4\u05d5\u05e6\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.076124, 
+    "lng": 34.766052999999999, 
+    "slug": "441158e8a6605e5412b5ff98512980ade096b40d", 
+    "name": "Lui Samuel"
+  }, 
+  {
+    "lat": 32.070343000000001, 
+    "lng": 34.786701999999998, 
+    "slug": "b427301776a1e120011a677fa30bd08efe6aa242", 
+    "name": "Messa"
+  }, 
+  {
+    "lat": 32.094127999999998, 
+    "lng": 34.783380000000001, 
+    "slug": "e739144a5b49d27cd87101bbb2d44b5c8d29da00", 
+    "name": "Horkanus"
+  }, 
+  {
+    "lat": 32.088420999999997, 
+    "lng": 34.782471999999999, 
+    "slug": "8717b48e2df660d246de1dda7a658160b3c2af38", 
+    "name": "Bao"
+  }, 
+  {
+    "lat": 32.035178999999999, 
+    "lng": 34.767578, 
+    "slug": "6b0218d698607f02def8dac5a3c2328ec5826892", 
+    "name": "\u05d7\u05d5\u05dc\u05d5\u05df"
+  }, 
+  {
+    "lat": 32.083087999999996, 
+    "lng": 34.771538999999997, 
+    "slug": "e8bcb200c7015eaf0fcc7b0916e5358f70e31a06", 
+    "name": "Iceberg"
+  }, 
+  {
+    "lat": 32.035429999999998, 
+    "lng": 34.760461999999997, 
+    "slug": "915b697bc611fd5a1ca6a0e4d27ecdc8500f6982", 
+    "name": "McDonalds"
+  }, 
+  {
+    "lat": 32.077401000000002, 
+    "lng": 34.781126, 
+    "slug": "89271be35def25cad14d2332cfb5585d31d4bc01", 
+    "name": "Makolet Gvinot"
+  }, 
+  {
+    "lat": 32.053153000000002, 
+    "lng": 34.750227000000002, 
+    "slug": "1e847c3c9727c12f7d78534b25a0d0e5eda10e0c", 
+    "name": "\u05de\u05e1\u05e2\u05d3\u05ea \"\u05d1\u05dc\u05e7 \u05d0\u05d0\u05d5\u05d8\""
+  }, 
+  {
+    "lat": 32.053185999999997, 
+    "lng": 34.772207999999999, 
+    "slug": "c879fefd465c30a456c945608e283626b80ddc16", 
+    "name": "24 Rupee"
+  }, 
+  {
+    "lat": 32.057116999999998, 
+    "lng": 34.767668, 
+    "slug": "b947273331c7e613e6f9f0185fa1a64d2de33a98", 
+    "name": "Anubis"
+  }, 
+  {
+    "lat": 32.036380999999999, 
+    "lng": 34.762115999999999, 
+    "slug": "73f3185b0913fa06efb1bd140ad18b52f77bef5b", 
+    "name": "\u05d5\u05d5\u05dc\u05e4\u05e1\u05d5\u05df \u05e4\u05d0\u05e8\u05dd"
+  }, 
+  {
+    "lat": 32.094394000000001, 
+    "lng": 34.772552999999988, 
+    "slug": "eeda88234fae5f07b841d987c79cfe0e866ef14c", 
+    "name": "Aroma"
+  }, 
+  {
+    "lat": 32.051017000000002, 
+    "lng": 34.771797999999997, 
+    "slug": "18c0ea1b6c360bc659ff708b018b7a0bcdc3aa38", 
+    "name": "Aroma"
+  }, 
+  {
+    "lat": 32.086452000000001, 
+    "lng": 34.76952, 
+    "slug": "c65a8084bebbf1368acbdde8274bbd67711c63d9", 
+    "name": "\u05e7\u05e8\u05dc\u05d8\u05d5\u05df \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.082701999999998, 
+    "lng": 34.781399999999998, 
+    "slug": "f54e79390aaf6c2922531af1615dba8672c4be0e", 
+    "name": "Ilan's"
+  }, 
+  {
+    "lat": 32.084831000000001, 
+    "lng": 34.769517999999998, 
+    "slug": "b0df80661ed49d554b84403d719b7a019836a9cd", 
+    "name": "Fortuna Del Mer"
+  }, 
+  {
+    "lat": 32.050175000000003, 
+    "lng": 34.773524000000002, 
+    "slug": "9eef3cc27801e942b800fed4ed4389cb7f6769bb", 
+    "name": "Buchara Hayafa"
+  }, 
+  {
+    "lat": 32.081716, 
+    "lng": 34.767910999999998, 
+    "slug": "eb976aae7e7539e9e9509479394c37550ec95a62", 
+    "name": "La la lend"
+  }, 
+  {
+    "lat": 32.098287999999997, 
+    "lng": 34.775728000000001, 
+    "slug": "6db7168d4de568a4bffdc667d5932dabfffc2e8e", 
+    "name": "\u05d3\u05d5\u05e0\u05d8\u05dc\u05d5 \u05dc\u05d9\u05d9\u05d1 \u05d1\u05e2\"\u05de/\u05d0\u05ea\u05e8 \u05d1\u05d9\u05d2 \u05d3\u05d9\u05dc"
+  }, 
+  {
+    "lat": 32.084161999999999, 
+    "lng": 34.781441000000001, 
+    "slug": "fb151a09b6baa3f6138d2cfeec68c3ec8804b09e", 
+    "name": "\u05e1\u05e0\u05d9\u05d8\u05e1 \u05d2\u05df \u05d4\u05e2\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.037388, 
+    "lng": 34.746608999999999, 
+    "slug": "4ad29c9101e5b6d749cf51d6ea1c18131d987f9e", 
+    "name": "\u05d1\u05d0\u05d1\u05d0\u05d9"
+  }, 
+  {
+    "lat": 32.08493, 
+    "lng": 34.769857999999999, 
+    "slug": "26bf6bf184f732d74554953345527357d6d78dfa", 
+    "name": "Olympia Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.053482000000002, 
+    "lng": 34.751151, 
+    "slug": "cfcf64bc76de61d3215c771e1ec8c7ed06bdd3fe", 
+    "name": "Toutoune"
+  }, 
+  {
+    "lat": 32.066490000000002, 
+    "lng": 34.785961, 
+    "slug": "86c742f32ea569dcf299310484f50fd6b22d5a0f", 
+    "name": "Sergos"
+  }, 
+  {
+    "lat": 32.055630999999998, 
+    "lng": 34.760002, 
+    "slug": "6cd1759815f35dc9b33e8a144cec78ae9fc56f69", 
+    "name": "Le Relais Jaffa"
+  }, 
+  {
+    "lat": 32.052728000000002, 
+    "lng": 34.756216999999999, 
+    "slug": "9d1563f67db4e13bc8e6221901b8f0538f6e2363", 
+    "name": "Puah"
+  }, 
+  {
+    "lat": 32.050220000000003, 
+    "lng": 34.750782000000001, 
+    "slug": "ed23cc7bbde0e5f03c52763e65bc2ba09548d1a9", 
+    "name": "Ali Karavan"
+  }, 
+  {
+    "lat": 32.097884000000001, 
+    "lng": 34.777666000000004, 
+    "slug": "1bbc6d63f33d10c8d870598fff27f499e89439df", 
+    "name": "Iceberg volkano"
+  }, 
+  {
+    "lat": 32.064245, 
+    "lng": 34.774963999999997, 
+    "slug": "679ad4ad10014e38c86dc16b3ebd0bbfe7bf7592", 
+    "name": "Petrozilia"
+  }, 
+  {
+    "lat": 32.065170000000002, 
+    "lng": 34.771362000000003, 
+    "slug": "5a7d9d5d20b40f8c2c84d97218690f3694797d74", 
+    "name": "Chef Hostel Montefiore"
+  }, 
+  {
+    "lat": 32.076751999999999, 
+    "lng": 34.767175000000002, 
+    "slug": "2101625bc3727a8f5007b838a34f44b861236aa8", 
+    "name": "Isrotel Tower Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.049509, 
+    "lng": 34.758983999999998, 
+    "slug": "d9227985567a92611860a65f3518a4b225b75ac9", 
+    "name": "Bagdad"
+  }, 
+  {
+    "lat": 32.084443999999998, 
+    "lng": 34.769576999999998, 
+    "slug": "7f6c31d564899bceb7db98d8db216da43ca818c1", 
+    "name": "Leonardo Hotel Basel Tel Aviv"
+  }, 
+  {
+    "lat": 32.091248999999998, 
+    "lng": 34.771661999999999, 
+    "slug": "c1eb247d7c3c38f642ba9fe55d5a30be2d9041a0", 
+    "name": "\u05d2\u05df \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.062421000000001, 
+    "lng": 34.761333999999998, 
+    "slug": "45f4dbfb23dbff886dbcb7ff1af6665393ba737a", 
+    "name": "Gaon Agro Industries Ltd."
+  }, 
+  {
+    "lat": 32.068575000000003, 
+    "lng": 34.777650000000001, 
+    "slug": "e60c6f1cb7f58f5ef703674aee88f352a73302d0", 
+    "name": "\u05dc\u05d1 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.060809999999996, 
+    "lng": 34.778973999999998, 
+    "slug": "ce7bc48613e406386ecd8d80f6e93e0076d31af9", 
+    "name": "Old Tel Aviv Central Bus Station"
+  }, 
+  {
+    "lat": 32.057527, 
+    "lng": 34.768825, 
+    "slug": "96562d027a5c7c150c17ab58dba3172eada84f59", 
+    "name": "Bet Uriel"
+  }, 
+  {
+    "lat": 32.073642999999997, 
+    "lng": 34.779974000000003, 
+    "slug": "0e9932eb572b28b604f519f2fd59756107b082c4", 
+    "name": "Mann Auditorium"
+  }, 
+  {
+    "lat": 32.063262000000002, 
+    "lng": 34.768295000000002, 
+    "slug": "444a548643aeb031f2a2f0fbbf3045b880fcd506", 
+    "name": "Nana"
+  }, 
+  {
+    "lat": 32.051966, 
+    "lng": 34.787047000000001, 
+    "slug": "bdf901bbee8e4111606192a3ea5b73e723e8b5a9", 
+    "name": "\u05e9\u05d9\u05e8\u05d5\u05ea\u05d9 \u05e0\u05d9\u05e7\u05d9\u05d5\u05df \u05dc\u05de\u05e9\u05e8\u05d3\u05d9\u05dd - \u05e9\u05d9\u05e8 \u05e0\u05d9\u05e7\u05d9\u05d5\u05df"
+  }, 
+  {
+    "lat": 32.037802999999997, 
+    "lng": 34.746710999999998, 
+    "slug": "efc4e7b82029f83d5e7aa471183c269e9a58ffb1", 
+    "name": "Hinawi Grill and Abu Nassar On The Hill Fish and Seafood Restaurant"
+  }, 
+  {
+    "lat": 32.054237000000001, 
+    "lng": 34.751451000000003, 
+    "slug": "2be7a746cd9a2e65e3f767aafc6c0cf1adda8b4f", 
+    "name": "Bernhardt Show"
+  }, 
+  {
+    "lat": 32.082684999999998, 
+    "lng": 34.768856999999997, 
+    "slug": "9099c8835b89dc7f50a3099187ee07fd579379b3", 
+    "name": "Gordon Hotel"
+  }, 
+  {
+    "lat": 32.081727000000001, 
+    "lng": 34.76811, 
+    "slug": "97692f7408672702123ecec1f46bbef0646547e7", 
+    "name": "\u05de\u05dc\u05d5\u05df \u05e9\u05e8\u05ea\u05d5\u05df \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.056766000000003, 
+    "lng": 34.769584999999999, 
+    "slug": "25a5cdfcca9ba0b7506233b21b6ae1bef2ca0c3c", 
+    "name": "Kordobaro"
+  }, 
+  {
+    "lat": 32.053347000000002, 
+    "lng": 34.754168999999997, 
+    "slug": "2947d5e7a10c3c68b3b6a90b45ce71ee0cd419dc", 
+    "name": "\u05d0\u05e8\u05d8\u05d9\u05d2'\u05d9\u05d0\u05e0\u05d9 \u05e2\u05d9\u05e6\u05d5\u05d1 \u05d4\u05d1\u05d9\u05ea - \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9 \u05d0\u05de\u05d1\u05d8\u05d9\u05d4, \u05d9\u05d3\u05d9\u05d5\u05ea, \u05de\u05d6\u05d5\u05d6\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.064101999999998, 
+    "lng": 34.762220999999997, 
+    "slug": "6e498d41b39d5834ce9e06bcaeb5ace423c0445b", 
+    "name": "Sublet"
+  }, 
+  {
+    "lat": 32.092393000000001, 
+    "lng": 34.773454999999998, 
+    "slug": "db4e07db732ca3ba1e3bccb8081d1430bcb72d1d", 
+    "name": "Grandbeach hotel"
+  }, 
+  {
+    "lat": 32.044877, 
+    "lng": 34.747985999999997, 
+    "slug": "8c3987e30c89100f489b5532f80c8090913a0f46", 
+    "name": "Abu Issa - Litlle Jaffa"
+  }, 
+  {
+    "lat": 32.073028999999998, 
+    "lng": 34.764958999999998, 
+    "slug": "23b26c065060d6dd8bc676132cd0044eaeb8b12e", 
+    "name": "\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05e1\u05d8\u05d9\u05d9\u05d2'"
+  }, 
+  {
+    "lat": 32.076922000000003, 
+    "lng": 34.787858999999997, 
+    "slug": "e83be93a09d6549619748f87594f0010562fac5d", 
+    "name": "\u05d4\u05d9\u05db\u05dc \u05d4\u05de\u05e9\u05e4\u05d8"
+  }, 
+  {
+    "lat": 32.054935, 
+    "lng": 34.774977, 
+    "slug": "4914c06c589ec0c37ff3bda19140113ba1b95193", 
+    "name": "Hajahnun Shel Cochy"
+  }, 
+  {
+    "lat": 32.042160000000003, 
+    "lng": 34.772044999999999, 
+    "slug": "73aecaa71ce97b5e2212b69dff74368e694fc0ce", 
+    "name": "Erez Stern- Studio Chef"
+  }, 
+  {
+    "lat": 32.094531000000003, 
+    "lng": 34.780889000000002, 
+    "slug": "76a5daf9fa64232c96a04825d0a495ce59b0c3a8", 
+    "name": "\u05d6\u05d1\u05d5\u05d1 \u05e2\u05dc \u05d4\u05e7\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.076853999999997, 
+    "lng": 34.766275999999998, 
+    "slug": "613bd8880d25bdf57f2a39455281803de14044b7", 
+    "name": "Malcat Hayam Rosalka"
+  }, 
+  {
+    "lat": 32.066302, 
+    "lng": 34.763390999999999, 
+    "slug": "c18fea48521e8b1146ede611ee3a6a64fc91406f", 
+    "name": "Hassan Bek Mosque"
+  }, 
+  {
+    "lat": 32.053021000000001, 
+    "lng": 34.752062000000002, 
+    "slug": "fa2cd8e38ae329ff87f222c58b0b996d184abb25", 
+    "name": "Grape Man"
+  }, 
+  {
+    "lat": 32.035178999999999, 
+    "lng": 34.767578, 
+    "slug": "2e91e93e0b159220383361e08b9427a09f49d108", 
+    "name": "\u05d4\u05dc\u05d5\u05d7\u05de\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.070352999999997, 
+    "lng": 34.784666999999999, 
+    "slug": "c8299b8e1d88089b3ae0a433aece716c9761848d", 
+    "name": "Onami"
+  }, 
+  {
+    "lat": 32.074323999999997, 
+    "lng": 34.782048000000003, 
+    "slug": "01126c9f5d57798d4b437f7bccfd2be073e479fe", 
+    "name": "\u05d0\u05d5\u05d3\u05dc\u05d9\u05d4 - \u05d3\u05e0\u05d9\u05d0\u05dc \u05e4\u05e8\u05d9\u05e9"
+  }, 
+  {
+    "lat": 32.064101999999998, 
+    "lng": 34.762220999999997, 
+    "slug": "da47e59abfaa8e450aac0dee8513d9a4e1f9e806", 
+    "name": "Elmaz"
+  }, 
+  {
+    "lat": 32.058805999999997, 
+    "lng": 34.772238999999999, 
+    "slug": "ececd6fe1c0cf2fb5e07179520ef49d855a17d9b", 
+    "name": "Kitchenworks"
+  }, 
+  {
+    "lat": 32.094768000000002, 
+    "lng": 34.782446, 
+    "slug": "53bd63f9971bf14841318e9900675d0012a3632e", 
+    "name": "Pookh Internet"
+  }, 
+  {
+    "lat": 32.049616, 
+    "lng": 34.768917000000002, 
+    "slug": "5de38af3279814d1d27e957a0c06269722771212", 
+    "name": "\u05d4\u05de\u05e8\u05db\u05d6 \u05d4\u05d9\u05e9\u05e8\u05d0\u05dc\u05d9 \u05dc\u05d8\u05d0\u05d9 \u05e6'\u05d9"
+  }, 
+  {
+    "lat": 32.060409, 
+    "lng": 34.764195999999998, 
+    "slug": "b68604451db577f71b99f061b9de8954b9595f6e", 
+    "name": "\u05e1\u05d5\u05d6\u05df \u05d3\u05dc\u05dc"
+  }, 
+  {
+    "lat": 32.050550000000001, 
+    "lng": 34.766230999999998, 
+    "slug": "4a978f30b6b09f195d6eb4f2dce3757dfc90d214", 
+    "name": "Cooking"
+  }, 
+  {
+    "lat": 32.062500999999997, 
+    "lng": 34.765611999999997, 
+    "slug": "1d7cdc5e8939c71a43f199567615042ea97d93cb", 
+    "name": "Nina Cafe Hotel Suites - Boutique Hotel"
+  }, 
+  {
+    "lat": 32.042160000000003, 
+    "lng": 34.772044999999999, 
+    "slug": "03c3d2b835f277715ac8b7a6636210a632fab85e", 
+    "name": "\u05e2\u05de\u05d5\u05ea\u05ea '\u05d1\u05e2\u05e6\u05de\u05d9'"
+  }, 
+  {
+    "lat": 32.058380999999997, 
+    "lng": 34.761589000000001, 
+    "slug": "06463b83f818e0ac9c736b132017a74276674f81", 
+    "name": "italian restaurant"
+  }, 
+  {
+    "lat": 32.055442999999997, 
+    "lng": 34.774005000000002, 
+    "slug": "c64e296dfbb1e4151ddcd6be97faa95dad0f3a0a", 
+    "name": "\u05e0\u05d2\u05e8\u05d9\u05d9\u05ea \u05d2'\u05e4\u05d8\u05d5"
+  }, 
+  {
+    "lat": 32.041007000000008, 
+    "lng": 34.765756000000003, 
+    "slug": "b83dbf22a606be2bb052e3697dc27772cfac82bf", 
+    "name": "Neve Ofer"
+  }, 
+  {
+    "lat": 32.094791999999998, 
+    "lng": 34.782643, 
+    "slug": "190c1f973b2b9e1a127083b8debcc66654d7f302", 
+    "name": "\u05de\u05db\u05d9\u05e8\u05d4 \u05e4\u05d5\u05de\u05d1\u05d9\u05ea \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.039025000000002, 
+    "lng": 34.756835000000002, 
+    "slug": "20b188e963a64cc4a7b00f81d707bed939bfdc6c", 
+    "name": "\u05e1\u05d8\u05d0\u05e8 \u05d4\u05d5\u05d1\u05dc\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.041016999999997, 
+    "lng": 34.773409999999998, 
+    "slug": "81ae70a14195f66008c09a1d1d86a6584452a9a2", 
+    "name": "\u05de\u05e9\u05d2\u05d1"
+  }, 
+  {
+    "lat": 32.055349, 
+    "lng": 34.767774000000003, 
+    "slug": "2ee2576457086ac4223a33cabd8f6209b80aecfe", 
+    "name": "\u05e8\u05e2\u05e9 \u05d2\u05e2\u05e9"
+  }, 
+  {
+    "lat": 32.053167000000002, 
+    "lng": 34.751316000000003, 
+    "slug": "cb6e86b640cc64c023680106cf61e34c62fdedf0", 
+    "name": "Teah"
+  }, 
+  {
+    "lat": 32.089060000000003, 
+    "lng": 34.773715000000003, 
+    "slug": "4f2e2b97464be62879b96064e1b739296ab035c4", 
+    "name": "Mamamia"
+  }, 
+  {
+    "lat": 32.044890000000002, 
+    "lng": 34.748432999999999, 
+    "slug": "6a45e35ee592dec276576afc58b702979d059324", 
+    "name": "Afloka"
+  }, 
+  {
+    "lat": 32.054023000000001, 
+    "lng": 34.777695000000001, 
+    "slug": "f6324ec3c03e9fa7aedf7d96bec8640dc5bce758", 
+    "name": "\u05d0\u05d3\u05e8 \u05e9\u05e4\u05d9\u05e8\u05d0"
+  }, 
+  {
+    "lat": 32.077204999999999, 
+    "lng": 34.768247000000002, 
+    "slug": "1d43285def691aedccd535ac5577cab18718e2c3", 
+    "name": "Art Hotel - Tel Aviv Hotel"
+  }, 
+  {
+    "lat": 32.040551999999998, 
+    "lng": 34.751283000000008, 
+    "slug": "b31ddc794a2c8f8522b87ad30ff151852fc592e1", 
+    "name": "\u05e0\u05e7\u05d5\u05d3\u05ea \u05d4\u05d2\u05d7\u05e0\u05d5\u05df"
+  }, 
+  {
+    "lat": 32.049667999999997, 
+    "lng": 34.757725999999998, 
+    "slug": "e16e9b00296bf05171fa787652b6d75b8eedacca", 
+    "name": "Alma Cafe"
+  }, 
+  {
+    "lat": 32.079566000000007, 
+    "lng": 34.778815999999999, 
+    "slug": "eb4cc31efcdbfbeabf75d94c656bb5aec4833aec", 
+    "name": "Olia"
+  }, 
+  {
+    "lat": 32.053984999999997, 
+    "lng": 34.751261999999997, 
+    "slug": "82aff2a0ef59e4dd8ccdee8138be7e35e72f80a3", 
+    "name": "Danjen"
+  }, 
+  {
+    "lat": 32.060969, 
+    "lng": 34.761459000000002, 
+    "slug": "b5dde1a82d9e65a9a2630f6a43c311c6712b704c", 
+    "name": "Shoshke Shvili"
+  }, 
+  {
+    "lat": 32.05406, 
+    "lng": 34.769851000000003, 
+    "slug": "5f7ae0061432bff9633ce64cb28d5402bbff3d4c", 
+    "name": "\u05d4\u05de\u05d5\u05e1\u05d3"
+  }, 
+  {
+    "lat": 32.076853999999997, 
+    "lng": 34.766275999999998, 
+    "slug": "5583446a63dc63249232734d0985ca00215454ae", 
+    "name": "\u05de\u05d9\u05d9\u05e7\u05e1 \u05e4\u05dc\u05d9\u05d9\u05e1 - \u05d8\u05d9\u05d9\u05dc\u05ea \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.042076999999999, 
+    "lng": 34.751393999999998, 
+    "slug": "044ea8157dd79289a75b507862543729d54d846d", 
+    "name": "\u05d2\u05d1\u05e2\u05ea \u05e2\u05dc\u05d9\u05d4"
+  }, 
+  {
+    "lat": 32.067199000000002, 
+    "lng": 34.765251999999997, 
+    "slug": "6b4932cef87fae0b54b1f207babadbe89646c22b", 
+    "name": "Hasan Beq Mosque"
+  }, 
+  {
+    "lat": 32.073363999999998, 
+    "lng": 34.773043999999999, 
+    "slug": "db9402f9cd01d71158741ae51fc20a79b222e0e4", 
+    "name": "Meir Garden"
+  }, 
+  {
+    "lat": 32.076552, 
+    "lng": 34.787418000000002, 
+    "slug": "d101d6f71da1f93e95e125efe7feec13ff14b96d", 
+    "name": "\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1 \u05dc\u05d0\u05de\u05e0\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.045599000000003, 
+    "lng": 34.752499, 
+    "slug": "e110c086cd4363a671562ffb83a94de90e2b4b20", 
+    "name": "Abu El Abed"
+  }, 
+  {
+    "lat": 32.054972999999997, 
+    "lng": 34.756253999999998, 
+    "slug": "6467d526c540d76deb9c9eb60ec600c8bdbbefc1", 
+    "name": "\u05de\u05d2\u05d3\u05dc \u05d4\u05e9\u05e2\u05d5\u05df"
+  }, 
+  {
+    "lat": 32.075853000000002, 
+    "lng": 34.771850000000001, 
+    "slug": "e1f8ec3440baed37c61ef2bac8eb9963647b1359", 
+    "name": "The pizza"
+  }, 
+  {
+    "lat": 32.038158000000003, 
+    "lng": 34.755321000000002, 
+    "slug": "6e44a53d0318b52a0ee126b8fd68054b1553f49c", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9 \u05e0\u05d5\u05d4 \u05d2\u05d5\u05dc\u05df"
+  }, 
+  {
+    "lat": 32.060408000000002, 
+    "lng": 34.764279999999999, 
+    "slug": "d34b06a853cfc6e939b306253a556a3a59cc4511", 
+    "name": "Suzanne Dellal Center for Dance and Theatre"
+  }, 
+  {
+    "lat": 32.049807000000001, 
+    "lng": 34.768928000000002, 
+    "slug": "db3d2370820fb7f99c671dd700ba56ea2f2ce5c8", 
+    "name": "\u05e1\u05d8\u05d5\u05d3\u05d9\u05d5 \u05dc\u05de\u05e9\u05d7\u05e7 \u05e0\u05d9\u05e1\u05df \u05e0\u05ea\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.055565000000001, 
+    "lng": 34.778019999999998, 
+    "slug": "caf809b4f1abb1d39f251133bc8b6fe586d45aa1", 
+    "name": "Shehrezad"
+  }, 
+  {
+    "lat": 32.097352000000001, 
+    "lng": 34.773862999999999, 
+    "slug": "48c7af48bd3335b66c510c3d0644f80cc46c5964", 
+    "name": "Speedo Beach Bar"
+  }, 
+  {
+    "lat": 32.094493, 
+    "lng": 34.780408000000001, 
+    "slug": "23393db246ab0c53f5ce8ab1036e9fcbf0682521", 
+    "name": "\u05d2\u05d9\u05d8\u05e8-\u05e1\u05d8\u05d5\u05d3\u05d9\u05d5, \u05d1\u05d9\u05d4\"\u05e1 \u05dc\u05d2\u05d9\u05d8\u05e8\u05d4 \u05d5\u05e4\u05d9\u05ea\u05d5\u05d7 \u05e7\u05d5\u05dc \u05e9\u05dc \u05d3\u05d9\u05d5\u05d5\u05d9\u05d3 \u05de\u05d8\u05e8\u05e1\u05d5"
+  }, 
+  {
+    "lat": 32.062769000000003, 
+    "lng": 34.761645000000001, 
+    "slug": "ee31f15e31f7170dd222c45030314899569ca11d", 
+    "name": "Textil"
+  }, 
+  {
+    "lat": 32.041336000000001, 
+    "lng": 34.756297000000004, 
+    "slug": "9ffe983cd9422f0748f6bc35bec8f3bff0b14b78", 
+    "name": "\u05d2\u05df \u05e8\u05e4\u05e4\u05d5\u05e8\u05d8"
+  }, 
+  {
+    "lat": 32.056767000000001, 
+    "lng": 34.757297999999999, 
+    "slug": "ab09ea154055d373b461e5ff5ba7ce02aeda4cc0", 
+    "name": "Honey Beach"
+  }, 
+  {
+    "lat": 32.053376, 
+    "lng": 34.754137, 
+    "slug": "571edef86e5178c6c2686b3abc8f029e3b6577df", 
+    "name": "Whisky Club"
+  }, 
+  {
+    "lat": 32.054053000000003, 
+    "lng": 34.750571000000001, 
+    "slug": "5472dc3afcdad7eff4a9a61b438a0689df14b1a6", 
+    "name": "Kayak4all"
+  }, 
+  {
+    "lat": 32.056381000000002, 
+    "lng": 34.771852000000003, 
+    "slug": "d664afc9794c95e857296f9699e4285efc2e9dd7", 
+    "name": "\u05e4\u05dc\u05d5\u05e8\u05e0\u05d8\u05d9\u05df \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.0777, 
+    "lng": 34.768329000000001, 
+    "slug": "1b7ea5bcf0fd1b245b7f95cbbc3075a6ac8ebe60", 
+    "name": "\u05de\u05e7\u05e1\u05d9\u05e7\u05e0\u05d4 MEXICANA, Tel aviv"
+  }, 
+  {
+    "lat": 32.051074, 
+    "lng": 34.782277999999998, 
+    "slug": "f4ed96d54e196c10717a0a2b362fce224548153c", 
+    "name": "\u05e4\u05d0\u05e8\u05e7 \u05e1\u05d5\u05e0\u05d9\u05d4"
+  }, 
+  {
+    "lat": 32.087015000000001, 
+    "lng": 34.774934999999999, 
+    "slug": "fe2587b0f5352f42e7fa0af44281346d84974589", 
+    "name": "Cafe batya"
+  }, 
+  {
+    "lat": 32.056525000000001, 
+    "lng": 34.762605999999998, 
+    "slug": "4795911cc7bf80f85a86fcab405ee63da3eca3bf", 
+    "name": "Immanuel Church"
+  }, 
+  {
+    "lat": 32.080801000000001, 
+    "lng": 34.769570999999999, 
+    "slug": "216c774d4ce6e82279cf58a4d3fd64fb6a8c1717", 
+    "name": "Arlozorov Suites Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.041535000000003, 
+    "lng": 34.747664, 
+    "slug": "9357e1d8f22bca5667fefa85ba5ad8fefa424b27", 
+    "name": "\u05d2\u05d9\u05e0\u05ea \u05d8\u05d5\u05dc\u05d5\u05d6"
+  }, 
+  {
+    "lat": 32.049664, 
+    "lng": 34.759675000000001, 
+    "slug": "d3d9b0a811948beca0d2aa417356d12c809899e5", 
+    "name": "Vitosha"
+  }, 
+  {
+    "lat": 32.076853999999997, 
+    "lng": 34.766275999999998, 
+    "slug": "8e6bdaa3c74213c2137f8f14b12c3420ef50b4f6", 
+    "name": "\u05d1\u05d0\u05d6 \u05e1\u05d8\u05d5\u05e4"
+  }, 
+  {
+    "lat": 32.058463000000003, 
+    "lng": 34.762287000000008, 
+    "slug": "1dd3107a5fee76f1843cecae7342acb0b296f80e", 
+    "name": "Charlie Paloma - \u05e6'\u05d0\u05e8\u05dc\u05d9 \u05e4\u05d0\u05dc\u05d5\u05de\u05d4"
+  }, 
+  {
+    "lat": 32.054972999999997, 
+    "lng": 34.756253999999998, 
+    "slug": "087b531312d1245dc73ee4807c2f3619f46759e9", 
+    "name": "Jaffa Flea Market"
+  }, 
+  {
+    "lat": 32.054266000000013, 
+    "lng": 34.784784999999999, 
+    "slug": "469a2cd581f97eea0792cd3356682ce12aedc0e8", 
+    "name": "HaHagana"
+  }, 
+  {
+    "lat": 32.096356, 
+    "lng": 34.773783999999999, 
+    "slug": "341bb35c887b3abeed976a268523e4f69b650d2b", 
+    "name": "Diya"
+  }, 
+  {
+    "lat": 32.095264999999998, 
+    "lng": 34.774422000000001, 
+    "slug": "227096991736b82cfe4e1e799834bc5b84999205", 
+    "name": "Port Hotel"
+  }, 
+  {
+    "lat": 32.052402000000001, 
+    "lng": 34.77225, 
+    "slug": "3004e716aa648e562c3fbd0e4e67b7d62f94c9b0", 
+    "name": "Jina"
+  }, 
+  {
+    "lat": 32.065486, 
+    "lng": 34.779310000000002, 
+    "slug": "d06c70c91a104c468e6b34ba391da08128daed41", 
+    "name": "The Diaghilev - Live Art Boutique Hotel"
+  }, 
+  {
+    "lat": 32.090629999999997, 
+    "lng": 34.773397000000003, 
+    "slug": "39f5216cd8a6f4cab43608946197fc6bb5cb6a40", 
+    "name": "Israstage"
+  }, 
+  {
+    "lat": 32.052162000000003, 
+    "lng": 34.782670000000003, 
+    "slug": "eef80f59d98799e894e3677bc7a9a391859d3b2f", 
+    "name": "\u05e7\u05dc \u05d0\u05d5\u05d8\u05d5 - \u05d4\u05e9\u05db\u05e8\u05ea \u05e8\u05db\u05d1, \u05de\u05db\u05d9\u05e8\u05ea \u05e8\u05db\u05d1, \u05dc\u05d9\u05e1\u05d9\u05e0\u05d2, \u05d8\u05e8\u05d9\u05d9\u05d3 \u05d0\u05d9\u05df"
+  }, 
+  {
+    "lat": 32.043838000000001, 
+    "lng": 34.781536000000003, 
+    "slug": "f474a4d96a9bc50ef7e23def4f1d238e4797c0cc", 
+    "name": "\u05de\u05d5\u05e8\u05d8\u05d5\u05d1 \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9 \u05d0\u05d9\u05e0\u05e1\u05d8\u05dc\u05e6\u05d9\u05d4"
+  }, 
+  {
+    "lat": 32.045873999999998, 
+    "lng": 34.776387999999997, 
+    "slug": "ef988b9c4a9663ed6e9ee2ebf2b80cd407844c61", 
+    "name": "\u05d1\u05e8\u05d9\u05db\u05ea \u05d0\u05d5\u05d3\u05d9\u05d8\u05d5\u05e8\u05d9\u05d5\u05dd \u05e7\u05e8\u05d9\u05ea \u05e9\u05dc\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.068587000000001, 
+    "lng": 34.769359999999999, 
+    "slug": "7c62186251b9e8460f40d7ed41ddf9ce2fef7177", 
+    "name": "Basta"
+  }, 
+  {
+    "lat": 32.096308000000001, 
+    "lng": 34.774192999999997, 
+    "slug": "fb742b5e637787230bc1ead3f38ab2d1edbd468c", 
+    "name": "See The Sea - Designed Rooms"
+  }, 
+  {
+    "lat": 32.037802999999997, 
+    "lng": 34.746710999999998, 
+    "slug": "060acb3e75fc2d7d04cff2e3d1b69ad23b05645d", 
+    "name": "Abu Nassar Hinnawi"
+  }, 
+  {
+    "lat": 32.067175000000013, 
+    "lng": 34.772157, 
+    "slug": "bcebe80ff47344cc6622cf0e8f5d35da30851936", 
+    "name": "Lukas"
+  }, 
+  {
+    "lat": 32.078344000000001, 
+    "lng": 34.773626, 
+    "slug": "ff5d82abe01597d539e6e5d04366659f44fa2daf", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05d3\u05d9\u05d6\u05e0\u05d2\u05d5\u05e3"
+  }, 
+  {
+    "lat": 32.061779999999999, 
+    "lng": 34.784005000000001, 
+    "slug": "70de7c03d860bb225bb30872cc175ff8f4ceaa01", 
+    "name": "Eve"
+  }, 
+  {
+    "lat": 32.091994999999997, 
+    "lng": 34.77458, 
+    "slug": "95c3b515f21cb9f715dc7fa0af729916d37d236c", 
+    "name": "Adora"
+  }, 
+  {
+    "lat": 32.083838, 
+    "lng": 34.781542999999999, 
+    "slug": "da8b2e36adf173402c5fee5ebb4a561b8462c960", 
+    "name": "Pizza Pazza"
+  }, 
+  {
+    "lat": 32.040156000000003, 
+    "lng": 34.746763999999999, 
+    "slug": "2e2015e210018cbd1ccbcaceba97d6cc5aa703b6", 
+    "name": "Babai"
+  }, 
+  {
+    "lat": 32.075709000000003, 
+    "lng": 34.772044999999999, 
+    "slug": "3c298fb8e42b1cfa33b6d8940d0525bdb813227f", 
+    "name": "Moon"
+  }, 
+  {
+    "lat": 32.064821000000002, 
+    "lng": 34.762473999999997, 
+    "slug": "8e8360f0041c52706c077d300c67c1cf9eb8ec03", 
+    "name": "Hot wok nodels"
+  }, 
+  {
+    "lat": 32.074441, 
+    "lng": 34.766438999999998, 
+    "slug": "b0e049b588c3c0234d1172192027914e9b461f82", 
+    "name": "\u05e4\u05e8\u05d0\u05d2 \u05d4\u05e7\u05d8\u05e0\u05d4 - \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.070690999999997, 
+    "lng": 34.783344000000007, 
+    "slug": "b579c4ccb30a260c013fc4b6f9f351036b98ede1", 
+    "name": "\u05e1\u05d9\u05e0\u05de\u05d8\u05e7 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.074745, 
+    "lng": 34.775998999999999, 
+    "slug": "f43c8b18eb033e41067687d4069bd57ad71b1bd0", 
+    "name": "Ophir Hotel"
+  }, 
+  {
+    "lat": 32.060862, 
+    "lng": 34.761364, 
+    "slug": "0205c226d4c3547f3d15d7f7e64c765bcbbf19dd", 
+    "name": "Haitalkiya Batahana"
+  }, 
+  {
+    "lat": 32.054169999999999, 
+    "lng": 34.786535000000001, 
+    "slug": "fd42d2fd240f783fe328f98fdfa6d93942e398b5", 
+    "name": "Food phone"
+  }, 
+  {
+    "lat": 32.054985000000002, 
+    "lng": 34.774369, 
+    "slug": "7ec4012687b2a77c3976e598561ff263daeb4259", 
+    "name": "Tel Aviv Tel Aviv"
+  }, 
+  {
+    "lat": 32.057955999999997, 
+    "lng": 34.770961999999997, 
+    "slug": "894b71a7980c29cc0f85472e6f9070bad9a1f2a6", 
+    "name": "\u05d4\u05e8\u05e6\u05dc"
+  }, 
+  {
+    "lat": 32.043019999999999, 
+    "lng": 34.747639999999997, 
+    "slug": "49e60a7a61d4a8656c6ad44725620b9de0336861", 
+    "name": "Rauf Vetna"
+  }, 
+  {
+    "lat": 32.070362000000003, 
+    "lng": 34.784390999999999, 
+    "slug": "d7566c2b854acbf292cb494c7fe519ec62373037", 
+    "name": "Porter & Sons"
+  }, 
+  {
+    "lat": 32.045470999999999, 
+    "lng": 34.757834000000003, 
+    "slug": "13bd7e0f7d6985d1cb8011b56e74b2385e8c9fe3", 
+    "name": "\u05e7\u05e9\u05ea - \u05d4\u05d0\u05d2\u05d5\u05d3\u05d4 \u05dc\u05de\u05e2\u05df \u05d4\u05e7\u05e9\u05d9\u05e9 \u05d1\u05ea\"\u05d0-\u05d9\u05e4\u05d5. \u05de\u05e8\u05db\u05d6 \u05d2\u05e8\u05d9\u05d0\u05d8\u05e8\u05d9 \"\u05e6\u05d4\u05dc\u05d5\u05df\""
+  }, 
+  {
+    "lat": 32.039513999999997, 
+    "lng": 34.750965000000001, 
+    "slug": "61f2197d694909230837c2e030da47afdcdd3c0e", 
+    "name": "\u05d0\u05d9\u05d8\u05dc\u05d9\u05d6 \u05d7\u05d9\u05e0\u05d0\u05d5\u05d9 - \u05d9\u05e4\u05ea - \u05d9\u05e4\u05d5"
+  }, 
+  {
+    "lat": 32.054453000000002, 
+    "lng": 34.767147000000001, 
+    "slug": "eae4815215f36304d376a0dfbaeb105ac6968b57", 
+    "name": "\u05d5\u05d9\u05dc\u05d5\u05e0\u05d5\u05ea \u05d0\u05e7\u05e1\u05e4\u05e8\u05e1 \u05d3\u05d9\u05d6\u05d9\u05d9\u05df"
+  }, 
+  {
+    "lat": 32.063451000000001, 
+    "lng": 34.768146999999999, 
+    "slug": "1bd709230fec14bf09e762d4aafae5625765e54e", 
+    "name": "Neve tzedek"
+  }, 
+  {
+    "lat": 32.078431999999999, 
+    "lng": 34.778474000000003, 
+    "slug": "2d78d010ccd9eccd18fda06bb963ff31444a67d0", 
+    "name": "Masaryk Square"
+  }, 
+  {
+    "lat": 32.065776, 
+    "lng": 34.763433999999997, 
+    "slug": "98a9504e6d635fe3c1f072c613c5f738b8a99384", 
+    "name": "\u05d3\u05d5\u05d3 \u05d0\u05d9\u05e0\u05d8\u05e8\u05e7\u05d5\u05e0\u05d8\u05d9\u05e0\u05e0\u05d8\u05dc"
+  }, 
+  {
+    "lat": 32.063730999999997, 
+    "lng": 34.769440000000003, 
+    "slug": "aa0298fcbecb1e87e72d0b6fdc91aed5d84c7395", 
+    "name": "\u05de\u05d2\u05d3\u05dc \u05e9\u05dc\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.065776, 
+    "lng": 34.763433999999997, 
+    "slug": "a74ee77f697f57ff8306ac6e51dd4af74824cf20", 
+    "name": "Riki's Spa"
+  }, 
+  {
+    "lat": 32.041061999999997, 
+    "lng": 34.75141, 
+    "slug": "c2f6c1d662ae4eb4d2ec37b17abce7ea5726846d", 
+    "name": "Zika"
+  }, 
+  {
+    "lat": 32.054727, 
+    "lng": 34.765006, 
+    "slug": "aebca947263b7d6e7c0ac2f74f9b38c7495d86db", 
+    "name": "\u05dc\u05d9\u05d9\u05d6\u05e8 CNC"
+  }, 
+  {
+    "lat": 32.049722000000003, 
+    "lng": 34.759735999999997, 
+    "slug": "d254551e9c386844f5c7f2e5d61ded8ed693bcdc", 
+    "name": "Grill Bulgary"
+  }, 
+  {
+    "lat": 32.081332000000003, 
+    "lng": 34.770654999999998, 
+    "slug": "10cf23b6cc2d726f82e2a3bb1f87fa4dc03d1157", 
+    "name": "Sea Land Apartments"
+  }, 
+  {
+    "lat": 32.060614000000001, 
+    "lng": 34.782699999999998, 
+    "slug": "c139f4bc4551309a4e0b44ff46fcab5381282ca8", 
+    "name": "Cucina tamar"
+  }, 
+  {
+    "lat": 32.092593000000001, 
+    "lng": 34.776314999999997, 
+    "slug": "20d1f049fdc688310f92fc450c37f8c86ba45855", 
+    "name": "Cafecafe"
+  }, 
+  {
+    "lat": 32.055343000000001, 
+    "lng": 34.756815000000003, 
+    "slug": "c92529804eef93a6cf1e978a330fdc5dc8fa2277", 
+    "name": "Rozette"
+  }, 
+  {
+    "lat": 32.084949000000002, 
+    "lng": 34.772494000000002, 
+    "slug": "7036dbced3f1b2165c9ce6efae6d6f2fd0060e01", 
+    "name": "Yarden Sea Side Apartments"
+  }, 
+  {
+    "lat": 32.051551000000003, 
+    "lng": 34.778182000000001, 
+    "slug": "0c5e1e0a02bc169ff83cd470e31e04a2f0be1818", 
+    "name": "\u05d3\u05e4\u05d5\u05e1 \u05d8\u05dc\u05e8\u05df"
+  }, 
+  {
+    "lat": 32.043157000000001, 
+    "lng": 34.779429999999998, 
+    "slug": "fe9b97e97145359ce1d04f0968fd7a7f26b7f948", 
+    "name": "\u05d2\u05df \u05e7\u05e8\u05dc\u05d4 \u05dc\u05d5\u05d0\u05d9\u05e1"
+  }, 
+  {
+    "lat": 32.057200000000002, 
+    "lng": 34.761792, 
+    "slug": "c390711b43393f016fcd748ff54cfadbb3be7873", 
+    "name": "Paradise Tours"
+  }, 
+  {
+    "lat": 32.089624999999998, 
+    "lng": 34.773836000000003, 
+    "slug": "36016c37683e0507b236ea387d66839077403ec3", 
+    "name": "Banedikt"
+  }, 
+  {
+    "lat": 32.065128000000001, 
+    "lng": 34.762630999999999, 
+    "slug": "20c506c9ef867e1b470f9a10c02c60a5127b3c9c", 
+    "name": "\u05e7\u05e4\u05d4 \u05d2\u05e8\u05d2 - \u05d8\u05d9\u05d9\u05dc\u05ea \u05d4\u05e8\u05d1\u05e8\u05d8 \u05e1\u05de\u05d5\u05d0\u05dc"
+  }, 
+  {
+    "lat": 32.075615999999997, 
+    "lng": 34.765901999999997, 
+    "slug": "7f3f8d50b15412c5abaceee889bf4c659a54a57b", 
+    "name": "\u05de\u05dc\u05d5\u05df Sea \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.064442999999997, 
+    "lng": 34.773276000000003, 
+    "slug": "ad23f7996053df5ba232b5c4e88ebda211487515", 
+    "name": "Ahad Ha'am Tapas"
+  }, 
+  {
+    "lat": 32.064681999999998, 
+    "lng": 34.762619000000001, 
+    "slug": "179d70c91a26c5d64efcdc3ab2412cbadfa4c1cf", 
+    "name": "\u05d9\u05e8\u05d9\u05d3 \u05d4\u05d5\u05d5\u05e2\u05d3\u05d9\u05dd \u05d1\u05d9\u05e9\u05e8\u05d0\u05dc"
+  }, 
+  {
+    "lat": 32.042344, 
+    "lng": 34.757018000000002, 
+    "slug": "ade14195b8b68a1c1bc800eeb18e3a20604ade1a", 
+    "name": "Noga skewering"
+  }, 
+  {
+    "lat": 32.06955, 
+    "lng": 34.770035, 
+    "slug": "6959f29a375ab85ffe63aea410068b3b77d9c1f3", 
+    "name": "TLV"
+  }, 
+  {
+    "lat": 32.053406000000003, 
+    "lng": 34.751342999999999, 
+    "slug": "fb96a1f3c65c561c3670c0e9a25dd6517072d4e7", 
+    "name": "Ben Zion David Yemenite Silver Art"
+  }, 
+  {
+    "lat": 32.080441, 
+    "lng": 34.781377999999997, 
+    "slug": "e579550bf6f007a33e1c4f6872e63474b1c0be4b", 
+    "name": "Brasserie"
+  }, 
+  {
+    "lat": 32.042197999999999, 
+    "lng": 34.756264000000009, 
+    "slug": "73010b78b1afb73367c31ce3b1784d08ef50b919", 
+    "name": "origilboa"
+  }, 
+  {
+    "lat": 32.082185000000003, 
+    "lng": 34.788988000000003, 
+    "slug": "38736b4cc52576915c1778ef5e1f77b5c41208b0", 
+    "name": "Metuka"
+  }, 
+  {
+    "lat": 32.049475999999999, 
+    "lng": 34.764066, 
+    "slug": "13eb31a0ecc2448e6050a0f326c00361054355f1", 
+    "name": "\u05d1\u05d9\u05ea \u05d4\u05de\u05e9\u05e7\u05d0\u05d5\u05ea \u05e9\u05dc \u05e0\u05e4\u05ea\u05dc\u05d9 - \u05ea\"\u05d0"
+  }, 
+  {
+    "lat": 32.052038000000003, 
+    "lng": 34.763654000000002, 
+    "slug": "0a2a962f91ee9046cedcc3a9efdf1c9f5f3f086e", 
+    "name": "Neshika Tzarfatit"
+  }, 
+  {
+    "lat": 32.085085999999997, 
+    "lng": 34.771701999999998, 
+    "slug": "8baecfad77aaa4cfc57f5d395c708d11794b40eb", 
+    "name": "Ben-Gurion House"
+  }, 
+  {
+    "lat": 32.089598000000002, 
+    "lng": 34.772680999999999, 
+    "slug": "0155e9cdb358826b6d1b7157077f581a98187990", 
+    "name": "Tel Aviv Hotel - Melody"
+  }, 
+  {
+    "lat": 32.041781999999998, 
+    "lng": 34.750718999999997, 
+    "slug": "8b62ea2d68589a25715e47b194b22d9986633cc1", 
+    "name": "Abu Marwan"
+  }, 
+  {
+    "lat": 32.065542000000001, 
+    "lng": 34.775796, 
+    "slug": "b9c0a2be55b7fffe441aa2fff999103b740a5b73", 
+    "name": "Cafe Noir"
+  }, 
+  {
+    "lat": 32.096345999999997, 
+    "lng": 34.773947999999997, 
+    "slug": "fa90b77ad1e9754cc967c1da58bb80370a875195", 
+    "name": "Portovino"
+  }, 
+  {
+    "lat": 32.061697000000002, 
+    "lng": 34.774932, 
+    "slug": "8c3b103c5d2a9f4200ad0425e333f8880fef347d", 
+    "name": "Levontin 7"
+  }, 
+  {
+    "lat": 32.082332999999998, 
+    "lng": 34.771307, 
+    "slug": "6aa36102289a3d2f8d9ee5b2ceeea2e5f08de88e", 
+    "name": "Gordon Inn"
+  }, 
+  {
+    "lat": 32.052090999999997, 
+    "lng": 34.750332, 
+    "slug": "4fbb1c6809955b31133d0a80e5f643f415b0f5e2", 
+    "name": "Dvir Gallery"
+  }, 
+  {
+    "lat": 32.039878000000002, 
+    "lng": 34.751094999999999, 
+    "slug": "305ec5bc6d10d3280ad8b34b851c6de528ca183d", 
+    "name": "Hinawi"
+  }, 
+  {
+    "lat": 32.049444000000001, 
+    "lng": 34.788611000000003, 
+    "slug": "31d15a845aeea5ff2e8920bece2f5755cf5c48d5", 
+    "name": "\u05d1\u05e8\u05d9\u05db\u05ea \u05d1\u05d9\u05ea \u05d3\u05e0\u05d9"
+  }, 
+  {
+    "lat": 32.095692999999997, 
+    "lng": 34.772483999999999, 
+    "slug": "a0e433d67c994ba1f84721f747e6ea674a005a7a", 
+    "name": "Yulia"
+  }, 
+  {
+    "lat": 32.063836000000002, 
+    "lng": 34.773623000000001, 
+    "slug": "b9bf753dcf4c4e9e07b0f3984a201c8cb6115acd", 
+    "name": "Moses salon"
+  }, 
+  {
+    "lat": 32.084296000000002, 
+    "lng": 34.769832999999998, 
+    "slug": "47e58d4b1048d5016df17235072f47c3f92e44ac", 
+    "name": "Basel Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.093373999999997, 
+    "lng": 34.773034000000003, 
+    "slug": "aeb6645a3d5b85bc6f07472543d24522354c3c13", 
+    "name": "Havakook Apartment Hotel"
+  }, 
+  {
+    "lat": 32.064314000000003, 
+    "lng": 34.768971000000001, 
+    "slug": "11f3fec01c656aa9105185862ed173139ec3196c", 
+    "name": "Kimmel"
+  }, 
+  {
+    "lat": 32.094870999999998, 
+    "lng": 34.787237999999988, 
+    "slug": "317e866322364baf2e0e387c869a79694497a675", 
+    "name": "\u05e7\u05dc\u05d9\u05e0\u05d9\u05e7\u05d4 \u05dc\u05d8\u05d9\u05e4\u05d5\u05dc \u05d1\u05de\u05d2\u05e2 - \u05e8\u05df \u05e0\u05e8\u05de\u05df \u05d0\u05e8\u05d1\u05dc - \u05de\u05d8\u05e4\u05dc, \u05de\u05e2\u05e1\u05d4 \u05d5\u05de\u05d5\u05e8\u05d4 \u05dc\u05d9\u05d5\u05d2\u05d4"
+  }, 
+  {
+    "lat": 32.094031000000001, 
+    "lng": 34.773954000000003, 
+    "slug": "15cf04d8f6d922bbae09969b0e7ca6ea99505ade", 
+    "name": "Hotel Armon Hayarkon"
+  }, 
+  {
+    "lat": 32.041812999999998, 
+    "lng": 34.751550999999999, 
+    "slug": "231b76ef0b3cd386980b8e3eceedeee382778d46", 
+    "name": "Caffee Poll"
+  }, 
+  {
+    "lat": 32.085988, 
+    "lng": 34.776097999999998, 
+    "slug": "65df416feaed046ec5dd6c088199a4e3aa5894e4", 
+    "name": "Arbel Apartment Hotel"
+  }, 
+  {
+    "lat": 32.04316, 
+    "lng": 34.747726, 
+    "slug": "a41a0f2c3b6624d7616f7b49cbf6fda439a24f09", 
+    "name": "Old Man and the Sea"
+  }, 
+  {
+    "lat": 32.049883000000001, 
+    "lng": 34.784703999999998, 
+    "slug": "2e7c1c6c0e6bd8db5b418eda9b61d96200e2df10", 
+    "name": "\u05d2\u05e9\u05e8 \u05d2\u05d3\u05e1"
+  }, 
+  {
+    "lat": 32.053314999999998, 
+    "lng": 34.770972, 
+    "slug": "2466c8c409a945bde754c2fc8939a869a3d08f0b", 
+    "name": "MotoFreak L.T.D."
+  }, 
+  {
+    "lat": 32.097239000000002, 
+    "lng": 34.775616999999997, 
+    "slug": "7db14942ba7864e0670ab95bdc4c89d29e5452ca", 
+    "name": "\u05d0\u05d2\u05d0\u05d3\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.089914, 
+    "lng": 34.779429999999998, 
+    "slug": "38cd8e357c776b6a1ba2d515ef1c2626b11ab8a8", 
+    "name": "Arcaffe"
+  }, 
+  {
+    "lat": 32.055365999999999, 
+    "lng": 34.752701999999999, 
+    "slug": "cab0d4f73dc9523718fb63c2c21e5d2760fd10dd", 
+    "name": "\u05de\u05e1\u05d2\u05d3 \u05d4\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.075615999999997, 
+    "lng": 34.765901999999997, 
+    "slug": "332315a664e9d6340ed43f8964f2f6fcc3eb108f", 
+    "name": "Yotvata in Town"
+  }, 
+  {
+    "lat": 32.083038999999999, 
+    "lng": 34.768549, 
+    "slug": "ff59287f65ccf672c4bc72832d065a13e3e53335", 
+    "name": "Renaissance Tel Aviv Hotel"
+  }, 
+  {
+    "lat": 32.040107999999996, 
+    "lng": 34.763979999999997, 
+    "slug": "1f2f386594ef03b3e7adb73a57858b41f876380a", 
+    "name": "\u05d2\u05df \u05d9\u05dc\u05d3\u05d9 \u05e7\u05dc\u05e6'\u05d9\u05d4"
+  }, 
+  {
+    "lat": 32.091831999999997, 
+    "lng": 34.783209999999997, 
+    "slug": "c3ba12be9a78acbb07846fc4f31cb88059981a6c", 
+    "name": "Karnaf"
+  }, 
+  {
+    "lat": 32.051544999999997, 
+    "lng": 34.748322000000002, 
+    "slug": "0f4882f872c0a95deaa2b8d759770c6df5026f5b", 
+    "name": "Black out"
+  }, 
+  {
+    "lat": 32.073934000000001, 
+    "lng": 34.775413, 
+    "slug": "27e49480b35f5c187eb3a4557e8fa2b175f38cb5", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05de\u05d9\u05db\u05d0\u05dc\u05e1"
+  }, 
+  {
+    "lat": 32.062469999999998, 
+    "lng": 34.762560999999998, 
+    "slug": "483bdb30838a58963acff4bf7bf824de80fe010f", 
+    "name": "Hayam Hasiny"
+  }, 
+  {
+    "lat": 32.046495999999998, 
+    "lng": 34.768980999999997, 
+    "slug": "d73fc329f7f1acb2891ae66c9d2a726e63204561", 
+    "name": "\u05d0\u05e7\u05d5-\u05e1\u05e8\u05d5\u05d5\u05d9\u05e1"
+  }, 
+  {
+    "lat": 32.061124, 
+    "lng": 34.775331999999999, 
+    "slug": "db3afdaaa82c554e234beaf0422fddc595ee118b", 
+    "name": "Frau Blau"
+  }, 
+  {
+    "lat": 32.045825999999998, 
+    "lng": 34.767874999999997, 
+    "slug": "6d27206fc93cc6b7403a23926f78626e542b9d06", 
+    "name": "\u05d0\u05d1\u05d5 \u05db\u05d1\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.082427000000003, 
+    "lng": 34.768619000000001, 
+    "slug": "2bd252f8b3356a8c4beda378d120275fc7761d29", 
+    "name": "Gordo"
+  }, 
+  {
+    "lat": 32.043019999999999, 
+    "lng": 34.747639999999997, 
+    "slug": "de6e5d1ef3fb5561f6c8352a8c6965c702dfa86e", 
+    "name": "\u05e8\u05d0\u05d5\u05e3 \u05d0\u05ea \u05d0\u05ea\u05d9\u05e0\u05d4"
+  }, 
+  {
+    "lat": 32.053317, 
+    "lng": 34.750248999999997, 
+    "slug": "df304273b8fe2eec0bc9ffaa688971da178ba2e8", 
+    "name": "Na Lagaat Center"
+  }, 
+  {
+    "lat": 32.072730999999997, 
+    "lng": 34.779012999999999, 
+    "slug": "80c97755430417fa8a455137bb34dd06332608ef", 
+    "name": "\u05d4\u05d1\u05d9\u05de\u05d4"
+  }, 
+  {
+    "lat": 32.066353999999997, 
+    "lng": 34.787627000000001, 
+    "slug": "aefade7b1afb2118e6ce5c09559e72e4588460df", 
+    "name": "\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05ea\u05de\u05d5\u05e0\u05e2"
+  }, 
+  {
+    "lat": 32.072026000000008, 
+    "lng": 34.773634000000001, 
+    "slug": "28eeaff84d082e34d4067251ae1a47553592d05b", 
+    "name": "King Jorje"
+  }, 
+  {
+    "lat": 32.041983999999999, 
+    "lng": 34.770750999999997, 
+    "slug": "bbd3096839e752f62995da74a560bfdcdb240fc8", 
+    "name": "\u05d1\u05d9\u05ea \u05de\u05e2\u05e6\u05e8 \u05d0\u05d1\u05d5 \u05db\u05d1\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.090722, 
+    "lng": 34.782715000000003, 
+    "slug": "b08487a9a07ff068c7ecbe4007283c244bf466fe", 
+    "name": "Abu adham"
+  }, 
+  {
+    "lat": 32.053170999999999, 
+    "lng": 34.750292000000002, 
+    "slug": "553c77efc9468478a2109c09d0649e0958869ceb", 
+    "name": "\u05de\u05e8\u05db\u05d6 \"\u05e0\u05d0 \u05dc\u05d2\u05e2\u05ea\""
+  }, 
+  {
+    "lat": 32.097884000000001, 
+    "lng": 34.777666000000004, 
+    "slug": "6f9605d627d9f9d6f2a994ae8426e62473b43223", 
+    "name": "Bariba"
+  }, 
+  {
+    "lat": 32.042064000000003, 
+    "lng": 34.751618000000001, 
+    "slug": "75b68e063750f33d981f8551dcbbf35075628010", 
+    "name": "Glida Andrey"
+  }, 
+  {
+    "lat": 32.053376, 
+    "lng": 34.754137, 
+    "slug": "9c5fb17448cec9d76202067c3da70837f4ea4eae", 
+    "name": "Jaffa Bar"
+  }, 
+  {
+    "lat": 32.059336999999999, 
+    "lng": 34.771979999999999, 
+    "slug": "3b1d9af6ec70037b6256cc920fa9025057095580", 
+    "name": "Shamshiri"
+  }, 
+  {
+    "lat": 32.093958000000001, 
+    "lng": 34.773854, 
+    "slug": "bc8cbf389b4daf5d71e8dcc87094a0c32bf83921", 
+    "name": "\u05d0\u05e8\u05de\u05d5\u05df \u05d4\u05d9\u05e8\u05e7\u05d5\u05df \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.083813999999997, 
+    "lng": 34.768816000000001, 
+    "slug": "d49b0483d63b78902f55976d247d37abfb2b84fe", 
+    "name": "Crowne Plaza Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.036596000000003, 
+    "lng": 34.761139, 
+    "slug": "b57d4978ca42e16496f2ba9ecf5671f535f45200", 
+    "name": "Burger King"
+  }, 
+  {
+    "lat": 32.075854, 
+    "lng": 34.785162, 
+    "slug": "e1b730b1bd9a887eb841f3a053890587f499cfb6", 
+    "name": "Tel Aviv Performing Arts Center"
+  }, 
+  {
+    "lat": 32.064188999999999, 
+    "lng": 34.774797999999997, 
+    "slug": "5a5c2ac34c5b27311e4db965d1ae1519fe1e8328", 
+    "name": "Social Club"
+  }, 
+  {
+    "lat": 32.054237000000001, 
+    "lng": 34.751451000000003, 
+    "slug": "900fabaf36cf61202d3ede7fe413534b28dde2f8", 
+    "name": "Kalamata"
+  }, 
+  {
+    "lat": 32.092112, 
+    "lng": 34.776246, 
+    "slug": "8ca1f0f5c8bc154589827da99752fd256c7703a4", 
+    "name": "Pronuptia Tel Aviv"
+  }, 
+  {
+    "lat": 32.076124, 
+    "lng": 34.766052999999999, 
+    "slug": "5e532c04572f1928cdd6cf384683a6ece294bff8", 
+    "name": "Yotveta Bair"
+  }, 
+  {
+    "lat": 32.076552, 
+    "lng": 34.787418000000002, 
+    "slug": "4d1ce345488018e0fd2dced31a36e2209dcb4f54", 
+    "name": "\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1 - \u05e7\u05d5\u05dc\u05e0\u05d5\u05e2"
+  }, 
+  {
+    "lat": 32.061324999999997, 
+    "lng": 34.763596999999997, 
+    "slug": "fa29f60bb772691cc775ff0dfecfefd4fd1ffde4", 
+    "name": "Suzana"
+  }, 
+  {
+    "lat": 32.040449000000002, 
+    "lng": 34.746763999999999, 
+    "slug": "caaca12771b93d165f6fdf638d438227a4b5ada7", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9 \u05d9\u05d4\u05d5\u05d3\u05d9 - \u05e2\u05e8\u05d1\u05d9"
+  }, 
+  {
+    "lat": 32.039534000000003, 
+    "lng": 34.751024000000001, 
+    "slug": "8b6a07bedafb6c8525e052e49bfbfebec98c2ee3", 
+    "name": "\u05d7\u05d5\u05de\u05d5\u05e1 \u05d0\u05d1\u05d5 \u05de\u05e8\u05d5\u05d0\u05df"
+  }, 
+  {
+    "lat": 32.062482000000003, 
+    "lng": 34.774627000000002, 
+    "slug": "994e82def91439ca89a9ffe2f6b51104e66e5c28", 
+    "name": "Aba gil"
+  }, 
+  {
+    "lat": 32.063617000000001, 
+    "lng": 34.772962999999997, 
+    "slug": "055b0545ddd3acf1dba3c5c1a1da5b6e7e3fd8fb", 
+    "name": "Meier on Rothschild"
+  }, 
+  {
+    "lat": 32.042160000000003, 
+    "lng": 34.772044999999999, 
+    "slug": "3ee337f1242cc58f7c4e684146b99d07dc70fbed", 
+    "name": "\u05d0\u05e8\u05e7\u05d9\u05dc\u05d1\u05d9\u05e5 \u05e2\u05de\u05dc\u05d9\u05d4 1981 \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.050919, 
+    "lng": 34.758977999999999, 
+    "slug": "7ec574d70dd0e1002fce121b7a117fab018aa11f", 
+    "name": "Mishkenot Ruth Daniel Youth"
+  }, 
+  {
+    "lat": 32.096442000000003, 
+    "lng": 34.773750999999997, 
+    "slug": "51b7c2e9fbeaa6a9abbc9fc5728adeefa7febcc3", 
+    "name": "Badulina banamal"
+  }, 
+  {
+    "lat": 32.057234999999999, 
+    "lng": 34.769267999999997, 
+    "slug": "2db25872366ebefccfbc0f8433ea16e258147a4e", 
+    "name": "\u05ea\u05d5\u05de\u05e8 \u05e4\u05e8\u05e7\u05d8 - \u05e8\u05e6\u05e4\u05d5\u05ea \u05e2\u05e5"
+  }, 
+  {
+    "lat": 32.072060999999998, 
+    "lng": 34.770446, 
+    "slug": "3b87db9678ea61c81e3d569803d643fd0e6bcd63", 
+    "name": "\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05d1\u05d9\u05ea \u05e8\u05d0\u05d5\u05d1\u05df"
+  }, 
+  {
+    "lat": 32.037802999999997, 
+    "lng": 34.746710999999998, 
+    "slug": "4b2f28be947e04bd41daab5433b4f8918176c553", 
+    "name": "\u05d1\u05ea\u05d9\u05dd \u05de\u05d1\u05e4\u05e0\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.055826000000003, 
+    "lng": 34.760516000000003, 
+    "slug": "9c8129743495d8451ae9d9dfe51c3eca6a5688d7", 
+    "name": "Poyke"
+  }, 
+  {
+    "lat": 32.054266000000013, 
+    "lng": 34.784784999999999, 
+    "slug": "89c921c443b115a8df0d6cc870566a7d6f4b8c1a", 
+    "name": "\u05ea\u05d7\u05e0\u05ea \u05e8\u05db\u05d1\u05ea \u05ea\"\u05d0 \u05d4\u05d4\u05d2\u05e0\u05d4"
+  }, 
+  {
+    "lat": 32.035856000000003, 
+    "lng": 34.762304999999998, 
+    "slug": "7e4ad230c7898ed9621ef691f66c70a6a0a26896", 
+    "name": "Wolfson Medical Center"
+  }, 
+  {
+    "lat": 32.097243000000013, 
+    "lng": 34.773854, 
+    "slug": "80320d1a61e4f7f235ee9432ad3620bb273ccd63", 
+    "name": "\u05d4\u05d1\u05e6\u05e4\u05e8 \u05e9\u05dc \u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05e4\u05e8\u05e1\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.086995999999999, 
+    "lng": 34.782015000000001, 
+    "slug": "ff47c3f6c5bb8f55a271a43902add26901ad87f8", 
+    "name": "Sekai - Sushi-Noodles-Soup"
+  }, 
+  {
+    "lat": 32.072392999999998, 
+    "lng": 34.768993999999999, 
+    "slug": "3e2c56b7a3b8fd8e61a7993602d3fa5e45acb704", 
+    "name": "Sun City Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.050837000000001, 
+    "lng": 34.776584999999997, 
+    "slug": "693499fb80c3d1b247167344374dd27466db12c5", 
+    "name": "Mercaz Assia"
+  }, 
+  {
+    "lat": 32.053654000000002, 
+    "lng": 34.754871000000001, 
+    "slug": "27dba9746c45264923390696a6164d40f243f3ed", 
+    "name": "House Three"
+  }, 
+  {
+    "lat": 32.045954000000002, 
+    "lng": 34.770972, 
+    "slug": "eee97f04ce642d5e46049373245e590ecd023074", 
+    "name": "\u05d2\u05df \u05d4\u05d4\u05d2\u05e0\u05d4"
+  }, 
+  {
+    "lat": 32.066147000000001, 
+    "lng": 34.780932999999997, 
+    "slug": "d2c2e8ffbaa21b0a8c7f32195cb13c115a4a5984", 
+    "name": "\u05d1\u05d9\u05ea \u05d4\u05e1\u05e4\u05e8 \u05ea\u05dc \u05e0\u05d5\u05e8\u05d3\u05d0\u05d5, \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.049121999999997, 
+    "lng": 34.779850000000003, 
+    "slug": "ff36ee7386208374e8eecc15d99c361728502180", 
+    "name": "Belveder"
+  }, 
+  {
+    "lat": 32.049807000000001, 
+    "lng": 34.756815000000003, 
+    "slug": "55933362c722e3fd8da7f37b35df9440742a3a77", 
+    "name": "\u05e8\u05de\u05d9 \u05e1\u05d5\u05dc\u05d5\u05de\u05d5\u05df - \u05e6\u05dc\u05de\u05d9\u05dd, \u05e1\u05d8\u05d5\u05d3\u05d9\u05d5 \u05dc\u05e6\u05d9\u05dc\u05d5\u05dd \u05d0\u05d3\u05e8\u05d9\u05db\u05dc\u05d9"
+  }, 
+  {
+    "lat": 32.063924, 
+    "lng": 34.762127, 
+    "slug": "b7544cc7674442893ceea7ade432cb9aaf5c8363", 
+    "name": "Heskia - Hacmun Law Firm Israel / Tel Aviv Lawyers"
+  }, 
+  {
+    "lat": 32.073560000000001, 
+    "lng": 34.765684999999998, 
+    "slug": "62f5219b2e584ffa7ccec92b6aec41a54fad8a43", 
+    "name": "Liber Seashore Suites"
+  }, 
+  {
+    "lat": 32.082793000000002, 
+    "lng": 34.781193000000002, 
+    "slug": "0b68908cb09f105cd36b0846b7196e897ce2afce", 
+    "name": "\u05e1\u05d8\u05d9\u05de\u05e6\u05e7\u05d9 \u05d2\u05df \u05d4\u05e2\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.035218999999998, 
+    "lng": 34.756359000000003, 
+    "slug": "313591d4bd9116ad1d9a2078f935871665d71d1a", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9 \u05e8\u05e7\"\u05e2"
+  }, 
+  {
+    "lat": 32.067500000000003, 
+    "lng": 34.765278000000002, 
+    "slug": "4c1f64d4faa62c2593b4c328da12ca820e79e602", 
+    "name": "\u05de\u05e1\u05d5\u05e3 \u05db\u05e8\u05de\u05dc\u05d9\u05ea"
+  }, 
+  {
+    "lat": 32.096328999999997, 
+    "lng": 34.773946000000002, 
+    "slug": "02e1e773f66efaf1af7f89c9d43c32d0503b61ee", 
+    "name": "\u05e7\u05e4\u05d4 \u05e0\u05de\u05e8\u05d5\u05d3 - \u05de\u05e1\u05e2\u05d3\u05d4 \u05d2\u05dc\u05d9\u05dc\u05d9\u05ea"
+  }, 
+  {
+    "lat": 32.077630999999997, 
+    "lng": 34.774572999999997, 
+    "slug": "5556affe080557ad397b7453f7d162dbdae625e6", 
+    "name": "Center Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.053528000000007, 
+    "lng": 34.771467000000001, 
+    "slug": "5a3564f365b3fb2eaff64138fdb0d427113b9b35", 
+    "name": "Inga Gallery of Contemporary Art"
+  }, 
+  {
+    "lat": 32.073036999999999, 
+    "lng": 34.766134000000001, 
+    "slug": "ede67b4e1ec62961f22c5fb3a33691869629f02c", 
+    "name": "\u05d0\u05db\u05e1\u05e0\u05d9\u05d9\u05ea \u05d4\u05d9\u05e8\u05e7\u05d5\u05df 48"
+  }, 
+  {
+    "lat": 32.089216999999998, 
+    "lng": 34.772292999999998, 
+    "slug": "04f0d41b483c59cc76f5019fa31b8957b6cef008", 
+    "name": "Shalom Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.054264000000003, 
+    "lng": 34.751588000000012, 
+    "slug": "9a805f5c59c2adcd3c9dfd4b34333f121b55d96a", 
+    "name": "\u05d0\u05ea\u05e8 \u05d4\u05e2\u05ea\u05d9\u05e7\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.068224999999998, 
+    "lng": 34.765163000000001, 
+    "slug": "0b885ea6922ff548ba0aefc478f7f1cc1a765b95", 
+    "name": "Daniel Apartments"
+  }, 
+  {
+    "lat": 32.046512999999997, 
+    "lng": 34.766126999999997, 
+    "slug": "8d42ac7e03cfa1d4d538cce3be2acfccf506d1a8", 
+    "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05d1\u05df \u05e6\u05d1\u05d9"
+  }, 
+  {
+    "lat": 32.082704, 
+    "lng": 34.781033999999998, 
+    "slug": "a5af620c7767006613942790f8d867a526bdb5f1", 
+    "name": "\u05e0\u05d9\u05d5 \u05e4\u05d0\u05e8\u05dd \u05d2\u05df \u05d4\u05e2\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.086125000000003, 
+    "lng": 34.768869000000002, 
+    "slug": "71623498c6137bc967b5a858f64a905854027e8b", 
+    "name": "Sea Centre"
+  }, 
+  {
+    "lat": 32.082264000000002, 
+    "lng": 34.773907000000001, 
+    "slug": "2a821b9c74a2e739924ab43a9cdecca6f58b8bff", 
+    "name": "Dizengoff Sea Residence"
+  }, 
+  {
+    "lat": 32.088751999999999, 
+    "lng": 34.782524000000002, 
+    "slug": "323ff0fd3cca0586cd6ffd253139217cbc7452c3", 
+    "name": "Pasta Place"
+  }, 
+  {
+    "lat": 32.082793000000002, 
+    "lng": 34.781193000000002, 
+    "slug": "1698dc6042347ead8e5e75a57704a6da3208b29b", 
+    "name": "Dudu Outmezgin la patisserie"
+  }, 
+  {
+    "lat": 32.047401000000001, 
+    "lng": 34.756000999999998, 
+    "slug": "9f3188875e4f95fc927674f88bf076ff13ba354a", 
+    "name": "Dizengoff Beach"
+  }, 
+  {
+    "lat": 32.047303999999997, 
+    "lng": 34.766396999999998, 
+    "slug": "6eebda48ea6b2e18591d58bee2afb26a91356215", 
+    "name": "\u05d2\u05df \u05d0\u05d1\u05d5 \u05e0\u05d1\u05d5\u05d8"
+  }, 
+  {
+    "lat": 32.089185000000001, 
+    "lng": 34.775519000000003, 
+    "slug": "aaecf651e41f40e238579e5aa5d417d89ac4a8f7", 
+    "name": "Michal caffe"
+  }, 
+  {
+    "lat": 32.070340000000002, 
+    "lng": 34.787173000000003, 
+    "slug": "f5f0bcc887ffba66b6ef82ed5e442b6f2613b534", 
+    "name": "Kimba"
+  }, 
+  {
+    "lat": 32.063465999999998, 
+    "lng": 34.761741000000001, 
+    "slug": "e27d15a5c93ea1441cda048d28aeb48e3bdfec7b", 
+    "name": "Klara"
+  }, 
+  {
+    "lat": 32.050342000000001, 
+    "lng": 34.781379000000001, 
+    "slug": "7fc53b6c6aace68fb4d7e49262a61f34e9b6b46f", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9 \u05e9\u05e4\u05d9\u05e8\u05d0"
+  }, 
+  {
+    "lat": 32.046917999999998, 
+    "lng": 34.777558999999997, 
+    "slug": "ac68e9c490f09cd01802ef281ab02985b30b96b4", 
+    "name": "Simon's House"
+  }, 
+  {
+    "lat": 32.086108000000003, 
+    "lng": 34.788502999999999, 
+    "slug": "d292314c1b3df8766781321527d0c9bbbcf47900", 
+    "name": "Cafe Cafe"
+  }, 
+  {
+    "lat": 32.076830000000001, 
+    "lng": 34.784728999999999, 
+    "slug": "88850121245764389483e1ef05220728bea206b1", 
+    "name": "\u05d4\u05e7\u05d0\u05de\u05e8\u05d9 \u05d4\u05d7\u05d3\u05e9"
+  }, 
+  {
+    "lat": 32.050623999999999, 
+    "lng": 34.759701, 
+    "slug": "56e25cbe6d98827aa6a4967f72fa290f587524ad", 
+    "name": "\u05de\u05e9\u05db\u05e0\u05d5\u05ea \u05e8\u05d5\u05ea \u05d3\u05e0\u05d9\u05d0\u05dc"
+  }, 
+  {
+    "lat": 32.095571, 
+    "lng": 34.773063, 
+    "slug": "dac8c662147ee131d742169b9c160e63dbe3077d", 
+    "name": "Comme il Faut Caf'e"
+  }, 
+  {
+    "lat": 32.056772000000002, 
+    "lng": 34.783774999999999, 
+    "slug": "90d7e407eb7331b70472ceb1442193277eb4aacf", 
+    "name": "The Chef College"
+  }, 
+  {
+    "lat": 32.079228000000001, 
+    "lng": 34.780082999999998, 
+    "slug": "fe7c2b73b3b5c23cfe58d01889dbe9d5cfe53707", 
+    "name": "MeatBar"
+  }, 
+  {
+    "lat": 32.091464000000002, 
+    "lng": 34.782156000000001, 
+    "slug": "fc1c87e8b592a6b9f7f95f25d7f9a0ee1705e1df", 
+    "name": "\u05d0\u05de\u05d9\u05e8 \u05e8\u05e9\u05e3 \u05de\u05d5\u05e8\u05d4 \u05dc\u05d2\u05d9\u05d8\u05e8\u05d4 \u05d1\u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.075499999999998, 
+    "lng": 34.782800000000002, 
+    "slug": "a315c9c598406ca089aa82b2822d32ddce134d5f", 
+    "name": "Indira"
+  }, 
+  {
+    "lat": 32.093490000000003, 
+    "lng": 34.772585999999997, 
+    "slug": "a0bb3d46719de0b8f5498d8e9bc07d6f1b131976", 
+    "name": "Alexander Suites Hotel"
+  }, 
+  {
+    "lat": 32.043743999999997, 
+    "lng": 34.779331999999997, 
+    "slug": "d62a114feb6f5f49ca52f6197a4bc05c51e35c5a", 
+    "name": "\u05d0\u05d5\u05e4\u05d9\u05e8"
+  }, 
+  {
+    "lat": 32.050663999999998, 
+    "lng": 34.773681000000003, 
+    "slug": "74218d4def7d8c61f6f3b7f42d15107311b1cf09", 
+    "name": "\u05d3\u05e4\u05d5\u05e1 \u05de\u05d0\u05d9\u05e8\u05d2\u05e8\u05e3 \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.072322, 
+    "lng": 34.765174999999999, 
+    "slug": "dea9d0685fa87b705f6f3668dc6384897021266a", 
+    "name": "Savoy Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.047417000000003, 
+    "lng": 34.770280999999997, 
+    "slug": "69826e0964c84c9e9a4f946736043fad1d242ba0", 
+    "name": "\u05d4\u05d2\u05df \u05d4\u05d1\u05d5\u05d8\u05d0\u05e0\u05d9"
+  }, 
+  {
+    "lat": 32.049658000000001, 
+    "lng": 34.760354999999997, 
+    "slug": "963cd859ed7c25b1464055776f9e8e279b0c70c9", 
+    "name": "\u05d2\u05df \u05d9\u05d4\u05d5\u05d3\u05d9 \u05d1\u05d5\u05dc\u05d2\u05e8\u05d9\u05d4"
+  }, 
+  {
+    "lat": 32.039658000000003, 
+    "lng": 34.757677999999999, 
+    "slug": "b26fd41030b263ed90d5932a1dfd67a30c1b17db", 
+    "name": "\u05d2\u05df \u05e0\u05d7\u05dc \u05d4\u05d1\u05e9\u05d5\u05e8"
+  }, 
+  {
+    "lat": 32.050618, 
+    "lng": 34.783054999999997, 
+    "slug": "507c6a859ff40a40ee288d6ee258971ef744b620", 
+    "name": "\u05e4\u05dc\u05d3\u05d1\u05d0\u05d5 \u05de\u05e6\u05d1\u05e8\u05d9\u05dd \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.053446000000001, 
+    "lng": 34.750525000000003, 
+    "slug": "2cb0ebab4beb9d05f1ff10490a99d0d3688d7fbb", 
+    "name": "\u05de\u05d2\u05d3\u05dc\u05d5\u05e8"
+  }, 
+  {
+    "lat": 32.077367000000002, 
+    "lng": 34.766869, 
+    "slug": "77fa93a69709c1ac0d8e4f928e032ce9408e3201", 
+    "name": "Park Plaza Orchid Hotel (previously Yamit)TelAviv"
+  }, 
+  {
+    "lat": 32.060644000000003, 
+    "lng": 34.785257999999999, 
+    "slug": "fe8a5dcf0671a8943bfd6664f0fee18adf5624a1", 
+    "name": "Moon Light \u05e6\u05d9\u05dc\u05d5\u05dd \u05e1\u05d8\u05d9\u05dc\u05e1 \u05e9\u05d9\u05d5\u05d5\u05e7\u05d9"
+  }, 
+  {
+    "lat": 32.075418999999997, 
+    "lng": 34.776372000000002, 
+    "slug": "d459964c3d08ddcf4fc07d5cb4cc9a1ca6440617", 
+    "name": "King George Street"
+  }, 
+  {
+    "lat": 32.037787000000002, 
+    "lng": 34.757677999999999, 
+    "slug": "c7cd90919a2bb62165f22fb227d41c0e9efbf9b8", 
+    "name": "\u05e4\u05d0\u05e8\u05e7 \u05d3\u05d5\u05d9\u05d3\u05d5\u05d1"
+  }, 
+  {
+    "lat": 32.039555, 
+    "lng": 34.767001, 
+    "slug": "a532fcefa902ab49a6407f4256354ceb1cb05fcd", 
+    "name": "\u05d2\u05df \u05d9\u05d5\u05d7\u05e0\u05d5\u05e3"
+  }, 
+  {
+    "lat": 32.059320999999997, 
+    "lng": 34.77375, 
+    "slug": "e933ee041bb24070eb80eb0dc08c8f5e8d029533", 
+    "name": "Sender"
+  }, 
+  {
+    "lat": 32.035178999999999, 
+    "lng": 34.767578, 
+    "slug": "b83fb999967a8724fbe10d52c4a37b04c074f2e2", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05e9\u05e8\u05d5\u05ea \u05d5\u05de\u05db\u05d9\u05e8\u05d4 \u05d5\u05d5\u05dc\u05e4\u05e1\u05d5\u05df \u05d7\u05d5\u05dc\u05d5\u05df"
+  }, 
+  {
+    "lat": 32.053322999999999, 
+    "lng": 34.756134000000003, 
+    "slug": "1daa7dde5797b245ceaf247723d2327d1323c4ff", 
+    "name": "Old Jaffa"
+  }, 
+  {
+    "lat": 32.094825999999998, 
+    "lng": 34.776367000000008, 
+    "slug": "a3dc915da377e75ec6321c20e1e399e5afbc2806", 
+    "name": "fu sushi"
+  }, 
+  {
+    "lat": 32.078474999999997, 
+    "lng": 34.766188, 
+    "slug": "cd8cfea9cb4cae6b2b2526babb5f3e7fd710e538", 
+    "name": "Hof Bugrashov"
+  }, 
+  {
+    "lat": 32.073560000000001, 
+    "lng": 34.765684999999998, 
+    "slug": "1a296cfcf8ac7ce20223a3af7821645cc744840e", 
+    "name": "Palm Beach Hotel Acre"
+  }, 
+  {
+    "lat": 32.086840000000002, 
+    "lng": 34.775288000000003, 
+    "slug": "519b98e14fc2397e26f0249404de916bacda344a", 
+    "name": "Arlozorov Suites Hotel"
+  }, 
+  {
+    "lat": 32.036934000000002, 
+    "lng": 34.761994000000001, 
+    "slug": "937bf6453145a8ade162aa9e07ca0f9d4fed7719", 
+    "name": "\u05d7\u05e0\u05d9\u05d5\u05df \u05d4\u05dc\u05d5\u05d7\u05de\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.070376000000003, 
+    "lng": 34.783558999999997, 
+    "slug": "905f196e30ae0aa79e3d121c6bdb91d62b9014ec", 
+    "name": "Pasha"
+  }, 
+  {
+    "lat": 32.048392, 
+    "lng": 34.764183000000003, 
+    "slug": "61fd71a6b2491e792ddb638a61a2ff1e3a3dacbb", 
+    "name": "Samarkend"
+  }, 
+  {
+    "lat": 32.053361000000002, 
+    "lng": 34.752099999999999, 
+    "slug": "cdfd7c16747003881e23dc68eac359aebf566117", 
+    "name": "Gabrieli Weaving"
+  }, 
+  {
+    "lat": 32.096345999999997, 
+    "lng": 34.773947999999997, 
+    "slug": "3ed05a15d338a6f597cb9ed08e98fca354603925", 
+    "name": "Beny Hadayag"
+  }, 
+  {
+    "lat": 32.097085999999997, 
+    "lng": 34.772939999999998, 
+    "slug": "9d2843e532aaf6702fe548f4f7d8050c8476c853", 
+    "name": "Shalvata"
+  }, 
+  {
+    "lat": 32.060133, 
+    "lng": 34.784066000000003, 
+    "slug": "8308357616829c566f4a8241b900312825a0895e", 
+    "name": "\u05e7\u05dc \u05d0\u05d5\u05d8\u05d5 - \u05d4\u05e9\u05db\u05e8\u05ea \u05e8\u05db\u05d1, \u05de\u05db\u05d9\u05e8\u05ea \u05e8\u05db\u05d1, \u05dc\u05d9\u05e1\u05d9\u05e0\u05d2, \u05d8\u05e8\u05d9\u05d9\u05d3 \u05d0\u05d9\u05df"
+  }, 
+  {
+    "lat": 32.064101999999998, 
+    "lng": 34.762220999999997, 
+    "slug": "791c936109026def09453bdeeacb31b263621e25", 
+    "name": "Herbert samuel"
+  }, 
+  {
+    "lat": 32.054195999999997, 
+    "lng": 34.756535999999997, 
+    "slug": "c2e6e8f81b558388c1150852b119f7d6d47a32c4", 
+    "name": "DR. Shakshuka"
+  }, 
+  {
+    "lat": 32.076160000000002, 
+    "lng": 34.786281000000002, 
+    "slug": "cc09892addfbc00b112771c8581e8d8bb0ae1801", 
+    "name": "The Dinning Hall"
+  }, 
+  {
+    "lat": 32.079670999999998, 
+    "lng": 34.767881000000003, 
+    "slug": "0c465bc1e6220b4482b1d885c7b204d081e6d756", 
+    "name": "Dan Tel Aviv"
+  }, 
+  {
+    "lat": 32.062936000000001, 
+    "lng": 34.770991000000002, 
+    "slug": "ec5d853769a85c9f902064d0d519af0464b35280", 
+    "name": "Independence Hall"
+  }, 
+  {
+    "lat": 32.072954000000003, 
+    "lng": 34.770808000000002, 
+    "slug": "418b33ac98726bc2c7ce3101be35e6116c27e8c0", 
+    "name": "Bialik House"
+  }, 
+  {
+    "lat": 32.064101999999998, 
+    "lng": 34.762220999999997, 
+    "slug": "726c6d85eab48ec59c53858598f9b4bf1fef656a", 
+    "name": "SUBLET - \u05e1\u05d0\u05d1\u05dc\u05d8"
+  }, 
+  {
+    "lat": 32.082793000000002, 
+    "lng": 34.781193000000002, 
+    "slug": "18bcf2dc56632c8221e3c7777b85f996b26b2026", 
+    "name": "71 Ganna"
+  }, 
+  {
+    "lat": 32.042482999999997, 
+    "lng": 34.747318999999997, 
+    "slug": "5504b5595fe6e17389413d5406036d103a6b0d34", 
+    "name": "\u05d4\u05e9\u05d5\u05e8\u05d4 \u05d4\u05e2\u05dc\u05d9\u05d5\u05e0\u05d4"
+  }, 
+  {
+    "lat": 32.077984000000001, 
+    "lng": 34.778136000000003, 
+    "slug": "d379c77f25aba5ce5078f533c54a21b685966599", 
+    "name": "Cafe cafe"
+  }, 
+  {
+    "lat": 32.051703000000003, 
+    "lng": 34.770176999999997, 
+    "slug": "4f5eed6ace325ea72121478772d24428dbd57d1d", 
+    "name": "Shmulik Cohen"
+  }, 
+  {
+    "lat": 32.063735000000001, 
+    "lng": 34.762073999999998, 
+    "slug": "3ca34fced5fce1beeb91dfc856466cd67c20b7fa", 
+    "name": "AHK Israel"
+  }, 
+  {
+    "lat": 32.055638000000002, 
+    "lng": 34.760509999999996, 
+    "slug": "93c5e2626b4ed4ffe0da75be0abe75c98de8e68c", 
+    "name": "Salona"
+  }, 
+  {
+    "lat": 32.088186, 
+    "lng": 34.773409000000001, 
+    "slug": "2873771d3e3cf32a1d717e38305a49db18cedbf3", 
+    "name": "Mel and michelle"
+  }, 
+  {
+    "lat": 32.066155999999999, 
+    "lng": 34.777821000000003, 
+    "slug": "2790d6f4dcea17e82797229017e8538b3e0ef80b", 
+    "name": "Avis Tel Aviv"
+  }, 
+  {
+    "lat": 32.062055000000001, 
+    "lng": 34.760348, 
+    "slug": "429f4a2d9dc2fdf490fad92a2b4936afd0ce3a02", 
+    "name": "Mantaray"
+  }, 
+  {
+    "lat": 32.093791000000003, 
+    "lng": 34.78792, 
+    "slug": "13ee057348ffe0dce4b7dca94caadc80fb615a92", 
+    "name": "\u05e0\u05d2\u05d9\u05e2\u05d0 - \u05d9\u05d4\u05d5\u05d3\u05d4 \u05d4\u05de\u05db\u05d1\u05d9"
+  }, 
+  {
+    "lat": 32.100445999999998, 
+    "lng": 34.774228000000001, 
+    "slug": "702b327238acefc3b44e8247ae138d75cb5c8e92", 
+    "name": "Boya"
+  }, 
+  {
+    "lat": 32.063592, 
+    "lng": 34.772809000000002, 
+    "slug": "932d1add9c67f0d26535f6b1c781abeadbe45749", 
+    "name": "Benedict boulevard"
+  }, 
+  {
+    "lat": 32.093961, 
+    "lng": 34.783341, 
+    "slug": "45cec654432afcb714c8f1427071dc609c109024", 
+    "name": "Zesty Grill and diner - \u05d6\u05e1\u05d8\u05d9 \u05d2\u05e8\u05d9\u05dc \u05d5\u05d3\u05d9\u05d9\u05e0\u05e8 - \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.046370000000003, 
+    "lng": 34.752282999999998, 
+    "slug": "a4ef4642e465139869e894863a3ce29c89996383", 
+    "name": "Saint Peter's Church - Jaffa - \u05db\u05e0\u05e1\u05d9\u05d9\u05ea \u05e1\u05e0\u05d8 \u05e4\u05d9\u05d8\u05e8"
+  }, 
+  {
+    "lat": 32.051054000000001, 
+    "lng": 34.776698000000003, 
+    "slug": "afa8ce0b4a611faaabc7cca21dd0d192ada19d56", 
+    "name": "\u05d2\u05e8\u05d5\u05e1\u05de\u05df \u05d4\u05d3\u05d1\u05e8\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.042209, 
+    "lng": 34.774894000000003, 
+    "slug": "5d1fbb45eda5d7efe43c85f15fdfc26084c6ffd0", 
+    "name": "\u05e7\u05e8\u05d9\u05ea \u05e9\u05dc\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.050274999999999, 
+    "lng": 34.769672, 
+    "slug": "591bc6ccfbf71888eadd9130374e376600afd889", 
+    "name": "\u05e4\u05e8\u05e4\u05e7\u05d8\u05d5-\u05e4\u05e8\u05e7\u05d8\u05d9\u05dd \u05d5\u05d7\u05d9\u05e4\u05d5\u05d9\u05d9 \u05e8\u05e6\u05e4\u05d4 \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.051541, 
+    "lng": 34.783454999999996, 
+    "slug": "ef9bd14c96070a49ad32b31a115c725f88590705", 
+    "name": "\u05d4\u05d0\u05e7\u05d3\u05de\u05d9\u05d4 \u05dc\u05e4\u05d9\u05e8\u05d5\u05ea- \u05e1\u05e0\u05d9\u05e3 \u05de\u05e8\u05db\u05d6"
+  }, 
+  {
+    "lat": 32.040897999999999, 
+    "lng": 34.765611, 
+    "slug": "79746eb7050c31a357b9c917c336bd989965db5d", 
+    "name": "\u05e0\u05d5\u05d5\u05d4 \u05e2\u05d5\u05e4\u05e8"
+  }, 
+  {
+    "lat": 32.052098000000008, 
+    "lng": 34.767828999999999, 
+    "slug": "a2515f7fed3b3f39c06c12c7df5264156dcc4468", 
+    "name": "\u05d3\u05e8\u05da \u05e6\u05d9\u05dc\u05d5\u05dd - \u05d1\u05d9\u05ea \u05e1\u05e4\u05e8 \u05dc\u05e6\u05d9\u05dc\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.094493, 
+    "lng": 34.780408000000001, 
+    "slug": "5daece72fe6f3c0eda101939810978a325762325", 
+    "name": "Yamar Electronics Ltd."
+  }, 
+  {
+    "lat": 32.049390000000002, 
+    "lng": 34.764183000000003, 
+    "slug": "aef635d66f7d97088fa3841ddca9a64344346075", 
+    "name": "\u05e9\u05e8 \u05d4\u05de\u05e9\u05e7\u05d0\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.050220000000003, 
+    "lng": 34.750782000000001, 
+    "slug": "6c7ae2eacfba03e8396c9f695aba4fd0cfbcd931", 
+    "name": "\u05d0\u05d1\u05d5 \u05d7\u05e1\u05df - \u05d4\u05d3\u05d5\u05dc\u05e4\u05d9\u05df - \u05d9\u05e4\u05d5"
+  }, 
+  {
+    "lat": 32.040137000000001, 
+    "lng": 34.751227, 
+    "slug": "0f147f173edc2b892023c44bcd80e09664f473a4", 
+    "name": "\u05e7\u05e4\u05d4 \u05d5\u05ea\u05d1\u05dc\u05d9\u05e0\u05d9 \u05d8\u05d9\u05e8\u05d0\u05df"
+  }, 
+  {
+    "lat": 32.093854, 
+    "lng": 34.783796000000002, 
+    "slug": "944ed5efd8f2aa9e58aab610baa1774ab171b0bb", 
+    "name": "Juno"
+  }, 
+  {
+    "lat": 32.097239000000002, 
+    "lng": 34.775616999999997, 
+    "slug": "b66f707e7805ccaf63eb7e2b6a5729e4eabc9439", 
+    "name": "Agadir"
+  }, 
+  {
+    "lat": 32.085923999999999, 
+    "lng": 34.788651000000002, 
+    "slug": "832a8f41f5e09206a82c5e5739248a64a74ecd1d", 
+    "name": "Cafe cafe"
+  }, 
+  {
+    "lat": 32.053902999999998, 
+    "lng": 34.788161000000002, 
+    "slug": "4edfc096c3aabfa6751bffcc7104929f2211cc7b", 
+    "name": "\u05de\u05db\u05d1\u05d9"
+  }, 
+  {
+    "lat": 32.061852999999999, 
+    "lng": 34.783293999999998, 
+    "slug": "416db7c8080adcbef77a50d72c98d5ab0b1db48f", 
+    "name": "Coffe Bar"
+  }, 
+  {
+    "lat": 32.088526000000002, 
+    "lng": 34.773555999999999, 
+    "slug": "eb91955fb747c052b412ee4fae91fa30150e1d5b", 
+    "name": "Alcohome- th indoor scene"
+  }, 
+  {
+    "lat": 32.094535, 
+    "lng": 34.779121000000004, 
+    "slug": "c7564c75f27c5b1b0c2a6cb2ea7b1e78abf2ec8c", 
+    "name": "\u05e8\u05d5\u05e0\u05d9 \u05d1\u05e8\u05e7 - \u05de\u05d0\u05dc\u05e3 \u05db\u05dc\u05d1\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.063800000000001, 
+    "lng": 34.780000000000001, 
+    "slug": "8cc2683fcc34f3451b1a4147d47863c2a2a1268c", 
+    "name": "Google Tel Aviv Office"
+  }, 
+  {
+    "lat": 32.051727999999997, 
+    "lng": 34.761439000000003, 
+    "slug": "8725e6615f0b0968455f0d516b2a357426cff0ee", 
+    "name": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d1\u05dc\u05d5\u05de\u05e4\u05d9\u05dc\u05d3"
+  }, 
+  {
+    "lat": 32.056196, 
+    "lng": 34.767997999999999, 
+    "slug": "8778124c8e1e32b8e7713e86f33496e2c7c742ab", 
+    "name": "Florentin 10"
+  }, 
+  {
+    "lat": 32.053052000000001, 
+    "lng": 34.767462999999999, 
+    "slug": "3dda1d488bec2c34a44a55824abcabb244d63e5b", 
+    "name": "groovy"
+  }, 
+  {
+    "lat": 32.053376, 
+    "lng": 34.754137, 
+    "slug": "f51866c5b7896d90a669ab38f0b47f41931d4602", 
+    "name": "Cordelia"
+  }, 
+  {
+    "lat": 32.076839999999997, 
+    "lng": 34.767133000000001, 
+    "slug": "a52cb93abc925f539811ae1fbbcdf20b26728890", 
+    "name": "Tel Aviv luxury apartments"
+  }, 
+  {
+    "lat": 32.095478, 
+    "lng": 34.773029000000001, 
+    "slug": "8a53832aefbd1f8bdb6cfcf39a0181687b7c7f79", 
+    "name": "Mul Yam"
+  }, 
+  {
+    "lat": 32.049002999999999, 
+    "lng": 34.758913, 
+    "slug": "1664772efa6e8ec2707a585265f908b218cdc202", 
+    "name": "Etzel Hertzel"
+  }, 
+  {
+    "lat": 32.051372000000001, 
+    "lng": 34.769708000000001, 
+    "slug": "dfdf81f00956e4522f1831a21825b20dec1c46bf", 
+    "name": "Barby"
+  }, 
+  {
+    "lat": 32.045296000000008, 
+    "lng": 34.752381999999997, 
+    "slug": "1d64fd7547fe2a2ac59100d5dfad4f10cb9fb938", 
+    "name": "\u05e2\u05d9\u05e1\u05d0 \u05d4\u05d3\u05d9\u05d9\u05d2"
+  }, 
+  {
+    "lat": 32.063465999999998, 
+    "lng": 34.761741000000001, 
+    "slug": "ca8fc3ed43af30f5e63eda62f0141274ea20e6b5", 
+    "name": "Clara"
+  }, 
+  {
+    "lat": 32.042957000000001, 
+    "lng": 34.752468999999998, 
+    "slug": "9ccc54e60c3d996bed1ea3a9984b1fde533ea6a9", 
+    "name": "Shipudey Haj Cahil"
+  }, 
+  {
+    "lat": 32.061852999999999, 
+    "lng": 34.783293999999998, 
+    "slug": "9ca070c1d5695b91b5b7c8838e5a4c9118f46725", 
+    "name": "Maya"
+  }, 
+  {
+    "lat": 32.056899999999999, 
+    "lng": 34.767831000000001, 
+    "slug": "0a9ce04c2918976b9adf8f1e2ddcf0cd3f60b413", 
+    "name": "Mate florentin"
+  }, 
+  {
+    "lat": 32.064909999999998, 
+    "lng": 34.762962999999999, 
+    "slug": "373c85a01ad5e64e4e9c462545a54b5afd14480e", 
+    "name": "Dan Panorama Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.062725, 
+    "lng": 34.786866000000003, 
+    "slug": "780dcf2e8374273a344c2e7ee2ecee4b8b440a5a", 
+    "name": "Barzilay Club"
+  }, 
+  {
+    "lat": 32.035178999999999, 
+    "lng": 34.767578, 
+    "slug": "dba338c8194111459ad64cd4cfdeaab5373017e6", 
+    "name": "\u05de\u05e7\u05d3\u05d5\u05e0\u05dc\u05d3'\u05e1 - \u05d5\u05d5\u05dc\u05e4\u05e1\u05d5\u05df - \u05d7\u05d5\u05dc\u05d5\u05df"
+  }, 
+  {
+    "lat": 32.084603999999999, 
+    "lng": 34.769205999999997, 
+    "slug": "bb95535c89344fd61afaeca6824c74646fd6541d", 
+    "name": "\u05de\u05d5\u05e8\u05d9\u05d4 \u05e4\u05dc\u05d0\u05d6\u05d4 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.089812000000002, 
+    "lng": 34.780037999999998, 
+    "slug": "4bb15259ba43897c7f2fb6060b1f9b02c6182c74", 
+    "name": "Rustico"
+  }, 
+  {
+    "lat": 32.070376000000003, 
+    "lng": 34.783284000000002, 
+    "slug": "5405a327db24781da13ec4657c709472fab9ecd3", 
+    "name": "Punch Line"
+  }, 
+  {
+    "lat": 32.050789000000002, 
+    "lng": 34.772393000000001, 
+    "slug": "7c115fdba21678cb8a030e00c8c02168ee743076", 
+    "name": "Goldfine Pivate Jewelry Collection"
+  }, 
+  {
+    "lat": 32.065671999999999, 
+    "lng": 34.775735999999988, 
+    "slug": "ad4d906990a9f711ff6ced0f1c654f431de62295", 
+    "name": "Pronto"
+  }, 
+  {
+    "lat": 32.048544999999997, 
+    "lng": 34.764668, 
+    "slug": "65153cbd39f09cfcf31b5a593d9b988f64956b2d", 
+    "name": "\u05de\u05db\u05d5\u05df \u05d3\u05e8\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.061171000000002, 
+    "lng": 34.763354999999997, 
+    "slug": "71dd3d1c1d4b9cc3f8dc55ab4b9ffde1ccd82d93", 
+    "name": "Dallal"
+  }, 
+  {
+    "lat": 32.063116999999998, 
+    "lng": 34.770378000000001, 
+    "slug": "1b6551827f9c4a8ee78a593c5907583266844496", 
+    "name": "Tel-Aviv Brewhouse"
+  }, 
+  {
+    "lat": 32.049655000000001, 
+    "lng": 34.757894, 
+    "slug": "bd585c0675d3509b19098264dc1c5f1b57427897", 
+    "name": "Peace Of Cake"
+  }, 
+  {
+    "lat": 32.057693, 
+    "lng": 34.780357000000002, 
+    "slug": "ce7c91f0dfee43575a15fbd734fe881a169dc6de", 
+    "name": "\u05e0\u05d5\u05d5\u05d4 \u05e9\u05d0\u05e0\u05df"
+  }, 
+  {
+    "lat": 32.077055999999999, 
+    "lng": 34.781289000000001, 
+    "slug": "390e98fddd7fc41762b9f2ec4e4cab98ba3d9699", 
+    "name": "Giraffe"
+  }, 
+  {
+    "lat": 32.079245999999998, 
+    "lng": 34.768706000000002, 
+    "slug": "424e73b31d1789bde6add712467c7dd876471f06", 
+    "name": "Adiv Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.045578999999996, 
+    "lng": 34.785834000000001, 
+    "slug": "41b63a10b6993377887fe192c4c9cb0f66b1ee73", 
+    "name": "\u05d7\u05e0\u05d9\u05d5\u05df \u05d3\u05e8\u05d5\u05dd \u05dc\u05d0\u05d5\u05d8\u05d5\u05d1\u05d5\u05e1\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.065913000000002, 
+    "lng": 34.777107999999998, 
+    "slug": "aafc3b1cbcd5e89a117ed1774eb2254b34cca170", 
+    "name": "Rothschilds Kitchen"
+  }, 
+  {
+    "lat": 32.072206000000001, 
+    "lng": 34.765506999999999, 
+    "slug": "9119d970986bce67188a4e946fecd8169026b9e9", 
+    "name": "Geula Beach Boutique Apartments"
+  }, 
+  {
+    "lat": 32.094752999999997, 
+    "lng": 34.776513999999999, 
+    "slug": "acfd77d2d5d6772330169fb6fda7d2a84d61fc69", 
+    "name": "Jeremiah"
+  }, 
+  {
+    "lat": 32.084547999999998, 
+    "lng": 34.781688000000003, 
+    "slug": "e9259d98444827fa0a7f8845671409299b59268a", 
+    "name": "Cafecafe"
+  }, 
+  {
+    "lat": 32.063735000000001, 
+    "lng": 34.762073999999998, 
+    "slug": "3f9370d3ca986a42904b1aaf1eed664999851ba6", 
+    "name": "SEO-C \u05e9\u05d9\u05d5\u05d5\u05e7 \u05d1\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8"
+  }, 
+  {
+    "lat": 32.053772000000002, 
+    "lng": 34.769500000000001, 
+    "slug": "375218678d0e10864f634924db20f80b1d482863", 
+    "name": "Samaya"
+  }, 
+  {
+    "lat": 32.056716000000002, 
+    "lng": 34.762737000000001, 
+    "slug": "d42f338f210f3cdd77482ccbb5136526fc765087", 
+    "name": "Beit Immanuel Hostel"
+  }, 
+  {
+    "lat": 32.070729, 
+    "lng": 34.781731999999998, 
+    "slug": "235fa87ea8d548bbfc5e0c71d406c0c9c41f737e", 
+    "name": "Ruben"
+  }, 
+  {
+    "lat": 32.099167000000001, 
+    "lng": 34.779167000000001, 
+    "slug": "f974e7a4e60b4cff1e416348ad8205667f956df8", 
+    "name": "\u05de\u05e1\u05d5\u05e3 \u05e8\u05d3\u05d9\u05e0\u05d2"
+  }, 
+  {
+    "lat": 32.037359000000002, 
+    "lng": 34.761704000000002, 
+    "slug": "b0ddb220bcfc67fa5b3f2c9791e2dfe3283a8f6d", 
+    "name": "\u05de\u05d5\u05d9\u05d0\u05dc"
+  }, 
+  {
+    "lat": 32.069752999999999, 
+    "lng": 34.770420999999999, 
+    "slug": "ff1ad1b6c6e80b970627687e5f48b880178c93ff", 
+    "name": "Agadir Bar Burger"
+  }, 
+  {
+    "lat": 32.066484000000003, 
+    "lng": 34.782511, 
+    "slug": "992283827fd8d45553ac9c3542303294868e078f", 
+    "name": "Lincoln"
+  }, 
+  {
+    "lat": 32.048475000000003, 
+    "lng": 34.764302999999998, 
+    "slug": "802a533e9ea7617e62e1b49659be60d6f2120ea4", 
+    "name": "Hasunny"
+  }, 
+  {
+    "lat": 32.052788, 
+    "lng": 34.781438000000001, 
+    "slug": "eacf6b8597174f72df6b1621aefb19d175e53292", 
+    "name": "\u05de\u05d8\u05d1\u05d7\u05d9 \u05e0\u05d5\u05e4\u05e8"
+  }, 
+  {
+    "lat": 32.047164000000002, 
+    "lng": 34.758315000000003, 
+    "slug": "e7b77db8329372bfc2c19f3e063fc3046efa954c", 
+    "name": "\u05dc\u05d1 \u05d9\u05e4\u05d5"
+  }, 
+  {
+    "lat": 32.045183000000002, 
+    "lng": 34.748583000000004, 
+    "slug": "981d8d49b15b293b2c86939f3934bf999f54cf69", 
+    "name": "Hinnawi"
+  }, 
+  {
+    "lat": 32.077666000000001, 
+    "lng": 34.768304999999998, 
+    "slug": "11d44946c77498582974b3840a0c8ad0cf49ddba", 
+    "name": "Thai House"
+  }, 
+  {
+    "lat": 32.049480000000003, 
+    "lng": 34.771661999999999, 
+    "slug": "880bba859f4a41687dafb279c08a67a0ecf82497", 
+    "name": "\u05d4\u05d2\u05df \u05d4\u05d6\u05d5\u05d0\u05d5\u05dc\u05d5\u05d2\u05d9"
+  }, 
+  {
+    "lat": 32.053117, 
+    "lng": 34.751429000000002, 
+    "slug": "b4287b08034b10fde3fccbfa0b43904b25b9e07c", 
+    "name": "\u05d7\u05d5\u05de\u05d4 \u05e2\u05ea\u05d9\u05e7\u05d4"
+  }, 
+  {
+    "lat": 32.053438, 
+    "lng": 34.75179, 
+    "slug": "9aadbe0ea92094cea02a2ef7e0b64c2dd8c1acad", 
+    "name": "Napoleon Patisserie"
+  }, 
+  {
+    "lat": 32.090752000000002, 
+    "lng": 34.780329999999999, 
+    "slug": "380ed9116fe530d8afac2d48be9ea34ea4f710ed", 
+    "name": "Vanilya"
+  }, 
+  {
+    "lat": 32.085867, 
+    "lng": 34.769844999999997, 
+    "slug": "39aa6f04d9aa1808a900c635961a47dc4e82c874", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05d0\u05ea\u05e8\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.042762000000003, 
+    "lng": 34.779960000000003, 
+    "slug": "39704547bcd91979a66273c660d939f2658b2c14", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05e9\u05d9\u05d8\u05d5\u05e8 \u05e7\u05d4\u05d9\u05dc\u05ea\u05d9"
+  }, 
+  {
+    "lat": 32.052647, 
+    "lng": 34.771614999999997, 
+    "slug": "82973a4e37d62dedb5fbf15e6dcd6109c2b1b3dd", 
+    "name": "\u05d1\u05d9\u05d8\u05e8\u05df \u05d0\u05dc\u05d5\u05de\u05d9\u05e0\u05d9\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.045873999999998, 
+    "lng": 34.776387999999997, 
+    "slug": "b6962897cfdef1fe0201c968119749f9d39ada3f", 
+    "name": "\u05e7\u05d0\u05e0\u05d8\u05e8\u05d9 \u05d2\u05d5\u05e8\u05df \u05d2\u05d5\u05dc\u05d3\u05e9\u05d8\u05d9\u05d9\u05df"
+  }, 
+  {
+    "lat": 32.077533000000003, 
+    "lng": 34.767521000000002, 
+    "slug": "b5d28e1ebf4e6f353409ab8a7003060bdd300a21", 
+    "name": "Maxim Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.070624000000002, 
+    "lng": 34.770057000000001, 
+    "slug": "25ec50669decdfee12a1f904fee12a723bfb8bbc", 
+    "name": "Little Prague"
+  }, 
+  {
+    "lat": 32.056645000000003, 
+    "lng": 34.779055000000007, 
+    "slug": "f7cae12fc944e60a43dbe550fc831eda4adcf115", 
+    "name": "Tel Aviv Central Bus Station"
+  }, 
+  {
+    "lat": 32.044088000000002, 
+    "lng": 34.775201000000003, 
+    "slug": "e450ed50122f7f05f82d25d31cda8c4fa9066a20", 
+    "name": "\u05d2\u05df \u05e7\u05e0\u05d3\u05d4"
+  }, 
+  {
+    "lat": 32.079273999999998, 
+    "lng": 34.773724000000009, 
+    "slug": "4317f996fe76cd8427b89be069f6a1f84d89dea3", 
+    "name": "Bauhaus Center"
+  }, 
+  {
+    "lat": 32.048991999999998, 
+    "lng": 34.750056000000001, 
+    "slug": "d9c4ba6cfdad6f20c23f8760d580b6205ca99ff8", 
+    "name": "Kedem 60"
+  }, 
+  {
+    "lat": 32.035193, 
+    "lng": 34.757247, 
+    "slug": "cfc235b36a87c390a09da5687931cdc3e6108198", 
+    "name": "\u05d2\u05df \u05d1\u05e8\u05d9\u05e0\u05e7\u05e8"
+  }, 
+  {
+    "lat": 32.097085999999997, 
+    "lng": 34.772939999999998, 
+    "slug": "e6b3ac885bb99053c2af6da4d678c579e0f18ef8", 
+    "name": "\u05d3\u05d9\u05d0\u05d3\u05d4 - \u05e0\u05de\u05dc \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.074384000000002, 
+    "lng": 34.768115999999999, 
+    "slug": "281e0aeb4eceb2164cdbee2ff71c79febc96d902", 
+    "name": "Mercure BP Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.060929999999999, 
+    "lng": 34.782373999999997, 
+    "slug": "de47e3c68a6e640426c59aeed3d8cee6395fb9f7", 
+    "name": "Tommy"
+  }, 
+  {
+    "lat": 32.095728999999999, 
+    "lng": 34.776176, 
+    "slug": "f22f03b627e1c4b774568bd89bbbae52c36e751a", 
+    "name": "Hasinit Haaduma"
+  }, 
+  {
+    "lat": 32.061154999999999, 
+    "lng": 34.782189000000002, 
+    "slug": "b9be4a80ef31f934aae6f2943372715180349e61", 
+    "name": "MANDARIN - Advertising Company"
+  }, 
+  {
+    "lat": 32.042160000000003, 
+    "lng": 34.772044999999999, 
+    "slug": "041adc54f3286229ffe7a158e7905e66463addf8", 
+    "name": "\u05e4\u05d9\u05e0\u05ea \u05d4\u05e9\u05dc\u05d5\u05e9\u05d4 - \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.064101999999998, 
+    "lng": 34.762220999999997, 
+    "slug": "55c56e4e3c3a093ae66fe7c7f4df2444d713a2ad", 
+    "name": "Byblos"
+  }, 
+  {
+    "lat": 32.073687, 
+    "lng": 34.768137000000003, 
+    "slug": "aa579d4271ac4925359a2b9f7984c6b4138c823e", 
+    "name": "Mugraby Hostel"
+  }, 
+  {
+    "lat": 32.063183000000002, 
+    "lng": 34.770961999999997, 
+    "slug": "13a19991fda2adddfb298742f9154c311a70877a", 
+    "name": "Rustico"
+  }, 
+  {
+    "lat": 32.064813999999998, 
+    "lng": 34.770014000000003, 
+    "slug": "0ab2df7976243a65c232255945ea192ce7c1d81b", 
+    "name": "Sun Aviv Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.065317, 
+    "lng": 34.769905000000001, 
+    "slug": "3412aacee0f161bb669ca6728a2f3eb5fd0fbfd3", 
+    "name": "Brown TLV"
+  }, 
+  {
+    "lat": 32.060879, 
+    "lng": 34.763443000000002, 
+    "slug": "b27a9ef2d9447a9f9c65405562887ec3f2a97be9", 
+    "name": "Liart - Boutique Hotel"
+  }, 
+  {
+    "lat": 32.055911000000002, 
+    "lng": 34.764949999999999, 
+    "slug": "3d81c3dc3f4b91c39cddb77b062eba862a9b2157", 
+    "name": "Florentine Hostel"
+  }, 
+  {
+    "lat": 32.052686999999999, 
+    "lng": 34.757117999999998, 
+    "slug": "04001e78ebb45737abe66acab0dcfb9768a4df22", 
+    "name": "Azteca Bar"
+  }, 
+  {
+    "lat": 32.076853999999997, 
+    "lng": 34.766275999999998, 
+    "slug": "7f1129f3fccc53e031fa7b082645b7ff3a05ffb0", 
+    "name": "Mike's Place"
+  }, 
+  {
+    "lat": 32.054456999999999, 
+    "lng": 34.752152000000002, 
+    "slug": "3d59e82a4140092bb5fe283e1e568e7869c62744", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05e7\u05d3\u05d5\u05de\u05d9\u05dd \u05de\u05e8\u05db\u05d6 \u05de\u05d1\u05e7\u05e8\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.045780999999998, 
+    "lng": 34.748778999999999, 
+    "slug": "dd264e922ea17598a263eb8f5351d05827d53d2d", 
+    "name": "\u05d3\u05e0\u05d9"
+  }, 
+  {
+    "lat": 32.095619999999997, 
+    "lng": 34.776159999999997, 
+    "slug": "57f6d4922a266a759847f662a32c53acd105758d", 
+    "name": "Dizengoff Beach Apartments Tel Aviv"
+  }, 
+  {
+    "lat": 32.073664999999998, 
+    "lng": 34.765484999999998, 
+    "slug": "6d343e97aec5f7d7f56e1cf71afe3cbd65498909", 
+    "name": "\u05de\u05d2\u05d3\u05dc \u05d4\u05d0\u05d5\u05e4\u05e8\u05d4"
+  }, 
+  {
+    "lat": 32.068956999999997, 
+    "lng": 34.774704999999997, 
+    "slug": "d107982ed84c651d0fa221dba6b4369cba32fa47", 
+    "name": "Orna and Ella"
+  }, 
+  {
+    "lat": 32.036414000000008, 
+    "lng": 34.74541, 
+    "slug": "2756148818b6191df28e6ac908b728ae801a2e65", 
+    "name": "\u05d1\u05d9\u05ea \u05e7\u05d1\u05e8\u05d5\u05ea \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1 \u05de\u05d5\u05e1\u05dc\u05de\u05d9"
+  }, 
+  {
+    "lat": 32.095249000000003, 
+    "lng": 34.783765000000002, 
+    "slug": "5d85e19b210ff84c5157eb2f55e4afaa8b184acc", 
+    "name": "The neighbor"
+  }, 
+  {
+    "lat": 32.068043000000003, 
+    "lng": 34.768115999999999, 
+    "slug": "c894cb199a264f9eccec8a9cff851ad9f3be1f99", 
+    "name": "Carmel Market"
+  }, 
+  {
+    "lat": 32.060616000000003, 
+    "lng": 34.773873999999999, 
+    "slug": "2a1864d0cbacf24c9ee6039d3ea2065a67e65848", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05de\u05d5\u05e9\u05d1\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.090041999999997, 
+    "lng": 34.780217, 
+    "slug": "728d7da90d11419c5ebfa02780e9f317acd99f5a", 
+    "name": "ZE SUSHI"
+  }, 
+  {
+    "lat": 32.082541999999997, 
+    "lng": 34.771203, 
+    "slug": "e0bebdf5673a8e1a65e9b491f2081c33380164fe", 
+    "name": "\u05de\u05dc\u05d5\u05df \u05d3\u05d1\u05d5\u05e8\u05d4"
+  }, 
+  {
+    "lat": 32.054065999999999, 
+    "lng": 34.786019000000003, 
+    "slug": "00272a840ca477a0563f89abc4697b554eee2d94", 
+    "name": "Agency \"Holliday\" + Wedding Boutique \"LeRina\""
+  }, 
+  {
+    "lat": 32.075738999999999, 
+    "lng": 34.766091000000003, 
+    "slug": "6bee4698d1efc47cc5622ca789ef8f05f3ccb049", 
+    "name": "\u05e1\u05d9 \u05d4\u05d5\u05d8\u05dc"
+  }, 
+  {
+    "lat": 32.096747999999998, 
+    "lng": 34.775928, 
+    "slug": "84a8a00dc29109e4be5ce228470543752585f1ba", 
+    "name": "Moses station"
+  }, 
+  {
+    "lat": 32.057342000000013, 
+    "lng": 34.764313999999999, 
+    "slug": "f63ae2aa4d438f880d397e62e23202c8e187a6e1", 
+    "name": "Norma Jean"
+  }, 
+  {
+    "lat": 32.058489000000002, 
+    "lng": 34.772115999999997, 
+    "slug": "33a170625b0ec7e0f575d4a0c40c7862187b189d", 
+    "name": "4chef"
+  }, 
+  {
+    "lat": 32.04316, 
+    "lng": 34.747726, 
+    "slug": "d0e683706418d352a41284e1c43547bcd7a8355b", 
+    "name": "Hazaken Vehayam"
+  }, 
+  {
+    "lat": 32.074165000000001, 
+    "lng": 34.775517999999998, 
+    "slug": "384d93baed9f2271ce36294418d5f75b24191f4b", 
+    "name": "\u05d4\u05d0\u05d5\u05d6\u05df \u05d4\u05e9\u05dc\u05d9\u05e9\u05d9\u05ea"
+  }, 
+  {
+    "lat": 32.038834999999999, 
+    "lng": 34.755738000000001, 
+    "slug": "b070cdf57e5c827911a14e9c47e0acb66fb6798a", 
+    "name": "\u05d9\u05e0\u05d9\u05d1 \u05d0\u05d9\u05ea\u05df-\u05e6\u05dc\u05dd"
+  }, 
+  {
+    "lat": 32.072150000000001, 
+    "lng": 34.764603999999999, 
+    "slug": "8311cd93e0fa71154ffa71788a4a1c8cd546767b", 
+    "name": "\u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.061658999999999, 
+    "lng": 34.768802999999998, 
+    "slug": "5c3a72cc9149bb5e8aaee1eab13b6be582a13f37", 
+    "name": "Catit"
+  }, 
+  {
+    "lat": 32.093801999999997, 
+    "lng": 34.785285999999999, 
+    "slug": "73702b88a705890049bd2ebfef71fc07a2d08f7d", 
+    "name": "Zorik"
+  }, 
+  {
+    "lat": 32.075875000000003, 
+    "lng": 34.765993999999999, 
+    "slug": "604044f42ce546ff91961039cc473f88b4415f8e", 
+    "name": "\u05d9\u05d8\u05d1\u05ea\u05d4 \u05d1\u05e2\u05d9\u05e8 - \u05d8\u05d9\u05d9\u05dc\u05ea - \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.053392000000002, 
+    "lng": 34.751342999999999, 
+    "slug": "dca362f7d931ec676259a5ea983895a093079989", 
+    "name": "Ilana Goor Museum (The)"
+  }, 
+  {
+    "lat": 32.053165, 
+    "lng": 34.774577999999998, 
+    "slug": "8eea00c01c416fc77ac6ef61d0d06c19db961784", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05d4\u05e9\u05d9\u05e9 \u05d5\u05d4\u05d2\u05e8\u05e0\u05d9\u05d8 \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.077088000000003, 
+    "lng": 34.766381000000003, 
+    "slug": "761b81a82dd8c24072c115e57eb10bc722c02cdf", 
+    "name": "Armando"
+  }, 
+  {
+    "lat": 32.068871000000001, 
+    "lng": 34.763283999999999, 
+    "slug": "5f30529d8aa3bef247e70e5d662dd9d19ae53d9a", 
+    "name": "Chanky beach"
+  }, 
+  {
+    "lat": 32.098458999999998, 
+    "lng": 34.780584999999988, 
+    "slug": "a25f82cafb518db807c7db11b3d6aae60c4f107a", 
+    "name": "Mandys"
+  }, 
+  {
+    "lat": 32.097884000000001, 
+    "lng": 34.777666000000004, 
+    "slug": "bf482c20fa1008c0915e1f7a129247c4bcf1e29c", 
+    "name": "Max brener"
+  }, 
+  {
+    "lat": 32.069446999999997, 
+    "lng": 34.764594000000002, 
+    "slug": "9a4ae66076930f3fc328c3572d2fc4ece1ae0d33", 
+    "name": "Baba Yaga Restaurant"
+  }, 
+  {
+    "lat": 32.064188999999999, 
+    "lng": 34.774797999999997, 
+    "slug": "1dd62627fc07664b95fadf06692cc422690f9976", 
+    "name": "Max Brenner"
+  }, 
+  {
+    "lat": 32.093451999999999, 
+    "lng": 34.785007, 
+    "slug": "1e8f943842c2d308b1fc0ea57069a90ff1de8915", 
+    "name": "Caffe shevaizer"
+  }, 
+  {
+    "lat": 32.101041000000002, 
+    "lng": 34.785027999999997, 
+    "slug": "5b52a226449318aa97c0452d9e220bb02a720f94", 
+    "name": "Professional Fitness Group"
+  }, 
+  {
+    "lat": 32.085572999999997, 
+    "lng": 34.770237000000002, 
+    "slug": "1b1d10b136cbeefd66c77ac19e220a00fe481cb7", 
+    "name": "Marina Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.049785, 
+    "lng": 34.774549, 
+    "slug": "cac74f9499bd4db58789c11c933b52ea8d8b7d69", 
+    "name": "Kol-Hi Manpower services"
+  }, 
+  {
+    "lat": 32.094161999999997, 
+    "lng": 34.783535999999998, 
+    "slug": "c3386b92d5e4e0f0b2b479f7d00efe5982e340e0", 
+    "name": "\u05d1\u05d9\u05ea \u05d4\u05de\u05e9\u05e7\u05d0\u05d5\u05ea \u05e9\u05dc \u05e0\u05e4\u05ea\u05dc\u05d9"
+  }, 
+  {
+    "lat": 32.044276000000004, 
+    "lng": 34.772353000000003, 
+    "slug": "3c1504eb0f21478849a164a2501db2207eeee43d", 
+    "name": "\u05d2\u05df \u05d4\u05d4\u05e1\u05ea\u05d3\u05e8\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.095036, 
+    "lng": 34.778222999999997, 
+    "slug": "5cc1a890de59f719a6377fd49cfdbc4cab38475d", 
+    "name": "Japanika Sushi Bar"
+  }, 
+  {
+    "lat": 32.088833000000001, 
+    "lng": 34.775435999999999, 
+    "slug": "62d32be4c573b7de944160263ef9a153d6251f52", 
+    "name": "Mate Public House"
+  }, 
+  {
+    "lat": 32.089624999999998, 
+    "lng": 34.773836000000003, 
+    "slug": "a31ac14676376f4713ff7fc5e012b638d9ec220f", 
+    "name": "Benedict"
+  }, 
+  {
+    "lat": 32.052686999999999, 
+    "lng": 34.757117999999998, 
+    "slug": "bb225a0efa24cd1b7aec07a5d58aa5f790fa37f6", 
+    "name": "Yaffo Caffe"
+  }, 
+  {
+    "lat": 32.083483999999999, 
+    "lng": 34.781297000000002, 
+    "slug": "d552e790ce4d354ca76915a949d8ad4d8b1325b6", 
+    "name": "The Coffee Bean & Tea Leaf"
+  }, 
+  {
+    "lat": 32.063287000000003, 
+    "lng": 34.761887999999999, 
+    "slug": "152f4cb173406818e80d32e11d226cef80c1cc35", 
+    "name": "\u05e7\u05e4\u05d4 \u05d4\u05ea\u05d7\u05e0\u05d4"
+  }, 
+  {
+    "lat": 32.042048000000001, 
+    "lng": 34.751660999999999, 
+    "slug": "db2d6ad410d2b0e7754e2c7f3507233638185f46", 
+    "name": "\u05de\u05d5\u05d8\u05e8\u05d0\u05df"
+  }, 
+  {
+    "lat": 32.045605999999999, 
+    "lng": 34.746110000000002, 
+    "slug": "be7f146d19405af6ad625bb244a76ab859127079", 
+    "name": "\u05e4\u05d0\u05e8\u05e7 \u05de\u05d3\u05e8\u05d5\u05df \u05d9\u05e4\u05d5"
+  }, 
+  {
+    "lat": 32.05489, 
+    "lng": 34.767575999999998, 
+    "slug": "a5e79c5f892fc14d24ad546809bef4ec6b5fc4ac", 
+    "name": "\u05e1\u05d8\u05d5\u05d3\u05d9\u05d5 \u05e0\u05e2\u05d9\u05dd - \u05d9\u05d5\u05d2\u05d4, \u05e4\u05d9\u05dc\u05d0\u05d8\u05d9\u05e1, \u05de\u05d7\u05d5\u05dc"
+  }, 
+  {
+    "lat": 32.059762999999997, 
+    "lng": 34.782903999999988, 
+    "slug": "e73cd3e92ab605c86491e485064e6986c9291ff2", 
+    "name": "So"
+  }, 
+  {
+    "lat": 32.055204000000003, 
+    "lng": 34.773901000000002, 
+    "slug": "3d57cdefa790f0bedf6bb7a2750e0890a6bfe78a", 
+    "name": "\u05de\u05e9\u05e7\u05d0\u05d5\u05ea \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.075445999999999, 
+    "lng": 34.774996999999999, 
+    "slug": "0569ae3b04537f4291f9d3be22ac1dbf8e43b9cf", 
+    "name": "Roladin"
+  }, 
+  {
+    "lat": 32.064954, 
+    "lng": 34.762650999999998, 
+    "slug": "a3613bafbeffa00aec9b34d30b96b031aa4e0468", 
+    "name": "\u05e9\u05d2\u05e8\u05d9\u05e8\u05d5\u05ea \u05e6'\u05d9\u05dc\u05d4"
+  }, 
+  {
+    "lat": 32.054637, 
+    "lng": 34.752184, 
+    "slug": "127a914eb03a801db34fa5009ad56caba170b531", 
+    "name": "St. Peter's Church"
+  }, 
+  {
+    "lat": 32.070362000000003, 
+    "lng": 34.784390999999999, 
+    "slug": "865eec3659fbca5f85617318f8e549b72f15e376", 
+    "name": "Biala"
+  }, 
+  {
+    "lat": 32.073230000000002, 
+    "lng": 34.764947999999997, 
+    "slug": "e3797b72236d699aa350543942a3c986d6bb3d59", 
+    "name": "Golden Beach Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.069467000000003, 
+    "lng": 34.770383000000002, 
+    "slug": "070ed3cb7afb737e3d6945068584060c58b08b46", 
+    "name": "\u05de\u05e8\u05db\u05d6 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.059925, 
+    "lng": 34.785125999999998, 
+    "slug": "520108c0eb9ae8e6d956f610f5e075458b8cbb4a", 
+    "name": "Bein Harim - Jerusalem - Bethlehem"
+  }, 
+  {
+    "lat": 32.061779999999999, 
+    "lng": 34.784005000000001, 
+    "slug": "67b30c4771c048b911a3457c6bce7bbe66564e9f", 
+    "name": "Roy Chocolate"
+  }, 
+  {
+    "lat": 32.067309000000002, 
+    "lng": 34.781329999999997, 
+    "slug": "408606596206938d46117c3a9de0402f78416488", 
+    "name": "Pasta Mia"
+  }, 
+  {
+    "lat": 32.054034000000001, 
+    "lng": 34.754390000000001, 
+    "slug": "2545711f8c75ff7af39fe55b8f62deacd6ecb4bc", 
+    "name": "Noa Bistro"
+  }, 
+  {
+    "lat": 32.062130000000003, 
+    "lng": 34.778761000000003, 
+    "slug": "a4a33d70c509f59a37e53cdd687edeb1099d3a7e", 
+    "name": "\u05de\u05e1\u05d9 - Messi"
+  }, 
+  {
+    "lat": 32.059137999999997, 
+    "lng": 34.775567000000002, 
+    "slug": "d33ecffa1b6f08048adfc4150486ac7f5b797690", 
+    "name": "TechTV.co.il"
+  }, 
+  {
+    "lat": 32.070357999999999, 
+    "lng": 34.784528999999999, 
+    "slug": "6b328f8e51df2f078c6014e2b6db9f82059c9aba", 
+    "name": "Tapeo"
+  }, 
+  {
+    "lat": 32.077088000000003, 
+    "lng": 34.766381000000003, 
+    "slug": "22573ed97073922161064fb7467ae5973eb826e2", 
+    "name": "Kfc - \u05d8\u05d9\u05d9\u05dc\u05ea \u05ea\"\u05d0"
+  }, 
+  {
+    "lat": 32.089261999999998, 
+    "lng": 34.782445000000003, 
+    "slug": "3a3a386a26b8d900121839b9e51709b94c6497a7", 
+    "name": "Homeburger"
+  }, 
+  {
+    "lat": 32.073183999999998, 
+    "lng": 34.782919, 
+    "slug": "219d41c363b0a0f0a3e92e4315898f9120e3a249", 
+    "name": "\u05d1\u05d9\u05ea \u05d4\u05e1\u05d5\u05e4\u05e8"
+  }, 
+  {
+    "lat": 32.078333000000001, 
+    "lng": 34.773611000000002, 
+    "slug": "30cbc7c35df022a3e54b2704175bf893423e269f", 
+    "name": "KDA - Dizengoff Street Appartments Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.090375000000002, 
+    "lng": 34.779224999999997, 
+    "slug": "a8855d0669d68429dd8ff35ad2db739f97043614", 
+    "name": "Gourmet shop"
+  }, 
+  {
+    "lat": 32.066946000000002, 
+    "lng": 34.783418999999988, 
+    "slug": "27caa1fa2e60a4cba23433cb5a938922fa55597a", 
+    "name": "Abu Adham"
+  }, 
+  {
+    "lat": 32.045544999999997, 
+    "lng": 34.776831000000001, 
+    "slug": "f580940db239cc42de500a118a4cba1ab4916bd6", 
+    "name": "\u05d9\u05e7\u05d1 \u05e7\u05d8\u05dc\u05d1"
+  }, 
+  {
+    "lat": 32.056223000000003, 
+    "lng": 34.767873000000002, 
+    "slug": "fe656b914795dd82c98b9d90f413c67ae7ac28c5", 
+    "name": "\u05e0\u05d9\u05d9\u05d8 \u05e9\u05d9\u05e4\u05d8 - Night Shift"
+  }, 
+  {
+    "lat": 32.056621, 
+    "lng": 34.779837999999998, 
+    "slug": "ae5d407fd181b04d5ee621e6c6e87b5cdb204d0a", 
+    "name": "\u05e7.\u05d0.\u05de. \u05dc\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4"
+  }, 
+  {
+    "lat": 32.069989999999997, 
+    "lng": 34.763773, 
+    "slug": "80a9caaa7b48c5de5acb98e7aa36e3ea3042da9e", 
+    "name": "Banana Beach"
+  }, 
+  {
+    "lat": 32.067169999999997, 
+    "lng": 34.786479999999997, 
+    "slug": "d3a407cdeddd93626b0852e62061800aaf08f9cf", 
+    "name": "Deca"
+  }, 
+  {
+    "lat": 32.057986, 
+    "lng": 34.783257999999996, 
+    "slug": "5d30656a0ff3f4d7ba58ee4506b954f3bc7a36fb", 
+    "name": "Pluto Studios -\u05d0\u05d5\u05dc\u05e4\u05e0\u05d9 \u05e4\u05dc\u05d5\u05d8\u05d5"
+  }, 
+  {
+    "lat": 32.054566999999999, 
+    "lng": 34.782795, 
+    "slug": "e2205f482bf390e1140a331d4883f4a15da291dc", 
+    "name": "\u05d3\u05e4\u05d5\u05e1 \u05d4\u05e9\u05d5\u05e7\u05d3 \u05dc\u05ea\u05d5\u05d5\u05d9\u05d5\u05ea (1986) \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.065939, 
+    "lng": 34.774844999999999, 
+    "slug": "77c2e7d0aec614d7b5b007b5fe5ef84d3d6ee3f0", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05de\u05dc\u05da \u05d0\u05dc\u05d1\u05e8\u05d8"
+  }, 
+  {
+    "lat": 32.078093000000003, 
+    "lng": 34.774745000000003, 
+    "slug": "be0423267946b0e961e83be9835f2959bbbf7d80", 
+    "name": "CINEMA Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.050953, 
+    "lng": 34.772688000000002, 
+    "slug": "30e10914020ba9237df0a41e0030692d996efd55", 
+    "name": "\u05e1\u05d8\u05d5\u05d3\u05d9\u05d5 \u05d8\u05dc\u05d9 \u05ea\u05d1\u05d5\u05e8"
+  }, 
+  {
+    "lat": 32.075471, 
+    "lng": 34.767223000000001, 
+    "slug": "9570ab9ebd0b8895905ba5d06f31dcb6fc703fd2", 
+    "name": "Hotel Metropolitan Tel-Aviv"
+  }, 
+  {
+    "lat": 32.052098000000008, 
+    "lng": 34.749605000000003, 
+    "slug": "daa98557ad3eaac8a5dc07e47296548c777d8832", 
+    "name": "Container"
+  }, 
+  {
+    "lat": 32.086047000000001, 
+    "lng": 34.769489, 
+    "slug": "c563b71f37ea6e58b57e4c20dd37b06b753c03c4", 
+    "name": "\u05de\u05dc\u05d5\u05df \u05de\u05e8\u05d9\u05e0\u05d4 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1"
+  }, 
+  {
+    "lat": 32.077972000000003, 
+    "lng": 34.788483999999997, 
+    "slug": "46c76cd386618c3e7ed77234c857a1bd380d7145", 
+    "name": "Efac Aisa"
+  }, 
+  {
+    "lat": 32.070554000000001, 
+    "lng": 34.769433999999997, 
+    "slug": "66a92c508437bd51e2574c45c006895ded08f7e4", 
+    "name": "Galileo Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.054369000000001, 
+    "lng": 34.751139999999999, 
+    "slug": "2d54db6dc56e9f12c6c733d0eb8efde2e745b588", 
+    "name": "Hand Factory"
+  }, 
+  {
+    "lat": 32.071005999999997, 
+    "lng": 34.770006000000002, 
+    "slug": "02b05d3b0cecf4c4b5bc755d84bc925e75dc9390", 
+    "name": "Bialik"
+  }, 
+  {
+    "lat": 32.054194000000003, 
+    "lng": 34.788682999999999, 
+    "slug": "269e1cb5736d6a20ec09bb4e72d36330b6347855", 
+    "name": "Shemesh"
+  }, 
+  {
+    "lat": 32.056621, 
+    "lng": 34.779837999999998, 
+    "slug": "611fda83f9083987077f2ede0ef61269cbb1d21b", 
+    "name": "\u05ea\u05d7\u05e0\u05d4 \u05de\u05e8\u05db\u05d6\u05d9\u05ea \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1 Orange Store"
+  }, 
+  {
+    "lat": 32.077264999999997, 
+    "lng": 34.772253000000013, 
+    "slug": "c4b8d442a9310541dc6e3574062ba2dd36d0668f", 
+    "name": "Clal"
+  }, 
+  {
+    "lat": 32.060408000000002, 
+    "lng": 34.764279999999999, 
+    "slug": "6cb769e1336601ae5cbb604b6ba6dea5a0f9c5d1", 
+    "name": "Bellini"
+  }, 
+  {
+    "lat": 32.076853999999997, 
+    "lng": 34.766275999999998, 
+    "slug": "a2c8af03982c81b1cf9691fb60021c4a9ce7e103", 
+    "name": "Buzz Stop"
+  }, 
+  {
+    "lat": 32.054789, 
+    "lng": 34.772360999999997, 
+    "slug": "2eded02a03741185db34ac909bc88c907e7fade8", 
+    "name": "\u05de\u05d5\u05d8\u05d5\u05e8\u05d9\u05d9\u05d1 \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd \u05dc\u05d0\u05d5\u05e4\u05e0\u05d5\u05e2\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.063383000000002, 
+    "lng": 34.771616000000002, 
+    "slug": "f3f06dcc646c486d1242a387cc5b575500989424", 
+    "name": "1- (\u05de\u05d9\u05e0\u05d5\u05e1 \u05d0\u05d7\u05d3)"
+  }, 
+  {
+    "lat": 32.054653000000009, 
+    "lng": 34.763974999999988, 
+    "slug": "238854fd7a9e4dca88bc194efb4dfa759f0d43f5", 
+    "name": "Rak basar"
+  }, 
+  {
+    "lat": 32.061363, 
+    "lng": 34.775932999999988, 
+    "slug": "3c99ca4437ec3e14a73249542e7528ba49cb36b3", 
+    "name": "E-Shetach \u05d0\u05d9\u05e9 \u05e9\u05d8\u05d7"
+  }, 
+  {
+    "lat": 32.073183, 
+    "lng": 34.770910000000001, 
+    "slug": "2c7b72dcbb6f0d9282087967799191f061a8a548", 
+    "name": "\u05db\u05d9\u05db\u05e8 \u05d1\u05d9\u05d0\u05dc\u05d9\u05e7"
+  }, 
+  {
+    "lat": 32.054862, 
+    "lng": 34.775911999999998, 
+    "slug": "36ed9a8f112350a2c41a8a5c7dde5cc7c5b004d4", 
+    "name": "\u05d4\u05d9\u05d9 \u05e4\u05d9\u05d9. \u05de\u05d7\u05d9\u05e8 \u05d6\u05d5\u05dc, \u05e9\u05d9\u05e8\u05d5\u05ea \u05d2\u05d3\u05d5\u05dc"
+  }, 
+  {
+    "lat": 32.053593999999997, 
+    "lng": 34.772176000000002, 
+    "slug": "086ac9ce71250f33dbc37a91f2fbf4a68feefc9b", 
+    "name": "\u05e4\u05e8\u05d9\u05d3\u05de\u05df \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.079836999999998, 
+    "lng": 34.768357999999999, 
+    "slug": "1a5c8137e6a08c51cd3c7e9ad4d30e58068a7df8", 
+    "name": "\u05d3'\u05d4 \u05d4\u05d5\u05dd"
+  }, 
+  {
+    "lat": 32.075814999999999, 
+    "lng": 34.776510000000002, 
+    "slug": "6e4907fe476697d5ad571d74a14152a4508d58c2", 
+    "name": "Sakura"
+  }, 
+  {
+    "lat": 32.077952000000003, 
+    "lng": 34.767139000000007, 
+    "slug": "edab533a3bf27b035699f94af7e4ee6bd115dab1", 
+    "name": "London Square"
+  }, 
+  {
+    "lat": 32.051278000000003, 
+    "lng": 34.758462000000002, 
+    "slug": "a6878ea88efc4821ec727ce01ca29f6728e5fcaa", 
+    "name": "Shakuf"
+  }, 
+  {
+    "lat": 32.085735, 
+    "lng": 34.769632999999999, 
+    "slug": "2912af2f2f8fa36a4027ea37791d515fe27552ba", 
+    "name": "Royalty Suites"
+  }, 
+  {
+    "lat": 32.049356000000003, 
+    "lng": 34.758355999999999, 
+    "slug": "ceff6556fcc9f0478ff1b5ebec264d8201e1c48e", 
+    "name": "\u05d7\u05d5\u05e8\u05d7\u05d4"
+  }, 
+  {
+    "lat": 32.052686999999999, 
+    "lng": 34.757117999999998, 
+    "slug": "178acf145b07a1f8e3a13bfa569df3f9a6c4750c", 
+    "name": "Cafe Yafo - \u05d1\u05d9\u05e1\u05d8\u05e8\u05d5 \u05d0\u05d9\u05d8\u05dc\u05e7\u05d9"
+  }, 
+  {
+    "lat": 32.094185000000003, 
+    "lng": 34.773497999999996, 
+    "slug": "554a0638f9c03ccef4db2ccac6d4bd289d981ba1", 
+    "name": "Tal Hotel"
+  }, 
+  {
+    "lat": 32.054755999999998, 
+    "lng": 34.771306000000003, 
+    "slug": "c11e56f22fbdbbee8039ebac6ac3d9db0c0760f0", 
+    "name": "\u05d9\u05d2\u05d0\u05dc \u05d0\u05d7\u05d6\u05e7\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.081183000000003, 
+    "lng": 34.781502000000003, 
+    "slug": "cb8ebc28ce20927e81b7b60ba329de1df512a6d2", 
+    "name": "UJIA Tel Aviv Office"
+  }, 
+  {
+    "lat": 32.080092999999998, 
+    "lng": 34.768268999999997, 
+    "slug": "6981577152fcde3f0406f5a803caf7a1a3b7b899", 
+    "name": "Prima Hotel Tel Aviv"
+  }, 
+  {
+    "lat": 32.054008000000003, 
+    "lng": 34.750562000000002, 
+    "slug": "1387a73ab19596199d41b27264ebfb9543b3a105", 
+    "name": "\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05e9\u05d9\u05d8 \u05d0\u05dc\u05ea \u05d4\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.056767000000001, 
+    "lng": 34.757297999999999, 
+    "slug": "abe7e4267cb70122e9e5f496933312279a8f06ff", 
+    "name": "Etzel Pini Bachatzer"
+  }, 
+  {
+    "lat": 32.094859999999997, 
+    "lng": 34.776420000000002, 
+    "slug": "bee5b1ac95c7fb38de317845801c47a6c12322f2", 
+    "name": "Tony Vespa"
+  }, 
+  {
+    "lat": 32.052090999999997, 
+    "lng": 34.750332, 
+    "slug": "3949dc397725d3f782ef8f8a94a91612290e1e51", 
+    "name": "Hadayagim"
+  }, 
+  {
+    "lat": 32.05171, 
+    "lng": 34.752971000000002, 
+    "slug": "311e15b1383a3c3cc263c022ffe42c92467081ef", 
+    "name": "Andromeda Hill Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.042453999999999, 
+    "lng": 34.751899000000002, 
+    "slug": "39199cd172d9dca371b7682fc67b5e812ab36fd8", 
+    "name": "Shipudey Haj Cahil"
+  }, 
+  {
+    "lat": 32.056232000000001, 
+    "lng": 34.769745, 
+    "slug": "6fa6a6c3b72afeb642a31a3d03cd0b89a32939df", 
+    "name": "Bugsy"
+  }, 
+  {
+    "lat": 32.062263999999999, 
+    "lng": 34.775149999999996, 
+    "slug": "532458f5ec4188df90bd3bb51d87844d5ead01c8", 
+    "name": "Loveat"
+  }, 
+  {
+    "lat": 32.059080999999999, 
+    "lng": 34.77122, 
+    "slug": "5ece42f11e81ea65b67a990c7c0f1e3529c7c91b", 
+    "name": "Subkuch Milega"
+  }, 
+  {
+    "lat": 32.064324999999997, 
+    "lng": 34.761938000000001, 
+    "slug": "5ecc9c8f88d172fe4a63490afd5804ad8c26eba7", 
+    "name": "\u05e4\u05d6 \u05d2\u05df"
+  }, 
+  {
+    "lat": 32.088155999999998, 
+    "lng": 34.773448999999999, 
+    "slug": "62389761caece7816ff9d3171693f9776970832e", 
+    "name": "Shila"
+  }, 
+  {
+    "lat": 32.075854, 
+    "lng": 34.785162, 
+    "slug": "5a58e5751739fa9f38257c9ac7eacbf26a5d7214", 
+    "name": "Cameri Theatre"
+  }, 
+  {
+    "lat": 32.054113999999998, 
+    "lng": 34.751353000000002, 
+    "slug": "81b6b068f042061120cc2f53a897b46ce6f96abe", 
+    "name": "Taj Mahal"
+  }, 
+  {
+    "lat": 32.094987000000003, 
+    "lng": 34.773555999999999, 
+    "slug": "fe63b13bfa21e0ebd929d295fb82120dfe3045ee", 
+    "name": "\u05d4\u05d8\u05d9\u05e7\u05d0\u05e1\u05d8 \u05e9\u05d5\u05e4"
+  }, 
+  {
+    "lat": 32.046053999999998, 
+    "lng": 34.788910000000001, 
+    "slug": "0f6c58ffb4641caf04603c6443010ee7fac2d3d8", 
+    "name": "Design.Baain"
+  }, 
+  {
+    "lat": 32.035718000000003, 
+    "lng": 34.767023999999999, 
+    "slug": "977aadc9b6c8afe59f134cdb52a0126f7360b4c7", 
+    "name": "Hilulim"
+  }, 
+  {
+    "lat": 32.075676999999999, 
+    "lng": 34.771987000000003, 
+    "slug": "7c5606d56d20d092173804abadda5b302a14fb49", 
+    "name": "Kyortosh"
+  }, 
+  {
+    "lat": 32.049216999999999, 
+    "lng": 34.769218000000002, 
+    "slug": "bb5fc2b567b007cc6e05f4fe5e16b09ebaf04a32", 
+    "name": "Silver"
+  }, 
+  {
+    "lat": 32.054613000000003, 
+    "lng": 34.752333, 
+    "slug": "49983c13306a032a69d69c2beeb2bad46aab0cf0", 
+    "name": "Aladin"
+  }, 
+  {
+    "lat": 32.081727000000001, 
+    "lng": 34.76811, 
+    "slug": "45b5bba364068ca8a4daa78a6f604c86ca65c051", 
+    "name": "Olive Leaf"
+  }, 
+  {
+    "lat": 32.039127000000001, 
+    "lng": 34.769416999999997, 
+    "slug": "771ac83bd036a1aab7505eb8996549b410b8a934", 
+    "name": "HOLLYWEB Development"
+  }, 
+  {
+    "lat": 32.051000999999999, 
+    "lng": 34.753393000000003, 
+    "slug": "8412925b43d236f0209b13c018f5ba21fecea156", 
+    "name": "Yafa"
+  }, 
+  {
+    "lat": 32.066484000000003, 
+    "lng": 34.782511, 
+    "slug": "4a5e7306b613db7955ed53942b1de67eb8d2cf31", 
+    "name": "Kyortosh"
+  }, 
+  {
+    "lat": 32.077792000000002, 
+    "lng": 34.767474, 
+    "slug": "738f19b8026fd3dcaaf8e9e12f1aa2326a8d5a53", 
+    "name": "Miguel Hotel"
+  }, 
+  {
+    "lat": 32.070188000000002, 
+    "lng": 34.767474999999997, 
+    "slug": "531a061d4b2ff14ad369073c3be5a9bf44650c36", 
+    "name": "Eden House"
+  }, 
+  {
+    "lat": 32.058107, 
+    "lng": 34.772534, 
+    "slug": "c39f4fbeb23127fa54685edd6588923503ab67dd", 
+    "name": "Elimelech"
+  }, 
+  {
+    "lat": 32.064700999999999, 
+    "lng": 34.772517999999998, 
+    "slug": "972f5d0325ec482b61dc0d3b709912bb1b96c8d2", 
+    "name": "Rusko radio"
+  }, 
+  {
+    "lat": 32.072448999999999, 
+    "lng": 34.764963999999999, 
+    "slug": "7c28c83bd1df7a15b45dcfb236d11a773c518c67", 
+    "name": "\u05d0\u05d1\u05e8\u05d8\u05dc"
+  }, 
+  {
+    "lat": 32.053998, 
+    "lng": 34.750981000000003, 
+    "slug": "eda4b36dafabee97664d1431882320fe9a1374f6", 
+    "name": "\u05ea\u05e6\u05e4\u05d9\u05ea \u05dc\u05e0\u05de\u05dc"
+  }, 
+  {
+    "lat": 32.050452000000007, 
+    "lng": 34.773217000000002, 
+    "slug": "9751e072fd1d77f2eb5c3bdc12a805d61d7e4e78", 
+    "name": "\u05d0\u05d1\u05d9\u05e8 \u05e1\u05e4\u05d5\u05e8\u05d8 \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.069529000000003, 
+    "lng": 34.784343, 
+    "slug": "d351c60e9d212c3e3370f9f7095bf8e489e96a45", 
+    "name": "Lchamim"
+  }, 
+  {
+    "lat": 32.04804, 
+    "lng": 34.776384, 
+    "slug": "b28831859eb420b0f6c561b4add5921bbce8be5d", 
+    "name": "\u05e7\u05d9\u05d1\u05d5\u05e5 \u05d2\u05dc\u05d5\u05d9\u05d5\u05ea"
+  }, 
+  {
+    "lat": 32.065435999999998, 
+    "lng": 34.778224000000002, 
+    "slug": "ee72993aafa51f6dfd1d6a6ab82094d4965b7614", 
+    "name": "Soupizza"
+  }, 
+  {
+    "lat": 32.049641999999999, 
+    "lng": 34.758060999999998, 
+    "slug": "8421f2722272b0722de669dcf987693c1a3072b2", 
+    "name": "Monka"
+  }, 
+  {
+    "lat": 32.097239000000002, 
+    "lng": 34.775616999999997, 
+    "slug": "b9de4af7969e058d1a3524e62ba8e3aeeae86623", 
+    "name": "\u05e7\u05e7\u05d0\u05d5 \u05ea\u05dc-\u05d0\u05d1\u05d9\u05d1 - \u05d4\u05e0\u05de\u05dc"
+  }, 
+  {
+    "lat": 32.054830000000003, 
+    "lng": 34.753276000000007, 
+    "slug": "9e267ddf651b12437ddd6eba4508a9c0c2fcc1b0", 
+    "name": "\u05d2\u05df \u05d4\u05e4\u05e1\u05d2\u05d4"
+  }, 
+  {
+    "lat": 32.065601999999998, 
+    "lng": 34.773398, 
+    "slug": "69aee2b0b5d4ec9b182b29ee4ebf3457c0d42fab", 
+    "name": "Montefiore"
+  }, 
+  {
+    "lat": 32.069839000000002, 
+    "lng": 34.770454999999998, 
+    "slug": "10b766574a6633786545c1ab0fd5f5da1d71189f", 
+    "name": "Magen David Square"
+  }, 
+  {
+    "lat": 32.046000999999997, 
+    "lng": 34.752578, 
+    "slug": "0a8e52a2a9a250480c3406656859e3e4e677a7cd", 
+    "name": "Mercaz Humus Haasly"
+  }, 
+  {
+    "lat": 32.042453999999999, 
+    "lng": 34.751899000000002, 
+    "slug": "e10d410ae8899096c998a268b56266ccceb2457c", 
+    "name": "\u05d7\u05d2' \u05db\u05d7\u05d9\u05dc - \u05d9\u05e4\u05ea"
+  }, 
+  {
+    "lat": 32.063195999999998, 
+    "lng": 34.774076999999998, 
+    "slug": "cd490eb5f1338ddadc201b4069721f1baf6a39a0", 
+    "name": "Evita"
+  }, 
+  {
+    "lat": 32.089345999999999, 
+    "lng": 34.770752000000002, 
+    "slug": "5924920fe090d1f3691f089b33b1cc0d5cfe6d03", 
+    "name": "Hilton Tel Aviv"
+  }, 
+  {
+    "lat": 32.037731000000001, 
+    "lng": 34.752682, 
+    "slug": "ad234619b1a82b9a939a67e5e84181803feb5f03", 
+    "name": "Derech Hataam"
+  }, 
+  {
+    "lat": 32.05227, 
+    "lng": 34.783332000000001, 
+    "slug": "e3f1f41f593518234d20195a48599a4823017323", 
+    "name": "\u05d0\u05e7\u05e1\u05dc\u05e0\u05d8 \u05de\u05d5\u05d8\u05d5\u05e8\u05d5\u05e1"
+  }, 
+  {
+    "lat": 32.051628999999998, 
+    "lng": 34.771532000000001, 
+    "slug": "7740bda07099200c5de2fdc7c0db6ca41bf71c57", 
+    "name": "\u05e0\u05d8\u05e4\u05d9\u05e9"
+  }, 
+  {
+    "lat": 32.090870000000002, 
+    "lng": 34.780000999999999, 
+    "slug": "ee8b6fc72235603bdb9eec3bdfa4d18e7c4772dd", 
+    "name": "Lulu Cafe Patisserie"
+  }, 
+  {
+    "lat": 32.055053000000001, 
+    "lng": 34.756641999999999, 
+    "slug": "1418c73f67e1e27e6e513eb880c02e71f90955f0", 
+    "name": "Yoezer wine bar \u05d9\u05d5\u05e2\u05d6\u05e8 \u05d1\u05e8 \u05d9\u05d9\u05df"
+  }, 
+  {
+    "lat": 32.057572, 
+    "lng": 34.769539999999999, 
+    "slug": "e538fbd781527340cf82584c021981eeadcf9ca9", 
+    "name": "Metuselach"
+  }, 
+  {
+    "lat": 32.075445999999999, 
+    "lng": 34.774996999999999, 
+    "slug": "cacf77909eb6639b6fbc2ab510bcd3c3a7cc7f31", 
+    "name": "Dizengoff Center"
+  }, 
+  {
+    "lat": 32.073605999999998, 
+    "lng": 34.766229000000003, 
+    "slug": "bcb0333ed8d81dd0714006c111c6a5f6bf60c624", 
+    "name": "Pres de la mer"
+  }, 
+  {
+    "lat": 32.060856000000001, 
+    "lng": 34.766582, 
+    "slug": "0a551b64900dd969daa24bd6466fbe9995a91e74", 
+    "name": "The Gutman Museum of Art"
+  }, 
+  {
+    "lat": 32.051544999999997, 
+    "lng": 34.748322000000002, 
+    "slug": "344c0ad95294bd3cf43a5de46b98e822c7b9556f", 
+    "name": "Caffe kapish"
+  }, 
+  {
+    "lat": 32.053984999999997, 
+    "lng": 34.751261999999997, 
+    "slug": "f93fdb2110f43da761a758917961a936cbd087a6", 
+    "name": "Kabchuk"
+  }, 
+  {
+    "lat": 32.083812000000002, 
+    "lng": 34.769246000000003, 
+    "slug": "1e15885cd5b7175614b3237bfd2b419693e57f01", 
+    "name": "Ami Hotel Tel-Aviv"
+  }, 
+  {
+    "lat": 32.081890000000001, 
+    "lng": 34.773716, 
+    "slug": "983f380ee3754e7a82354cc64ffe2cf518ec26a0", 
+    "name": "Dizengoff Suites Hotel"
+  }, 
+  {
+    "lat": 32.053322000000001, 
+    "lng": 34.751477000000001, 
+    "slug": "22bad270da7835381897b1d7cd03720b283f61db", 
+    "name": "\u05d4\u05e1\u05d9\u05de\u05d8\u05d4"
+  }, 
+  {
+    "lat": 32.039459999999998, 
+    "lng": 34.752066999999997, 
+    "slug": "95c97a192611dadf91393a22af94b0b4b8c848a1", 
+    "name": "\u05d2\u05df \u05dc\u05d5\u05e1 \u05d0\u05e0\u05d2'\u05dc\u05e1"
+  }, 
+  {
+    "lat": 32.095664999999997, 
+    "lng": 34.788342999999998, 
+    "slug": "c7721a553f9bc0c865fab80c75c97a69242d4ae2", 
+    "name": "\u05d2\u05d9\u05e0\u05ea \u05d1\u05e0\u05d9 \u05d3\u05df"
+  }, 
+  {
+    "lat": 32.051794999999998, 
+    "lng": 34.787838999999998, 
+    "slug": "42e18da23bf8d767adae74528cefd413367f77c5", 
+    "name": "\u05d2\u05dc \u05de\u05d7\u05e9\u05d1\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.062837999999999, 
+    "lng": 34.781388999999997, 
+    "slug": "609dcd6a89f39525d9a0455fcccb06e65970fa5a", 
+    "name": "Chandra"
+  }, 
+  {
+    "lat": 32.076054999999997, 
+    "lng": 34.775032000000003, 
+    "slug": "403f30e77d70153bc81b2bb57cb1ba2219d07874", 
+    "name": "Bar gyora"
+  }, 
+  {
+    "lat": 32.049357000000001, 
+    "lng": 34.752769999999998, 
+    "slug": "f40ba448dceffc4d46afaea99ba69c920e995825", 
+    "name": "St. Anthony's Church"
+  }, 
+  {
+    "lat": 32.056772000000002, 
+    "lng": 34.783774999999999, 
+    "slug": "136df3adcd0126ccb048a9e42c91a7807cc6861e", 
+    "name": "Hakoma harevieit"
+  }, 
+  {
+    "lat": 32.048335000000002, 
+    "lng": 34.764299999999999, 
+    "slug": "3cb83ce53526daea3344a8576607e598e23802b6", 
+    "name": "Jony Bakerem"
+  }, 
+  {
+    "lat": 32.049053000000001, 
+    "lng": 34.757381000000002, 
+    "slug": "110b46a8e2b1d1c1fa3b9f47fbfd0dbd09af7ca6", 
+    "name": "\u05d0\u05d1\u05d5 \u05d7\u05e1\u05df - \u05e9\u05d1\u05d8\u05d9 \u05d9\u05e9\u05e8\u05d0\u05dc - \u05d9\u05e4\u05d5"
+  }, 
+  {
+    "lat": 32.094804000000003, 
+    "lng": 34.785337000000013, 
+    "slug": "1b92075614c3277928e1846a42f8ffc39b12429a", 
+    "name": "Canela"
+  }, 
+  {
+    "lat": 32.061332999999998, 
+    "lng": 34.772458, 
+    "slug": "465255687300db3404d9f610114653bfc2b317c0", 
+    "name": "Hashovavim"
+  }, 
+  {
+    "lat": 32.063265999999999, 
+    "lng": 34.768344999999997, 
+    "slug": "5e0d866791816f0a8537ff5b307e1d8133a82cc6", 
+    "name": "NG Meat Bar"
+  }, 
+  {
+    "lat": 32.085866000000003, 
+    "lng": 34.772716000000003, 
+    "slug": "33fc52136378b86b59f96e8486f14bddd2dd57c5", 
+    "name": "Ben Yehuda Apartments"
+  }, 
+  {
+    "lat": 32.083665000000003, 
+    "lng": 34.781506999999998, 
+    "slug": "ddc76bba16daa24d81c1b22c5a9403b9b5016c00", 
+    "name": "Amore Mio"
+  }, 
+  {
+    "lat": 32.036596000000003, 
+    "lng": 34.761139, 
+    "slug": "c08dee99ac6dc69ee1ddd8eadb74356d872edea0", 
+    "name": "\u05d4\u05d9\u05dc\u05d5\u05dc\u05d9\u05dd"
+  }, 
+  {
+    "lat": 32.054012999999998, 
+    "lng": 34.766396, 
+    "slug": "d18f8808e8edad33576eb39e04194c94b6dfe5b2", 
+    "name": "Haoman 17"
+  }, 
+  {
+    "lat": 32.053376999999998, 
+    "lng": 34.755859000000001, 
+    "slug": "608d3926728aa675b6c61a5b946bb84601de0dcf", 
+    "name": "\u05dc\u05d9\u05d9\u05de\u05da"
+  }, 
+  {
+    "lat": 32.060836999999999, 
+    "lng": 34.784655000000001, 
+    "slug": "5a8b1090f513b8bb0ce913b38ce3f3701c90fdf7", 
+    "name": "\u05d2'\u05d0\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05e2\"\u05de"
+  }, 
+  {
+    "lat": 32.071581000000002, 
+    "lng": 34.77928, 
+    "slug": "7791e8b7f2b18df4aee6764586e16fecbfcc940f", 
+    "name": "Tony vespa"
+  }, 
+  {
+    "lat": 32.067158999999997, 
+    "lng": 34.786738999999997, 
+    "slug": "23e7d86cc02bdcd2234491ebf1fba46a8fe4e031", 
+    "name": "\u05d3\u05e0\u05e1\u05d9\u05e0\u05d2 \u05e7\u05d0\u05de\u05dc - Dancing Camel"
+  }
+]
