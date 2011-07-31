@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0; direction:rtl; }
+      #map_canvas { height: 100% }
+      #address { width:30%;  top:10px; position:absolute; left:35%; right:35%; z-index:10; background:#fff; opacity:0.5; padding:20px; border-radius:20px; font-size:20px; } 
+      #address:hover { opacity:1; }
+      #address label { white-space:no-wrap; display:inline-block; width: 20%; } 
+      #address_input { width:70%; text-align:right; } 
+    </style>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="http://api.yeda.us/data/static/jquery.min.js"></script>
+	<script type="text/javascript" src="http://api.yeda.us/data/static/hasadna-api.js"></script>
+	<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markermanager/1.0/src/markermanager_packed.js"></script>
+
+<script type="text/javascript">
+	var g_waze_config = {
+		div_id:"bob", //id of the div that contains the map, must have width and height defined
+		locale : "israel",//locale of the map, for now only 'israel' is supported
+		center_lon:34.79000,//center of the map longitude
+		center_lat:32.08600,//center of the map latitude
+		zoom:2,//zoom level of the map (0-10 supported)
+		token:'8bf98033-1314-4736-952e-445fcffbfd1d'//your waze token
+	};
+</script>
+<script type="text/javascript" src="http://www.waze.co.il/js/WazeEmbeddedMapNoJQuery.js"></script>
+	
+<script type="text/javascript">
+
+var map;
+
+$( function () {
+
+	var osmMapType = new google.maps.ImageMapType({
+		getTileUrl: function(coord, zoom) {
+						return "http://tile.openstreetmap.org/" +
+								zoom + "/" + coord.x + "/" + coord.y + ".png";
+					},
+		tileSize: new google.maps.Size(256, 256),
+		isPng: true,
+		alt: "OSM layer",
+		name: "OSM",
+		maxZoom: 18
+	});
+	  
+	var latlng = new google.maps.LatLng(32.069774,34.777222);
+    var myOptions = {
+   		zoom: 13,
+	    center: latlng,
+  	  	mapTypeId: 'OSM',
+  	  	mapTypeControlOptions: {
+  	  		mapTypeIds: ['OSM', google.maps.MapTypeId.SATELLITE],
+  	  	  	style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+  	  	}      
+	};
+
+	map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+	map.mapTypes.set('OSM',osmMapType);
+	map.setMapTypeId('OSM');
+
+	mgr = new MarkerManager(map);
+
+	var iw = null;
+
+	H.findRecords('/data/hasadna/geodemo/',
+			      function (results) {
+
+		            var newmarkers = [];
+	                for ( var i in results ) {
+		                var result = results[i];
+		                var marker = new google.maps.Marker({
+            				position: new google.maps.LatLng(result.lat,result.lng), 
+            				map: map, 
+            				title:result.name
+        		      	});
+        		      	var name = result.name;
+		            	google.maps.event.addListener(marker, 'click', function(event) {
+			            	if ( iw != null ) {
+			            		iw.close();
+			            	}
+		            		iw = new google.maps.InfoWindow();
+			            	iw.setContent(this.getTitle());
+			            	iw.setPosition(event.latLng);
+			            	iw.open(map);
+		            	}) ;
+		                newmarkers.push( marker );   
+	                }
+
+					mgr.addMarkers( newmarkers );
+	                
+				  },
+			      {},
+			      null,null,2000 );
+
+	$("#address_form").submit( function () {
+		g_waze_map.find($("#address_input").val(),"find_callback",true);
+		return false;
+	} );
+});
+
+function find_callback(results) {
+	var lat = results[0].location.lat;
+	var lon = results[0].location.lon;
+	var bounds = new google.maps.LatLngBounds( 
+			new google.maps.LatLng( results[0].bounds.bottom, results[0].bounds.left ),
+			new google.maps.LatLng( results[0].bounds.top, results[0].bounds.right ) );
+	map.fitBounds( bounds );
+}
+function onWazeMapInit(){
+	setTimeout(function () {			
+	}, 5000);
+}
+
+</script>
+</head>
+
+<body>
+  <div id="address">
+     <form id="address_form" action="#">
+     	<label for="address">מצא כתובת:</label><input name="address" id="address_input" type="text"></input>
+     </form>
+  </div>
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+  <div id="bob" style="width:100px; height:100px; display:none;"></div>
+</body>
+</html>

@@ -10,5 +10,6 @@
 	     		 "lat"  : { "type" : "float" },
 	     		 "lng"  : { "type" : "float" },
 	    		 "name" : { "type" : "str" }
-	}
+	},
+	"static-files": { "geodemo.html" : "text/html" }
 }
