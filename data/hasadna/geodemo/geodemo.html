@@ -2,14 +2,24 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="http://api.yeda.us/data/static/hasadna-style.css"></link>   
     <style type="text/css">
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0; direction:rtl; }
       #map_canvas { height: 100% }
-      #address { width:30%;  top:10px; position:absolute; left:35%; right:35%; z-index:10; background:#fff; opacity:0.5; padding:20px; border-radius:20px; font-size:20px; } 
+      #login   { width:10%;  top:10px; position:absolute; left:10%; z-index:10; background:#fff; opacity:1; padding:5px; border-radius:5px; font-size:14px; box-shadow: 5px 5px 5px #444; } 
+      #address { width:40%;  top:10px; position:absolute; left:30%; right:30%; z-index:10; background:#fff; opacity:0.5; padding:20px; border-radius:20px; font-size:20px;   box-shadow: 5px 5px 5px #444; } 
       #address:hover { opacity:1; }
-      #address label { white-space:no-wrap; display:inline-block; width: 20%; } 
-      #address_input { width:70%; text-align:right; } 
+      #address label { white-space:no-wrap; display:inline-block; width: 30%; } 
+      #address_input { width:65%; text-align:right; padding:2px; border-radius:5px; }
+      #infowindow { margin:10px; white-space: nowrap; overflow: visible visible; } 
+	  #infowindow-stars { height:30px; width:250px; }
+      #geocoding-options { top:20%; position:absolute; right:3%; z-index:10; background:#fff; opacity:0.5; padding:20px; border-radius:20px; font-size:20px; box-shadow: 5px 5px 5px #444; margin-left:20px; } 
+      #geocoding-options:hover { opacity:1; }
+      #geocoding-options li { list-style:none; }
+      #geocoding-options li:hover { background: #ccf; cursor: pointer; }
+      #new_issue_form { margin:10px; }
+      #new_issue_form label { width: 4em; display: inline-block; vertical-align: top; }
     </style>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="http://api.yeda.us/data/static/jquery.min.js"></script>
@@ -31,6 +41,76 @@
 <script type="text/javascript">
 
 var map;
+
+var icons = new Array();
+function getMarkerImage(iconColor) {
+	   if ((typeof(iconColor)=="undefined") || (iconColor==null)) { 
+	      iconColor = "red"; 
+	   }
+	   if (!icons[iconColor]) {
+	      icons[iconColor] = new google.maps.MarkerImage("http://labs.google.com/ridefinder/images/mm_20_"+ iconColor +".png",
+	      new google.maps.Size(12, 20),
+	      new google.maps.Point(0,0),
+	      new google.maps.Point(6, 20));
+	   } 
+	   return icons[iconColor];
+}
+var iconShadow = new google.maps.MarkerImage('http://labs.google.com/ridefinder/images/mm_20_shadow.png',
+ 								             new google.maps.Size(22, 20),
+	      									 new google.maps.Point(0,0),
+	         	                             new google.maps.Point(6, 20));
+var iconShape = {
+    coord: [4,0,0,4,0,7,3,11,4,19,7,19,8,11,11,7,11,4,7,0],
+    type: 'poly'
+};
+
+var newmarkers = [];
+
+function refresh_markers(cache) {
+	if ( cache != undefined) {
+		H.dontCacheNext();
+	}
+	H.findRecords(
+		'/data/hasadna/geodemo/',
+		function (results) {
+			var marker = null;
+			for ( var i in results ) {
+		    	var result = results[i];
+		        marker = new google.maps.Marker({
+		       		position: new google.maps.LatLng(result.lat,result.lng), 
+		       		map: map, 
+       				shadow: iconShadow,
+       				shape: iconShape,
+       				icon: getMarkerImage("red"),
+       				title:result.name
+   		    	});
+	   		    var name = result.name;
+		
+	   		    function marker_click_handler(result) {
+	       		   	return function(event) {
+		            	iw.open(map);
+		            	iw.setPosition(event.latLng);
+		            	var iw_content = "";
+						iw_content += "<div id='infowindow'>";
+						iw_content += "<h2 id='infowindow-title'>"+result.title+"</h3>";
+						iw_content += "<h3 id='infowindow-description'>"+result.description+"</h4>";
+						iw_content += "<p>"+result.name+"</p>";
+						iw_content += "<div id='infowindow-stars'></div>";
+						iw_content += "</div>"; 				            	
+		            	iw.setContent(iw_content);
+		            	H.loadStarsForRecord(result._src,"infowindow-stars");
+	            	};
+   		      	}
+		   		      	
+         		google.maps.event.addListener(marker, 'click', marker_click_handler(result));
+				newmarkers.push( marker );   
+            }
+	
+			mgr.addMarkers( newmarkers );	                
+		  },
+	      {},
+	      null,null,2000 );	
+}
 
 $( function () {
 
@@ -63,55 +143,101 @@ $( function () {
 
 	mgr = new MarkerManager(map);
 
-	var iw = null;
+	var iw = new google.maps.InfoWindow();
 
-	H.findRecords('/data/hasadna/geodemo/',
-			      function (results) {
+	refresh_markers();
 
-		            var newmarkers = [];
-	                for ( var i in results ) {
-		                var result = results[i];
-		                var marker = new google.maps.Marker({
-            				position: new google.maps.LatLng(result.lat,result.lng), 
-            				map: map, 
-            				title:result.name
-        		      	});
-        		      	var name = result.name;
-		            	google.maps.event.addListener(marker, 'click', function(event) {
-			            	if ( iw != null ) {
-			            		iw.close();
-			            	}
-		            		iw = new google.maps.InfoWindow();
-			            	iw.setContent(this.getTitle());
-			            	iw.setPosition(event.latLng);
-			            	iw.open(map);
-		            	}) ;
-		                newmarkers.push( marker );   
-	                }
-
-					mgr.addMarkers( newmarkers );
-	                
-				  },
-			      {},
-			      null,null,2000 );
-
-	$("#address_form").submit( function () {
+	H.loadLoginHeader("login");
+	
+	$("#address_form").submit( function () {					
 		g_waze_map.find($("#address_input").val(),"find_callback",true);
 		return false;
 	} );
 });
 
+var geocoding_click_handler = function(result) {
+	return function() {
+		var lat = result.location.lat;
+		var lon = result.location.lon;
+		var gll = new google.maps.LatLng(lat,lon);
+		
+		var newmarker = new google.maps.Marker({
+			position: gll, 
+			map: map,
+			shadow: iconShadow,
+			shape: iconShape,
+			icon: getMarkerImage("green"),
+			title: result.name,
+			draggable:true
+		});
+		mgr.addMarker( newmarker );
+		
+		var form_iw = new google.maps.InfoWindow();
+    	form_iw.open(map);
+    	form_iw.setPosition(gll);
+
+    	var form_content = "";
+		form_content += "<form id='new_issue_form' action='#'>";
+		form_content += "<div><label for='title'>כותרת</label><input name='title' id='issue_title' type='text'></input></div>";
+		form_content += "<div><label for='details'>פרטים</label><textarea name='description' id='issue_title' cols='50' rows='5'></textarea></div>";
+		form_content += "<div><label></label><input type='submit' value='שלח!'></input></div>";	     	
+		form_content += "<div><label id='loading'></label></div>";	     	
+		form_content += "</form>";
+
+		var form_node = $(form_content);
+		var slug = lat+"_"+lon+"_"+H_login_data.key;
+		
+    	form_iw.setContent(form_node[0]);
+    	form_node.submit( function () {
+        	form_node.find("#loading").html("Uploading..");
+    		H.newRecord( "/data/hasadna/geodemo/"+slug, 
+    					 { "lat" 		 : lat,
+				           "lng" 		 : lon,
+				           "title" 		 : form_node.find("input[name='title']").val(),
+				           "description" : form_node.find("textarea[name='description']").val()
+    					 }, 
+    	    			 function () {
+    						refresh_markers(true);
+           	    			 
+   			 				form_iw.close();
+    					 } );
+    		return false;
+    	} );
+    	
+	    function marker_move_handler(newmarker,form_iw) {
+      		   	return function(event) {
+	            	form_iw.setPosition(newmarker.getPosition());
+    	       	};
+      	}
+   		google.maps.event.addListener(newmarker, 'dragend', marker_move_handler(newmarker,form_iw));
+		
+		var bounds = new google.maps.LatLngBounds( 
+				new google.maps.LatLng( result.bounds.bottom, 
+										result.bounds.left ),
+				new google.maps.LatLng( result.bounds.top, 
+										result.bounds.right ) );
+		map.fitBounds( bounds );
+		$("#geocoding-options").css("display","none");
+	}
+};
+
 function find_callback(results) {
-	var lat = results[0].location.lat;
-	var lon = results[0].location.lon;
-	var bounds = new google.maps.LatLngBounds( 
-			new google.maps.LatLng( results[0].bounds.bottom, results[0].bounds.left ),
-			new google.maps.LatLng( results[0].bounds.top, results[0].bounds.right ) );
-	map.fitBounds( bounds );
+
+	$("#geocoding-options").html("");
+	
+	for ( var r in results ) {
+		var result = results[r];
+
+		$("#geocoding-options").append("<li>"+result.name+"</li>");			
+		$("#geocoding-options li:last").click( geocoding_click_handler(result) );
+		
+	}
+
+	$("#geocoding-options").css("display","inherit");
+
 }
+
 function onWazeMapInit(){
-	setTimeout(function () {			
-	}, 5000);
 }
 
 </script>
@@ -123,7 +249,13 @@ function onWazeMapInit(){
      	<label for="address">מצא כתובת:</label><input name="address" id="address_input" type="text"></input>
      </form>
   </div>
+  <div id="login"></div>
   <div id="map_canvas" style="width:100%; height:100%"></div>
   <div id="bob" style="width:100px; height:100px; display:none;"></div>
+  <div id="geocoding-options" style="display:none;"></div>
+  <div style="display:none;">
+	<div id="form-iw">
+	</div>  	
+  </div>
 </body>
 </html>

@@ -13,11 +13,7 @@ var H = (function () {
     		return APIServer+b;
     	}
     }
-    
-    function dontCacheNext() {
-    	useCacheNextRequest = false;
-    }
-    
+        
     function shouldCache(params) {
     	if ( !useCacheNextRequest ) {
     		params["hitcache"]=0;
@@ -71,6 +67,10 @@ var H = (function () {
           	    	  		 }
           	    } );    	
     } 
+
+    my.dontCacheNext = function () {
+    	useCacheNextRequest = false;
+    }
 
     my.newRecord = function( path, data, callback ) {
         DBServerPostJson( path, JSON.stringify(data), callback );  
@@ -146,7 +146,7 @@ var H = (function () {
     								{ "reference" : path,
     						          "tag" : { "_ref" : selected_item } },
     						        function() {
-    						        	dontCacheNext();
+    						        	my.dontCacheNext();
     						        	my.loadTagsForRecord(path,elementId); 
     						        } );
     					return false;
@@ -154,7 +154,7 @@ var H = (function () {
     				el.find(".H-tag").click( function () {
     					var src = $(this).attr("rel");
     					my.deleteRecord( src, function() {
-    						dontCacheNext();
+    						my.dontCacheNext();
     						my.loadTagsForRecord(path,elementId); 
     					} );
     				} );
@@ -182,14 +182,14 @@ var H = (function () {
 			    					my.newRecord("/data/common/stars/"+slug,
 	    	    								{ "reference" : path },
 	    	    						        function() {
-	    	    						        	dontCacheNext();
+	    	    									my.dontCacheNext();
 	    	    						        	my.loadStarsForRecord(path,elementId); 
 	    	    						        } );    								
     							} );
     							el.find(".H-stars-vote.H-stars-starred").click( function () {
 			    					my.deleteRecord("/data/common/stars/"+slug,
 			    									function() {
-			    										dontCacheNext();
+			    										my.dontCacheNext();
 			    										my.loadStarsForRecord(path,elementId); 
 	    	    						        	} );    								
     							} );
