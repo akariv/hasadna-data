@@ -172,10 +172,10 @@ var H = (function () {
     				var slug = path+"/"+H_login_data.key;
     				slug = slug.replace(/\//g,"__");
 
-    				el.find(".H-stars-votes").attr("id","moshiko"); //TODO
+    				el.find(".H-stars-votes").attr("id",slug); //TODO
     				my.loadRecordTemplate(
     						"/data/common/stars/"+slug,
-    						"moshiko",
+    						slug,
     						"vote",
     						function () {
     							el.find(".H-stars-vote.H-stars-not-starred").click( function () {
