@@ -140,9 +140,9 @@ var H = (function () {
     				});
     				el.find("form").submit( function() {
     					var selected_item = el.find("select option:selected").val();
-    					var slug = path+"/"+selected_item;
-    					slug = slug.replace(/\//g,"__");
-    					my.newRecord("/data/common/tags/"+slug,
+//    					var slug = path+"/"+selected_item;
+//    					slug = slug.replace(/\//g,"__");
+    					my.newRecord("/data/common/tags/",//+slug,
     								{ "reference" : path,
     						          "tag" : { "_ref" : selected_item } },
     						        function() {
