@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="http://api.yeda.us/data/static/hasadna-style.css"></link>   
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0; direction:rtl; }
+      #map_canvas { height: 100% }
+      #login   { width:10%;  top:10px; position:absolute; left:10%; z-index:10; background:#fff; opacity:1; padding:5px; border-radius:5px; font-size:14px; box-shadow: 5px 5px 5px #444; } 
+      #address { width:40%;  top:10px; position:absolute; left:30%; right:30%; z-index:10; background:#fff; opacity:0.5; padding:20px; border-radius:20px; font-size:20px;   box-shadow: 5px 5px 5px #444; } 
+      #address:hover { opacity:1; }
+      #address label { white-space:no-wrap; display:inline-block; width: 30%; } 
+      #address_input { width:65%; text-align:right; padding:2px; border-radius:5px; }
+      #infowindow { margin:10px; white-space: nowrap; overflow: visible visible; } 
+	  #infowindow-stars { height:30px; width:250px; }
+      #geocoding-options { top:20%; position:absolute; right:3%; z-index:10; background:#fff; opacity:0.5; padding:20px; border-radius:20px; font-size:20px; box-shadow: 5px 5px 5px #444; margin-left:20px; } 
+      #geocoding-options:hover { opacity:1; }
+      #geocoding-options li { list-style:none; }
+      #geocoding-options li:hover { background: #ccf; cursor: pointer; }
+      #new_issue_form { margin:10px; }
+      #new_issue_form label { width: 4em; display: inline-block; vertical-align: top; }
+    </style>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="http://api.yeda.us/data/static/jquery.min.js"></script>
+	<script type="text/javascript" src="http://api.yeda.us/data/static/hasadna-api.js"></script>
+	<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markermanager/1.0/src/markermanager_packed.js"></script>
+	
+<script type="text/javascript">
+
+var map;
+var mgr;
+
+var newmarkers = [];
+
+var iw = new google.maps.InfoWindow();
+
+var icons = new Array();
+function getMarkerImage(iconType) {
+	   if (!icons[iconType]) {
+	      icons[iconType] = new google.maps.MarkerImage("http://api.yeda.us/data/ngos/kol-zchut/holocaust-survivor-support-orgs/static/icon"+ iconType +".png",
+	      new google.maps.Size(32, 37),
+	      new google.maps.Point(0,0),
+	      new google.maps.Point(6, 20));
+	   } 
+	   return icons[iconType];
+}
+
+var iconShadow = new google.maps.MarkerImage('http://labs.google.com/ridefinder/images/mm_20_shadow.png',
+         new google.maps.Size(22, 20),
+			 new google.maps.Point(0,0),
+         new google.maps.Point(6, 20));
+var iconShape = {
+  coord: [4,0,0,4,0,7,3,11,4,19,7,19,8,11,11,7,11,4,7,0],
+  type: 'poly'
+};
+
+function refresh_markers() {
+	H.findRecords(
+		'/data/ngos/kol-zchut/holocaust-survivor-support-orgs/',
+		function (results) {
+			var marker = null;
+			for ( var i in results ) {
+		    	var result = results[i];
+		    	alert(result.title+":"+result.type+":"+result.lat+":"+result.lon);
+		        marker = new google.maps.Marker({
+		       		position: new google.maps.LatLng(result.lat,result.lon), 
+		       		map: map, 
+       				icon: getMarkerImage(result.type),
+       				title:result.title
+   		    	});
+		
+	   		    function marker_click_handler(result) {
+	       		   	return function(event) {
+		            	iw.open(map);
+		            	iw.setPosition(event.latLng);
+		            	var iw_content = result.description;			            	
+		            	iw.setContent(iw_content);
+	            	};
+   		      	}
+		   		      	
+         		google.maps.event.addListener(marker, 'click', marker_click_handler(result));
+				newmarkers.push( marker );   
+            }
+	
+			mgr.addMarkers( newmarkers );	                
+		  },
+	      {},
+	      null,null,2000 );	
+}
+
+$( function () {
+
+	var osmMapType = new google.maps.ImageMapType({
+		getTileUrl: function(coord, zoom) {
+						return "http://tile.openstreetmap.org/" +
+								zoom + "/" + coord.x + "/" + coord.y + ".png";
+					},
+		tileSize: new google.maps.Size(256, 256),
+		isPng: true,
+		alt: "OSM layer",
+		name: "OSM",
+		maxZoom: 18
+	});
+	  
+	var latlng = new google.maps.LatLng(32.069774,34.777222);
+    var myOptions = {
+   		zoom: 13,
+	    center: latlng,
+  	  	mapTypeId: 'OSM',
+  	  	mapTypeControlOptions: {
+  	  		mapTypeIds: ['OSM', google.maps.MapTypeId.SATELLITE],
+  	  	  	style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+  	  	}      
+	};
+
+	map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+	map.mapTypes.set('OSM',osmMapType);
+	map.setMapTypeId('OSM');
+
+	mgr = new MarkerManager(map);
+
+	refresh_markers();
+
+});
+
+</script>
+</head>
+
+<body>
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+</html>
