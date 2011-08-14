@@ -52,7 +52,7 @@ if __name__=="__main__":
             print "\tloading static files"
             statics = description.get("static-files",{})
             for k,v in statics.iteritems():  # k=filename, v=content-type
-                statics[k] = [ v.replace('.','__'), file(os.path.join(DATA_ROOT, relpath[1:], "static", k)).read().encode('base64') ]
+                statics[k.replace('.','__')] = [ v, file(os.path.join(DATA_ROOT, relpath[1:], "static", k)).read().encode('base64') ]
             description["static-files"] = statics
     
             DBLoader.new_item(path,slug,description)
