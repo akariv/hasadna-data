@@ -1,0 +1,12 @@
+{
+	"title"		    : { "en" : "Information from Kol-Zchut",
+						"he" : "מידע שהתקבל מ'קול זכות'" },
+	"update_date"   : "14/8/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"		: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "holocaust-survivor-support-orgs" ],
+	"static-files"	: {},
+	"templates"		   : {
+	}
+}

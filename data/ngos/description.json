@@ -1,0 +1,12 @@
+{
+	"title"		    : { "en" : "Information from NGOs",
+						"he" : "מידע שהתקבל מעמותות שונות" },
+	"update_date"   : "14/8/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact"		: { "email" : "adam.kariv@gmail.com" },
+	"subcatalogs"   : [ "kol-zchut" ],
+	"static-files"	: {},
+	"templates"		   : {
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"title"			: { "he" : "ארגוני תמיכה בניצולי שואה",
+						"en" : "Support organizations for Holocaust survivors" },
+	"update_date"	: "14/8/2011",
+	"author"	    : { "en" : "Adam Kariv",
+					    "he" : "אדם קריב" },
+	"contact" 		: { "email"	: "adam.kariv@gmail.com" },
+	"datafile"		: "points.csv",
+	"fields"		: {
+		  "slug" 	: { "type"				: "slug" },
+		  "title"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Organization's title",
+		  				             	        "he" :"שם הארגון" }
+		                  },
+		  "description"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Description",
+		  				             	        "he" :"פרטים" }
+		  			  },
+		  "link"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Link to website",
+		  				             	        "he" :"קישור לאתר אינטרנט" }
+		  			  },
+		  "lat" : { "type"				: "float"
+		  			  },
+		  "lon" : { "type"				: "float"
+		  			  },
+		  "type" : { "type"				: "str"
+    			  }
+	},
+	"templates"		   : {
+	},
+        "static-files"             : { 
+            "iconPay.png"     : "image/png",
+            "iconSupport.png" : "image/png",
+            "iconRequest.png" : "image/png" }
+}
