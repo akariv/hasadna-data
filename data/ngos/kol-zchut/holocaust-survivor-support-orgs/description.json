@@ -32,5 +32,5 @@
         "static-files"             : { 
             "iconPay.png"     : "image/png",
             "iconSupport.png" : "image/png",
-            "iconRequest.png" : "image/png" }
+            "iconRight.png" : "image/png" }
 }
