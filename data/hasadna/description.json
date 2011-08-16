@@ -5,5 +5,5 @@
 	"author"	    : { "en" : "Benny Daon, Adam Kariv",
 		 	        "he" : "בני דאון, אדם קריב" },
 	"contact"	    : { "email" : "bennydaon@gmail.com" },
-	"subcatalogs"       : [ "docs", "geodemo"  ]
+	"subcatalogs"       : [ "docs", "geodemo", "budjet-ninja"  ]
 }

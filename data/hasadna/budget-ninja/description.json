@@ -1,0 +1,36 @@
+{
+	"title"			: { "he" : "חוקר התקציב",
+		 		    "en" : "Budget Ninja" },
+	"update_date"	        : "16/8/2011",
+	"author"	        : { "en" : "Adam Kariv",
+				    "he" : "אדם קריב" },
+	"contact" 		: { "email"	: "adam.kariv@gmail.com" },
+	"datafile"		: "budget.jsons",
+	"fields"		: {
+		  "slug" 	: { "type"				: "slug" },
+		  "code"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Budget item's code",
+		  				             	        "he" :"קוד הסעיף התקציבי" }
+		  			  },
+		  "title"	: { "type"				: "str",
+		  				"description"	    : { "en" :"Budget item's title (in case this record represents a code/title tuple)",
+		  				             	        "he" :"שם הסעיף התקציבי, במקרה בו רשומה זו מייצגת זוג של קוד וכותרת סעיף" }
+		  			  },
+		  "titles"	: { "type"				: "obj",
+		  				"description"	    : { "en" :"Budget item's titles (in case this record represents a single budget code)",
+		  				             	        "he" :"שמות הסעיפים התקציביים עו הקוד הספציפי" }
+		  			  },
+		  "years"	: { "type"				: "obj",
+		  				"description"	    : { "en" :"Years in which this budget item (code or code and title) appeared",
+		  				             	        "he" :"רשימת שינם בהן הסעיף הזה (קוד או קוד וכותרת) הופיע" }
+		  			  },
+		  "subcodes"	: { "type"				: "obj",
+		  				"description"	    : { "en" :"Item codes which are direct descendants of this item (by code or code/title)",
+		  				             	        "he" :"רשימת קודים של סעיפים בנים של הסעיף הנוכחי (לפי קוד או קוד וכותרת)" }
+		  			  },
+		  "subtitles"	: { "type"				: "obj",
+		  				"description"	    : { "en" :"Item code and title tuples which are direct descendants of this item (by code or code/title)",
+		  				             	        "he" :"רשימת זוגות קוד וכותרת של סעיפים בנים של הסעיף הנוכחי (לפי קוד או קוד וכותרת)" }
+		  			  }
+	}
+}
