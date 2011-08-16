@@ -29,7 +29,10 @@ class SlugField(BaseField):
     
     @classmethod
     def load(cls,input):
-        return str(input)        
+        if type(input) == unicode:
+            return input 
+        else:
+            return unicode(input.decode('utf8')) 
 
 class IntegerField(BaseField):
     FIELD_TYPE = FIELD_TYPE__INTEGER
