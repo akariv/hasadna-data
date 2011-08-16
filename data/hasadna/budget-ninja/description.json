@@ -16,19 +16,19 @@
 		  				"description"	    : { "en" :"Budget item's title (in case this record represents a code/title tuple)",
 		  				             	        "he" :"שם הסעיף התקציבי, במקרה בו רשומה זו מייצגת זוג של קוד וכותרת סעיף" }
 		  			  },
-		  "titles"	: { "type"				: "obj",
+		  "titles"	: { "type"				: "object",
 		  				"description"	    : { "en" :"Budget item's titles (in case this record represents a single budget code)",
 		  				             	        "he" :"שמות הסעיפים התקציביים עו הקוד הספציפי" }
 		  			  },
-		  "years"	: { "type"				: "obj",
+		  "years"	: { "type"				: "object",
 		  				"description"	    : { "en" :"Years in which this budget item (code or code and title) appeared",
 		  				             	        "he" :"רשימת שינם בהן הסעיף הזה (קוד או קוד וכותרת) הופיע" }
 		  			  },
-		  "subcodes"	: { "type"				: "obj",
+		  "subcodes"	: { "type"				: "object",
 		  				"description"	    : { "en" :"Item codes which are direct descendants of this item (by code or code/title)",
 		  				             	        "he" :"רשימת קודים של סעיפים בנים של הסעיף הנוכחי (לפי קוד או קוד וכותרת)" }
 		  			  },
-		  "subtitles"	: { "type"				: "obj",
+		  "subtitles"	: { "type"				: "object",
 		  				"description"	    : { "en" :"Item code and title tuples which are direct descendants of this item (by code or code/title)",
 		  				             	        "he" :"רשימת זוגות קוד וכותרת של סעיפים בנים של הסעיף הנוכחי (לפי קוד או קוד וכותרת)" }
 		  			  }
