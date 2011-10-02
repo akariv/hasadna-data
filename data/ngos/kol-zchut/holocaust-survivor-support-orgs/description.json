@@ -30,6 +30,7 @@
 	"templates"		   : {
 	},
         "static-files"             : { 
+            "demo.html"      : "text/html",
             "iconPay.png"     : "image/png",
             "iconSupport.png" : "image/png",
             "iconRight.png" : "image/png" }

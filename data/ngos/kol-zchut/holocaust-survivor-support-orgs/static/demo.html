@@ -38,10 +38,7 @@ var iw = new google.maps.InfoWindow();
 var icons = new Array();
 function getMarkerImage(iconType) {
 	   if (!icons[iconType]) {
-	      icons[iconType] = new google.maps.MarkerImage("http://api.yeda.us/data/ngos/kol-zchut/holocaust-survivor-support-orgs/static/icon"+ iconType +".png",
-	      new google.maps.Size(32, 37),
-	      new google.maps.Point(0,0),
-	      new google.maps.Point(6, 20));
+	      icons[iconType] = new google.maps.MarkerImage("http://api.yeda.us/data/ngos/kol-zchut/holocaust-survivor-support-orgs/static/icon"+ iconType +".png");
 	   } 
 	   return icons[iconType];
 }
@@ -62,7 +59,6 @@ function refresh_markers() {
 			var marker = null;
 			for ( var i in results ) {
 		    	var result = results[i];
-		    	alert(result.title+":"+result.type+":"+result.lat+":"+result.lon);
 		        marker = new google.maps.Marker({
 		       		position: new google.maps.LatLng(result.lat,result.lon), 
 		       		map: map, 
@@ -74,7 +70,7 @@ function refresh_markers() {
 	       		   	return function(event) {
 		            	iw.open(map);
 		            	iw.setPosition(event.latLng);
-		            	var iw_content = result.description;			            	
+		            	var iw_content = "<h3>"+result.title+"</h3>" + result.description;			            	
 		            	iw.setContent(iw_content);
 	            	};
    		      	}
