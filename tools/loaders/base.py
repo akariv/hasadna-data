@@ -1,5 +1,5 @@
+import gzip
 from field_loaders import field_loader, FIELD_TYPE__SLUG
-import sys
 
 class Loader(object):
     
@@ -68,4 +68,9 @@ class Loader(object):
                 l = L(fields)
                 l.initialize(file(filename))
                 return l
+            if filename.endswith('.gz'):
+                if L.condition(filename[:-3]):
+                    l = L(fields)
+                    l.initialize(gzip.open(filename))
+                    return l
         return None
