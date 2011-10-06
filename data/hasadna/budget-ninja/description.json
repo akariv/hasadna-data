@@ -30,4 +30,5 @@
           "parts"     : { "type"             : "object",
                           "description"       : { "en" : "List of partiality measures of aforementioned refs (should match length, will be padded by 1.0's otherwise)",
                                                   "he" : "טבד" }
+        }
 }
