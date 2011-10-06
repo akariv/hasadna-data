@@ -1,36 +1,33 @@
 {
 	"title"			: { "he" : "חוקר התקציב",
-		 		    "en" : "Budget Ninja" },
+   		 		        "en" : "Budget Ninja" },
 	"update_date"	        : "16/8/2011",
 	"author"	        : { "en" : "Adam Kariv",
 				    "he" : "אדם קריב" },
 	"contact" 		: { "email"	: "adam.kariv@gmail.com" },
-	"datafile"		: "budget.jsons",
+	"datafile"		: "budget-ninja.jsons.gz",
 	"fields"		: {
 		  "slug" 	: { "type"				: "slug" },
-		  "code"	: { "type"				: "str",
-		  				"description"	    : { "en" :"Budget item's code",
-		  				             	        "he" :"קוד הסעיף התקציבי" }
-		  			  },
-		  "title"	: { "type"				: "str",
-		  				"description"	    : { "en" :"Budget item's title (in case this record represents a code/title tuple)",
-		  				             	        "he" :"שם הסעיף התקציבי, במקרה בו רשומה זו מייצגת זוג של קוד וכותרת סעיף" }
-		  			  },
-		  "titles"	: { "type"				: "object",
-		  				"description"	    : { "en" :"Budget item's titles (in case this record represents a single budget code)",
-		  				             	        "he" :"שמות הסעיפים התקציביים עו הקוד הספציפי" }
-		  			  },
-		  "years"	: { "type"				: "object",
-		  				"description"	    : { "en" :"Years in which this budget item (code or code and title) appeared",
-		  				             	        "he" :"רשימת שינם בהן הסעיף הזה (קוד או קוד וכותרת) הופיע" }
-		  			  },
-		  "subcodes"	: { "type"				: "object",
-		  				"description"	    : { "en" :"Item codes which are direct descendants of this item (by code or code/title)",
-		  				             	        "he" :"רשימת קודים של סעיפים בנים של הסעיף הנוכחי (לפי קוד או קוד וכותרת)" }
-		  			  },
-		  "subtitles"	: { "type"				: "object",
-		  				"description"	    : { "en" :"Item code and title tuples which are direct descendants of this item (by code or code/title)",
-		  				             	        "he" :"רשימת זוגות קוד וכותרת של סעיפים בנים של הסעיף הנוכחי (לפי קוד או קוד וכותרת)" }
-		  			  }
-	}
+		  "title"   : { "type"              : "str",
+		                "description"       : { "en" : "Title of this budget container",
+		                                        "he" : "טבד" },
+		  "notes"   : { "type"              : "str",
+                        "description"       : { "en" : "Notes for this budget container",
+                                                "he" : "טבד" },
+          "source"   : { "type"             : "str",
+                        "description"       : { "en" : "Name of the author or data source",
+                                                "he" : "טבד" },
+          "timestamp": { "type"             : "str",
+                        "description"       : { "en" : "Last modification time of this record",
+                                                "he" : "טבד" },
+          "sums"     : { "type"               : "object",
+                         "description"       : { "en" : "Record with years as keys and 'sum records' for values. Each 'sum record' contains the known budgetary sums for the record.",
+                                                 "he" : "טבד" },
+          "refs"     : { "type"             : "reflist"
+                         "params"                        : [ "data/gov/mof/budget" ],
+                         "description"       : { "en" : "List of references to actual budget items",
+                                                 "he" : "טבד" },
+          "parts"     : { "type"             : "object"
+                          "description"       : { "en" : "List of partiality measures of aforementioned refs (should match length, will be padded by 1.0's otherwise)",
+                                                  "he" : "טבד" }
 }

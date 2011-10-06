@@ -3,16 +3,29 @@
 import os
 import json
 import time
+import gzip
 
 source = "משרד האוצר"
 notes = "סעיף זה נגזר בצורה אוטומטית מנתוני משרד האוצר"
 
-input_fn = os.path.join('..','..','gov','mof','budget','budget.jsons')
+input_fn = os.path.join('budget.jsons')
+
+recs = {}
+for line in file(input_fn):
+    rec = json.loads(line)
+    code = rec['code']
+    year = rec['year']
+    key=(year,code)
+    x = recs.setdefault(key,{})
+    for k,v in rec.iteritems():
+        if v != None:
+            x[k] = v
+    recs[key] = x 
+recs = recs.values()
 
 out = {}
 titles = {}
-for line in file(input_fn):
-    rec = json.loads(line)
+for rec in recs:
     code = rec['code']
     year = rec['year']
     title = rec.get('title')
@@ -25,8 +38,7 @@ for line in file(input_fn):
     titles[(code,year)] = title
 
 refs = {}
-for line in file(input_fn):
-    rec = json.loads(line)
+for rec in recs:
     code = rec['code']
     year = rec['year']
     slug = rec['slug']
@@ -44,6 +56,8 @@ for line in file(input_fn):
         parent_key=(parent_title,parent_code)
         refs.setdefault(parent_key,{})[(year,code)] = slug
         break
+
+outfile = gzip.open('budget-ninja.jsons.gz', 'wb')
 
 ok = out.keys()
 ok.sort(key=lambda x:x[1])    
@@ -66,4 +80,6 @@ for k in ok:
              "refs"     : _refs,
             "parts"     : [1.0] * len(_refs) 
             }
-    print json.dumps(rec) 
+    outfile.write('%s\n' % json.dumps(rec))
+
+outfile.close() 
