@@ -23,11 +23,11 @@
           "sums"     : { "type"               : "object",
                          "description"       : { "en" : "Record with years as keys and 'sum records' for values. Each 'sum record' contains the known budgetary sums for the record.",
                                                  "he" : "טבד" },
-          "refs"     : { "type"             : "reflist"
-                         "params"                        : [ "data/gov/mof/budget" ],
+          "refs"     : { "type"             : "reflist",
+                         "params"           : [ "data/gov/mof/budget" ],
                          "description"       : { "en" : "List of references to actual budget items",
                                                  "he" : "טבד" },
-          "parts"     : { "type"             : "object"
+          "parts"     : { "type"             : "object",
                           "description"       : { "en" : "List of partiality measures of aforementioned refs (should match length, will be padded by 1.0's otherwise)",
                                                   "he" : "טבד" }
 }
