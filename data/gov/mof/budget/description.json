@@ -5,7 +5,7 @@
 	"author"	    : { "en" : "Adam Kariv",
 					    "he" : "אדם קריב" },
 	"contact" 		: { "email"	: "adam.kariv@gmail.com" },
-	"datafile"		: "budget.jsons",
+	"datafile"		: "budget.jsons.gz",
 	"fields"		: {
 		  "slug" 	: { "type"				: "slug" },
 		  "code"	: { "type"				: "str",
