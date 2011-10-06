@@ -10,25 +10,32 @@
 		  "slug" 	: { "type"				: "slug" },
 		  "title"   : { "type"              : "str",
 		                "description"       : { "en" : "Title of this budget container",
-		                                        "he" : "טבד" },
+		                                        "he" : "טבד" }
+                              },
 		  "notes"   : { "type"              : "str",
-                        "description"       : { "en" : "Notes for this budget container",
-                                                "he" : "טבד" },
+                                "description"       : { "en" : "Notes for this budget container",
+                                                        "he" : "טבד" }
+                              },
           "source"   : { "type"             : "str",
-                        "description"       : { "en" : "Name of the author or data source",
-                                                "he" : "טבד" },
+                          "description"       : { "en" : "Name of the author or data source",
+                                                  "he" : "טבד" }
+                       },
           "timestamp": { "type"             : "str",
-                        "description"       : { "en" : "Last modification time of this record",
-                                                "he" : "טבד" },
+                         "description"       : { "en" : "Last modification time of this record",
+                                                 "he" : "טבד" }
+                       },
           "sums"     : { "type"               : "object",
                          "description"       : { "en" : "Record with years as keys and 'sum records' for values. Each 'sum record' contains the known budgetary sums for the record.",
-                                                 "he" : "טבד" },
+                                                 "he" : "טבד" }
+                       },
           "refs"     : { "type"             : "reflist",
                          "params"           : [ "data/gov/mof/budget" ],
                          "description"       : { "en" : "List of references to actual budget items",
-                                                 "he" : "טבד" },
+                                                 "he" : "טבד" }
+                       },
           "parts"     : { "type"             : "object",
                           "description"       : { "en" : "List of partiality measures of aforementioned refs (should match length, will be padded by 1.0's otherwise)",
                                                   "he" : "טבד" }
-        }
+                        }
+          }
 }
