@@ -1,0 +1,24 @@
+{
+	"title": {
+		"en": "Government Decisions & Issues as they're described by the government inspector report and other government committees",
+		"he": "החלטות הממשלה, ועדות ממונות וליקויים העולים בדו\"חות מבקר המדינה"
+		},
+	"update_date": "09/10/2011",
+	"author": {
+		"en": "Adam Kariv",
+		"he": "אדם קריב"
+		},
+	"contact": { "email": "adam.kariv@gmail.com" },
+	"datafile": "decisions.csv",
+	"fields": {
+		"slug": { "type": "slug" },
+        "book": { "type": "str"  },
+        "chapter": { "type": "str"  },
+        "title": { "type": "str"  },
+        "subject": { "type": "str"  },
+        "recommendation": { "type": "str"  },
+        "execution_metric": { "type": "str"  },
+        "schedule": { "type": "str"  },
+        "result_metric": { "type": "str"  }
+	}
+}
