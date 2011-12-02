@@ -3,6 +3,7 @@ FIELD_TYPE__SLUG        = 'slug'
 FIELD_TYPE__INTEGER     = 'int'
 FIELD_TYPE__FLOAT       = 'float'
 FIELD_TYPE__STRING      = 'str'
+FIELD_TYPE__SEPSTRING   = 'sepstr'
 FIELD_TYPE__REFERENCE   = 'ref'
 FIELD_TYPE__REF_LIST    = 'reflist'
 FIELD_TYPE__BOOLEAN     = 'bool'
@@ -63,6 +64,17 @@ class StringField(BaseField):
             return input 
         else:
             return unicode(input.decode('utf8')) 
+
+class SeparatedStringField(BaseField):
+    FIELD_TYPE = FIELD_TYPE__SEPSTRING
+    
+    @classmethod
+    def load(cls,input):
+        if type(input) != unicode:
+            input = unicode(input.decode('utf8')) 
+        input = input.split(';')
+        input = [ x.strip() for x in input ]
+        return input
 
 class RefField(BaseField):
     FIELD_TYPE = FIELD_TYPE__REFERENCE

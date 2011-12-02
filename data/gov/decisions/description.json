@@ -19,6 +19,10 @@
         "recommendation": { "type": "str"  },
         "execution_metric": { "type": "str"  },
         "schedule": { "type": "str"  },
-        "result_metric": { "type": "str"  }
+        "result_metric": { "type": "str"  },
+	"budget_cost": { "type": "str" },
+	"responsible_authority": { "type": "str" },
+	"challenges": { "type": "sepstr" },
+	"tags": { "type": "str" }
 	}
 }
