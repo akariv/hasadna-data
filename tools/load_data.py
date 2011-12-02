@@ -83,7 +83,7 @@ if __name__=="__main__":
                             to_skip = 0
                             #DBLoader.del_collection(relpath)
         
-                        slugs = DBLoader.get_slugs(relpath)
+                        slugs = [] # DBLoader.get_slugs(relpath)
                         
                         print "\tProcessing %s, %s" % (relpath, description['datafile'] )
                         print "\tDB already has %d slugs" % len(slugs)
