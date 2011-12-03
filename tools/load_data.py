@@ -82,6 +82,8 @@ if __name__=="__main__":
                         if calc_stat(filename) != file_stat:
                             to_skip = 0
                             #DBLoader.del_collection(relpath)
+                        else:
+                            continue
         
                         slugs = set([]) # DBLoader.get_slugs(relpath)
                         
@@ -99,13 +101,13 @@ if __name__=="__main__":
                                 DBLoader.new_item(relpath,slug,rec)
                             slugs.discard(slug)
                             num_rows += 1
-                            saved_stat[full_filename] = calc_stat(filename), num_rows
                         
                         for slug in slugs:
                             print "\t\tremaining slug: %s/%s" % (relpath,slug)
                             DBLoader.del_item(relpath,slug)
-                            
-                            
+
+                        saved_stat[full_filename] = calc_stat(filename), num_rows
+                                           
                 except Exception,e:
                     print "got here somehow %r" % e
                     raise
